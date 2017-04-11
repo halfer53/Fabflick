@@ -18,11 +18,11 @@ public class JDBCConnection {
 
     public static void main(String[] args) {
         try{
-            JDBCConnection conn = new JDBCConnection("","","jdbc:mysql:///moviedb?autoReconnect=true&useSSL=false");
+            JDBCConnection conn = new JDBCConnection("root","shandongzibo1","jdbc:mysql:///moviedb?autoReconnect=true&useSSL=false");
             //System.out.println(conn.showMoviesGivenStar("Ben"));
             //System.out.println(conn.showMoviesGivenStar("Ben Stiller"));
             System.out.println(conn.insertStarByName("Bruce Tan","1955/11/30","abc"));
-            //System.out.println(conn.insertCustomer("Bruce Tan","addr123","b@gmail.com","123","2011-11-11"));
+            System.out.println(conn.insertCustomer("Bruce Tan","addr123","b@gmail.com","123",100));
         }catch(Exception e){
             e.printStackTrace();
         }
@@ -115,30 +115,27 @@ public class JDBCConnection {
         return result;
     }
 
-    public int existCreditCard(String firstname, String lastname, String exp) throws Exception{
-        String query = "SELECT * FROM creditcards WHERE firstname= ? AND lastname= ? AND expiration= ?";
+    public boolean existCreditCard(int cc_id) throws Exception{
+        String query = "SELECT * FROM creditcards WHERE id = ?";
         try (Connection conn = DriverManager.getConnection(url,username,password ) ) {
             try (PreparedStatement stmt = conn.prepareStatement(query)) {
-                stmt.setString(1,firstname);
-                stmt.setString(2,lastname);
-                stmt.setDate(3,java.sql.Date.valueOf(exp));
-                try(ResultSet rs = stmt.executeQuery(query)){
+                stmt.setInt(1,cc_id);
+                try(ResultSet rs = stmt.executeQuery()){
                     if(rs.next()){
-                        return rs.getInt(1);//return id
+                        return true;
                     }else{
-                        return -1;
+                        return false;
                     }
                 }
             }
         }
     }
-    public String insertCustomer(String name, String address, String email, String password, String expiration) throws Exception{
+    public String insertCustomer(String name, String address, String email, String password, int cc_id) throws Exception{
         String[] names = nameStringHelper(name);
         String firstname = names[0];
         String lastname = names[1];
-        int cc_id = 0;
         String query = "INSERT INTO customers VALUES ("+firstname+", "+lastname+", "+cc_id+", "+address+", "+email+", "+password+")";
-        if((cc_id = existCreditCard(firstname,lastname,expiration)) >=0){
+        if(existCreditCard(cc_id)){
             try (Connection conn = DriverManager.getConnection(url,username,password ) ) {
                 try (Statement stmt = conn.createStatement()){
                     try(ResultSet rs = stmt.executeQuery(query)){
