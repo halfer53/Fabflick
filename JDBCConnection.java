@@ -15,6 +15,7 @@ public class JDBCConnection {
     Connection conn;
     PreparedStatement pst;
     ResultSet rs;
+int customer_id = 658021;
 
     public static void main(String[] args) {
         try{
@@ -45,13 +46,15 @@ public class JDBCConnection {
     public void read(){
         try{
             Scanner sc = new Scanner(System.in);
-            login:{
+            while(true){
                 try{
                     while(true){
+                        System.out.println("Plz provide username and password");
                         String line = sc.nextLine();
+            if(line.equals("exit")){    return;}
+                        
                         String[] lines = line.split(" ");
                         if(lines.length!=2){
-                            System.out.println("Plz provide username and password");
                             continue;
                         }
                         if(login(lines[0],lines[1])){
@@ -61,60 +64,63 @@ public class JDBCConnection {
                         }
                         
                     }
+                menu:{
+            insertCustomer("b t","941","a","a","a");
                     while(true){
-                        System.out.print("JDBC> ");
-                        String line = sc.nextLine();
-                        System.out.println(line);
-                        String[] lines = line.split(" ");
-                        switch(lines[0]){
-                            case "MoviesGivenStar":
-                                if(lines.length != 2){
-                                    System.out.println("Incorrect Input");break;
-                                }
-                                showMoviesGivenStar(lines[1]);
-                                break;
-                            case "NewStar":
-                                if(lines.length==4){
-                                    insertStarByName(lines[1],lines[2],lines[3]);
-                                }else if(lines.length == 5){
-                                    insertStarByName(lines[1]+" "+lines[2],lines[3],lines[4]);
-                                }else{
-                                    System.out.println("Incorrect Input");
-                                }
-                                break;
-                            case "NewCustomer":
-                                if(lines.length==6){
-                                    insertCustomer(lines[1],lines[2],lines[3],lines[4],lines[5]);
-                                }else if(lines.length == 7){
-                                    insertCustomer(lines[1]+" "+lines[2],lines[3],lines[4],lines[5],lines[6]);
-                                }else{
-                                    System.out.println("Incorrect Input");
-                                }
-                                break;
-                            case "DeleteCustomer":
-                                if(lines.length==2){
-                                    deleteCustomerById(Integer.parseInt(lines[1]));
-                                }else{
-                                    System.out.println("Incorrect Input");
-                                }
-                                break;
-                            case "showDatabaseSchema":
-                                showDatabaseSchema();
-                                break;
-                            case "executeSQL":
-                                executeSQL(line.substring(line.indexOf(' ')+1));
-                                break;
-                            case "exit":
-                                sc.close();
-                                return;
-                            case "logout":
-                                logout();
-                                break login;
+                            System.out.print("JDBC> ");
+                            String line = sc.nextLine();
+                            System.out.println(line);
+                            String[] lines = line.split(" ");
+                            switch(lines[0]){
+                                case "MoviesGivenStar":
+                                    if(lines.length != 2){
+                                        System.out.println("Incorrect Input");break;
+                                    }
+                                    showMoviesGivenStar(lines[1]);
+                                    break;
+                                case "NewStar":
+                                    if(lines.length==4){
+                                        insertStarByName(lines[1],lines[2],lines[3]);
+                                    }else if(lines.length == 5){
+                                        insertStarByName(lines[1]+" "+lines[2],lines[3],lines[4]);
+                                    }else{
+                                        System.out.println("Incorrect Input");
+                                    }
+                                    break;
+                                case "NewCustomer":
+                                    if(lines.length==6){
+                                        insertCustomer(lines[1],lines[2],lines[3],lines[4],lines[5]);
+                                    }else if(lines.length == 7){
+                                        insertCustomer(lines[1]+" "+lines[2],lines[3],lines[4],lines[5],lines[6]);
+                                    }else{
+                                        System.out.println("Incorrect Input");
+                                    }
+                                    break;
+                                case "DeleteCustomer":
+                                    if(lines.length==2){
+                                        deleteCustomerById(Integer.parseInt(lines[1]));
+                                    }else{
+                                        System.out.println("Incorrect Input");
+                                    }
+                                    break;
+                                case "showDatabaseSchema":
+                                    showDatabaseSchema();
+                                    break;
+                                case "executeSQL":
+                                    executeSQL(line.substring(line.indexOf(' ')+1));
+                                    break;
+                                case "exit":
+                                    break menu;
+                                case "logout":
+                                    logout();
+                                    break menu;
+                            }
                         }
                     }
-                
+
                 }catch(Exception e){
                     System.out.println("Incorrect Input");
+            //e.printStackTrace();
                 }
             }
 
@@ -213,26 +219,39 @@ public class JDBCConnection {
         try (Connection conn = DriverManager.getConnection(url,username,password ) ) {
             try (PreparedStatement stmt = conn.prepareStatement(query)) {
                 stmt.setString(1,cc_id);
+System.out.println("abc");
                 try(ResultSet rs = stmt.executeQuery()){
+System.out.println("abcd");
                     if(rs.next()){
+System.out.println("abcde");
                         return true;
                     }else{
+            System.out.println(cc_id+" does not exist");
                         return false;
                     }
                 }
             }
         }
     }
-    public void insertCustomer(String name, String address, String email, String password, String cc_id) throws Exception{
+    public void insertCustomer(String name, String cc_id, String address, String email, String password) {
+    try{
         String[] names = nameStringHelper(name);
         String firstname = names[0];
         String lastname = names[1];
-        String query = "INSERT INTO customers VALUES ("+firstname+", "+lastname+", "+cc_id+", "+address+", "+email+", "+password+")";
+    System.out.println(name+" "+cc_id+" "+address+" "+email+" "+password);
+        String query = "INSERT INTO customers VALUES (NULL,?,?,?,?,?,?)";
+    System.out.println(query);
         if(existCreditCard(cc_id)){
             try (Connection conn = DriverManager.getConnection(url,username,password ) ) {
-                try (Statement stmt = conn.createStatement()){
-                    try(ResultSet rs = stmt.executeQuery(query)){
-
+                try (PreparedStatement stmt = conn.prepareStatement(query)){
+stmt.setString(1,firstname);
+stmt.setString(2,lastname);
+stmt.setString(3,cc_id);
+stmt.setString(4,address);
+stmt.setString(5,email);
+stmt.setString(6,password);
+                    try(ResultSet rs = stmt.executeQuery()){
+            customer_id++;
                     }
                 }
             }
@@ -240,6 +259,9 @@ public class JDBCConnection {
             System.out.println("Credit Card does not exist");
         }
         System.out.println("Success");
+    }catch(Exception e){
+        e.printStackTrace();
+    }
     } 
     
     public void showDatabaseSchema()throws Exception {
