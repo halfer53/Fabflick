@@ -9,30 +9,122 @@ import java.util.*;
 import java.text.*;
 
 public class JDBCConnection {
-    static String username;
-    static String password;
-    static String url;
-        static Connection conn;
-        static PreparedStatement pst;
-    static ResultSet rs;
+    String username;
+    String password;
+    String url;
+    Connection conn;
+    PreparedStatement pst;
+    ResultSet rs;
 
     public static void main(String[] args) {
         try{
-            JDBCConnection conn = new JDBCConnection("root","shandongzibo1","jdbc:mysql:///moviedb?autoReconnect=true&useSSL=false");
-            //System.out.println(conn.showMoviesGivenStar("Ben"));
-            //System.out.println(conn.showMoviesGivenStar("Ben Stiller"));
-            System.out.println(conn.insertStarByName("Bruce Tan","1955/11/30","abc"));
-            System.out.println(conn.insertCustomer("Bruce Tan","addr123","b@gmail.com","123",100));
+            new JDBCConnection("jdbc:mysql:///moviedb?autoReconnect=true&useSSL=false").read();
         }catch(Exception e){
             e.printStackTrace();
         }
         
     }
 
-
-    public JDBCConnection(String username, String password, String url) throws Exception{
+    public boolean login(String username, String password){
         this.username = username;
         this.password = password;
+        try {
+            Connection conn = DriverManager.getConnection(url,username,password );
+            return true;
+        }catch(Exception e){
+            logout();
+            return false;
+        }
+    }
+
+    public void logout(){
+        this.username = null;
+        this.password = null;
+    }
+
+    public void read(){
+        try{
+            Scanner sc = new Scanner(System.in);
+            login:{
+                try{
+                    while(true){
+                        String line = sc.nextLine();
+                        String[] lines = line.split(" ");
+                        if(lines.length!=2){
+                            System.out.println("Plz provide username and password");
+                            continue;
+                        }
+                        if(login(lines[0],lines[1])){
+                            break;
+                        }else{
+                            System.out.println("Incorrect username or password");
+                        }
+                        
+                    }
+                    while(true){
+                        System.out.print("JDBC> ");
+                        String line = sc.nextLine();
+                        System.out.println(line);
+                        String[] lines = line.split(" ");
+                        switch(lines[0]){
+                            case "MoviesGivenStar":
+                                if(lines.length != 2){
+                                    System.out.println("Incorrect Input");break;
+                                }
+                                showMoviesGivenStar(lines[1]);
+                                break;
+                            case "NewStar":
+                                if(lines.length==4){
+                                    insertStarByName(lines[1],lines[2],lines[3]);
+                                }else if(lines.length == 5){
+                                    insertStarByName(lines[1]+" "+lines[2],lines[3],lines[4]);
+                                }else{
+                                    System.out.println("Incorrect Input");
+                                }
+                                break;
+                            case "NewCustomer":
+                                if(lines.length==6){
+                                    insertCustomer(lines[1],lines[2],lines[3],lines[4],lines[5]);
+                                }else if(lines.length == 7){
+                                    insertCustomer(lines[1]+" "+lines[2],lines[3],lines[4],lines[5],lines[6]);
+                                }else{
+                                    System.out.println("Incorrect Input");
+                                }
+                                break;
+                            case "DeleteCustomer":
+                                if(lines.length==2){
+                                    deleteCustomerById(Integer.parseInt(lines[1]));
+                                }else{
+                                    System.out.println("Incorrect Input");
+                                }
+                                break;
+                            case "showDatabaseSchema":
+                                showDatabaseSchema();
+                                break;
+                            case "executeSQL":
+                                executeSQL(line.substring(line.indexOf(' ')+1));
+                                break;
+                            case "exit":
+                                sc.close();
+                                return;
+                            case "logout":
+                                logout();
+                                break login;
+                        }
+                    }
+                
+                }catch(Exception e){
+                    System.out.println("Incorrect Input");
+                }
+            }
+
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+
+
+    public JDBCConnection(String url) throws Exception{
         this.url = url;
         Class.forName("com.mysql.jdbc.Driver").newInstance();
     }
@@ -58,7 +150,7 @@ public class JDBCConnection {
     //Exit the menu (and return to the get-the-database/user/password state)
     //Exit the program. 
     
-    public String showMoviesGivenStar(String name) throws Exception{
+    public void showMoviesGivenStar(String name) throws Exception{
         String[] names = nameStringHelper(name);
         String firstname = names[0];
         String lastname = names[1];
@@ -82,11 +174,11 @@ public class JDBCConnection {
                 
             }
         }
-        return sb.toString();
+        System.out.println(sb.toString());
     }
 
 
-    public int insertStarByName(String name, String dob, String photo) throws Exception{
+    public void insertStarByName(String name, String dob, String photo) throws Exception{
         int result = 0;
         String[] names = nameStringHelper(name);
         String firstName = names[0];
@@ -109,17 +201,18 @@ public class JDBCConnection {
             if (rs != null) rs.close();
             
         } catch (Exception e) {
+            System.out.println("Incorrect format");
             e.printStackTrace();
         } 
         
-        return result;
+        System.out.println("Sucess");
     }
 
-    public boolean existCreditCard(int cc_id) throws Exception{
+    public boolean existCreditCard(String cc_id) throws Exception{
         String query = "SELECT * FROM creditcards WHERE id = ?";
         try (Connection conn = DriverManager.getConnection(url,username,password ) ) {
             try (PreparedStatement stmt = conn.prepareStatement(query)) {
-                stmt.setInt(1,cc_id);
+                stmt.setString(1,cc_id);
                 try(ResultSet rs = stmt.executeQuery()){
                     if(rs.next()){
                         return true;
@@ -130,7 +223,7 @@ public class JDBCConnection {
             }
         }
     }
-    public String insertCustomer(String name, String address, String email, String password, int cc_id) throws Exception{
+    public void insertCustomer(String name, String address, String email, String password, String cc_id) throws Exception{
         String[] names = nameStringHelper(name);
         String firstname = names[0];
         String lastname = names[1];
@@ -144,9 +237,9 @@ public class JDBCConnection {
                 }
             }
         }else{
-            return "Credit Card does not exist";
+            System.out.println("Credit Card does not exist");
         }
-        return "Success";
+        System.out.println("Success");
     } 
     
     public void showDatabaseSchema()throws Exception {
@@ -201,7 +294,7 @@ public class JDBCConnection {
         
     }
     
-    public int deleteCustomerById(int id)throws Exception {
+    public void deleteCustomerById(int id)throws Exception {
         int result = 0;
         try {
             conn = DriverManager.getConnection(url,username, password);
@@ -214,9 +307,10 @@ public class JDBCConnection {
             if (pst != null) pst.close();
             if (rs != null) rs.close();
         } catch (Exception e) {
+            System.out.println("Incorrect input");
             e.printStackTrace();
         }
-        return result;
+        System.out.println("Success");
     }
     
     public void executeSQL(String sql) throws Exception {
