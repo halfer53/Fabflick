@@ -15,15 +15,15 @@
 		id integer auto_increment,
 		title varchar(100) not null,
 		year integer not null,
-		director varchar(100),
-		banner_url varchar(200) not null,
+		director varchar(100) not null,
+		banner_url varchar(200),
 		trailer_url varchar(200),
 		primary key(id));
 	
 		create table stars(
 		id integer auto_increment,
-		first_name varchar(50),
-		last_name varchar(50),
+		first_name varchar(50) not null,
+		last_name varchar(50) not null,
 		dob date,
 		photo_url varchar(200),
 		primary key(id));
@@ -36,7 +36,7 @@
 	
 		create table genres(
 		id integer auto_increment,
-		name varchar(32),
+		name varchar(32) not null,
 		primary key (id));
 	
 		create table genres_in_movies(
@@ -68,7 +68,7 @@
 		id integer auto_increment,
 		customer_id integer not null,
 		movie_id integer not null,
-		sale_date date,
+		sale_date date not null,
 		primary key(id),
 		foreign key(customer_id) references customers(id),
 		foreign key(movie_id) references movies(id));
