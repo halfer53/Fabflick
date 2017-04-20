@@ -1,4 +1,4 @@
-package com.FabFlix
+package com.fabflix
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
@@ -42,7 +42,7 @@ public class JDBCConnection {
         this.password = null;
     }
 
-    public void read(){
+    private void read(){
         try{
             Scanner sc = new Scanner(System.in);
             while(true){

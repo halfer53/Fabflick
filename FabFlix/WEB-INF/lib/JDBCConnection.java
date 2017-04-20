@@ -1,4 +1,4 @@
-package com.FabFlix
+package com.fabflix;
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
@@ -18,14 +18,14 @@ public class JDBCConnection {
     ResultSet rs;
     String[] movie_attrs = new String[]{"Title: ","Year: ","Director: ","Banner_url: ","Trailer_url: "};
 
-    public static void main(String[] args) {
-        try{
-            new JDBCConnection("jdbc:mysql:///moviedb?autoReconnect=true&useSSL=false").read();
-        }catch(Exception e){
-            e.printStackTrace();
-        }
+    // public static void main(String[] args) {
+    //     try{
+    //         new JDBCConnection("jdbc:mysql:///moviedb?autoReconnect=true&useSSL=false").read();
+    //     }catch(Exception e){
+    //         e.printStackTrace();
+    //     }
         
-    }
+    // }
 
     public boolean login(String username,String password){
         try {
@@ -42,111 +42,111 @@ public class JDBCConnection {
         this.password = null;
     }
 
-    public void read(){
-        try{
-            Scanner sc = new Scanner(System.in);
-            while(true){
-                login_phase:{
-                    while(true){
-                        System.out.println("Type login or exit:");
-                        String ll = sc.nextLine();
-                        if(ll.equals("login")){
-                            while(true){
-                                System.out.println("Plz provide username and password");
-                                System.out.print("User Name: ");
-                                String line = sc.nextLine();
-                                username = line;
+    // private void read(){
+    //     try{
+    //         Scanner sc = new Scanner(System.in);
+    //         while(true){
+    //             login_phase:{
+    //                 while(true){
+    //                     System.out.println("Type login or exit:");
+    //                     String ll = sc.nextLine();
+    //                     if(ll.equals("login")){
+    //                         while(true){
+    //                             System.out.println("Plz provide username and password");
+    //                             System.out.print("User Name: ");
+    //                             String line = sc.nextLine();
+    //                             username = line;
 
-                                System.out.print("Password: ");
-                                password = sc.nextLine();
-                                if(login()){
-                                    break login_phase;
-                                }else{
-                                    System.out.println("Incorrect username or password");
-                                }
-                            }
-                        }else if(ll.equals("exit")){
-                            return;
-                        }
-                    }
-                }
-                menu:{
-                    while(true){
-                        try{
-                            System.out.print("JDBC> ");
-                            String line = sc.nextLine();
-                            String[] lines = line.split(" ");
-                            switch(lines[0]){
-                                case "searchStar":
-                                    switch(lines[1]){
-                                        case "-i":
-                                            showMoviesGivenStarByID(Integer.parseInt(lines[2]));
-                                            break;
-                                        case "-f":
-                                            showMoviesGivenStar(lines[2]);
-                                            break;
-                                        case "-l":
-                                            showMoviesGivenStar(lines[2]);
-                                            break;
-                                        case "-fl":
-                                            showMoviesGivenStar(lines[2]+" "+lines[3]);
-                                            break;
-                                        default:
-                                            showMoviesGivenStar(lines[1]);
-                                            break;
-                                    }
-                                    break;
-                                case "newStar":
-                                    if(lines.length==4){
-                                        insertStarByName(lines[1],lines[2],lines[3]);
-                                    }else if(lines.length == 5){
-                                        insertStarByName(lines[1]+" "+lines[2],lines[3],lines[4]);
-                                    }else{
-                                        System.out.println("Incorrect Input");
-                                    }
-                                    break;
-                                case "newCustomer":
-                                    if(lines.length==6){
-                                        insertCustomer(lines[1],lines[2],lines[3],lines[4],lines[5]);
-                                    }else if(lines.length == 7){
-                                        insertCustomer(lines[1]+" "+lines[2],lines[3],lines[4],lines[5],lines[6]);
-                                    }else{
-                                        System.out.println("Incorrect Input");
-                                    }
-                                    break;
-                                case "deleteCustomer":
-                                    if(lines.length==2){
-                                        deleteCustomerById(Integer.parseInt(lines[1]));
-                                    }else{
-                                        System.out.println("Incorrect Input");
-                                    }
-                                    break;
-                                case "showDatabaseSchema":
-                                    showDatabaseSchema();
-                                    break;
-                                case "sql":
-                                    executeSQL(line.substring(line.indexOf(' ')+1));
-                                    break;
-                                case "exit":
-                                    break menu;
-                                case "logout":
-                                    logout();
-                                    break menu;
-                                default:
-                                    System.out.println("No command found");
-                                    break;
-                            }
-                        }catch(Exception e){
-                            System.out.println("Incorrect Input");
-                        }
-                    }
-                }
-            }
+    //                             System.out.print("Password: ");
+    //                             password = sc.nextLine();
+    //                             if(login()){
+    //                                 break login_phase;
+    //                             }else{
+    //                                 System.out.println("Incorrect username or password");
+    //                             }
+    //                         }
+    //                     }else if(ll.equals("exit")){
+    //                         return;
+    //                     }
+    //                 }
+    //             }
+    //             menu:{
+    //                 while(true){
+    //                     try{
+    //                         System.out.print("JDBC> ");
+    //                         String line = sc.nextLine();
+    //                         String[] lines = line.split(" ");
+    //                         switch(lines[0]){
+    //                             case "searchStar":
+    //                                 switch(lines[1]){
+    //                                     case "-i":
+    //                                         showMoviesGivenStarByID(Integer.parseInt(lines[2]));
+    //                                         break;
+    //                                     case "-f":
+    //                                         showMoviesGivenStar(lines[2]);
+    //                                         break;
+    //                                     case "-l":
+    //                                         showMoviesGivenStar(lines[2]);
+    //                                         break;
+    //                                     case "-fl":
+    //                                         showMoviesGivenStar(lines[2]+" "+lines[3]);
+    //                                         break;
+    //                                     default:
+    //                                         showMoviesGivenStar(lines[1]);
+    //                                         break;
+    //                                 }
+    //                                 break;
+    //                             case "newStar":
+    //                                 if(lines.length==4){
+    //                                     insertStarByName(lines[1],lines[2],lines[3]);
+    //                                 }else if(lines.length == 5){
+    //                                     insertStarByName(lines[1]+" "+lines[2],lines[3],lines[4]);
+    //                                 }else{
+    //                                     System.out.println("Incorrect Input");
+    //                                 }
+    //                                 break;
+    //                             case "newCustomer":
+    //                                 if(lines.length==6){
+    //                                     insertCustomer(lines[1],lines[2],lines[3],lines[4],lines[5]);
+    //                                 }else if(lines.length == 7){
+    //                                     insertCustomer(lines[1]+" "+lines[2],lines[3],lines[4],lines[5],lines[6]);
+    //                                 }else{
+    //                                     System.out.println("Incorrect Input");
+    //                                 }
+    //                                 break;
+    //                             case "deleteCustomer":
+    //                                 if(lines.length==2){
+    //                                     deleteCustomerById(Integer.parseInt(lines[1]));
+    //                                 }else{
+    //                                     System.out.println("Incorrect Input");
+    //                                 }
+    //                                 break;
+    //                             case "showDatabaseSchema":
+    //                                 showDatabaseSchema();
+    //                                 break;
+    //                             case "sql":
+    //                                 executeSQL(line.substring(line.indexOf(' ')+1));
+    //                                 break;
+    //                             case "exit":
+    //                                 break menu;
+    //                             case "logout":
+    //                                 logout();
+    //                                 break menu;
+    //                             default:
+    //                                 System.out.println("No command found");
+    //                                 break;
+    //                         }
+    //                     }catch(Exception e){
+    //                         System.out.println("Incorrect Input");
+    //                     }
+    //                 }
+    //             }
+    //         }
 
-        }catch(Exception e){
-            e.printStackTrace();
-        }
-    }
+    //     }catch(Exception e){
+    //         e.printStackTrace();
+    //     }
+    // }
 
 
     public JDBCConnection(String url) throws Exception{
@@ -243,8 +243,8 @@ public class JDBCConnection {
             
             String sql = "insert into stars(first_name, last_name, dob, photo_url) values (?,?,?,?)";
             PreparedStatement pst =conn.prepareStatement(sql);
-            pst.setString(1, firstName);
-            pst.setString(2, lastName);
+            pst.setString(1, firstname);
+            pst.setString(2, lastname);
             pst.setString(3, dob);
             pst.setString(4, photo);
             
@@ -289,8 +289,8 @@ public class JDBCConnection {
             try(Connection conn = DriverManager.getConnection(url, username, password)) {
                 String sql = "insert into customers (first_name, last_name, cc_id, address, email, password)  values (?, ? , ?, ? , ? ,?)";
                 try(PreparedStatement pst = conn.prepareStatement(sql)){
-                    pst.setString(1, firstName);
-                    pst.setString(2, lastName);
+                    pst.setString(1, firstname);
+                    pst.setString(2, lastname);
                     pst.setString(3, cc_id);
                     pst.setString(4, address);
                     pst.setString(5, email);
