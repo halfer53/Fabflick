@@ -47,7 +47,13 @@
     </div>
     
 
-    To Be Implemented
+    <h3>Browse by genre</h3>
+    <a href="http://52.53.171.173:8080/fabflix/jsp/Movie.jsp?genre=Comedy">Comedy</a>
+
+    <h3>Browse by First Character</h3>
+    <a href="http://52.53.171.173:8080/fabflix/jsp/Movie.jsp?title_start_with=a">A</a>
+    <Br>
+    //TODO Complete the remaining fields
     <%@ include file="footer.jsp"%>
 </body>
 </html>
