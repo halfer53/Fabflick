@@ -35,8 +35,6 @@
              </ul> 
              </div> 
             </div> 
-            <div class="container-fluid">
-                <div id="message"></div>
-            </div>
+            <div id="message"></div>
         </nav>
     </div>

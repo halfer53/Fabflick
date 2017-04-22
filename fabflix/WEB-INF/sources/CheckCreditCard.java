@@ -49,12 +49,12 @@ public class CheckCreditCard extends HttpServlet{
                     session.setAttribute("cart-id",UUID.randomUUID().toString());
 
                 }else{
-                    out.println("Credit Card does not match");
+                    response.sendError(400,"Credit Card does not match");
                 }
             }
             
         }catch(Exception e){
-            out.println("Abc"+e.getMessage());
+            response.sendError(400,"Something went wrong");
             // response.sendError(403,e.getMessage());
         }
         
