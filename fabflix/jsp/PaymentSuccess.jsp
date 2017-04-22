@@ -5,21 +5,27 @@
 <html>
     <head>
         <%@ include file="head.jsp"%>
-        <title>Single Movie</title>
+        <title>Payment Success</title>
     </head>
 <body>
     <%
         Integer uid = (Integer)session.getAttribute("uid");
-        String sid = (String)request.getParameter("id");
-        Integer movieid = sid==null ? new Integer(0) : Integer.valueOf(sid);
+        String uuid = (String)session.getAttribute("cart-id");
+        if(uuid==null){
+            response.sendError(403,"You have not complete any transaction yet");
+        }else{
+            session.removeAttribute("cart-id");
+        }
     %>
-
+    
     <%@ include file="header.jsp"%>
-
-    To Be Implemented
-    //TODO
-
+    <div class="container">
+        <h2 class="text-center">Thank you for your purchase</h2>
+    </div>
     
     <%@ include file="footer.jsp"%>
+    <script type="text/javascript">
+        localStorage.removeItem("Cart");
+    </script>
 </body>
 </html>

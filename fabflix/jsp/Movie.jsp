@@ -8,21 +8,23 @@
         <title>Movie</title>
     </head>
 <body>
+    
     <%  
 
         Integer uid = (Integer)session.getAttribute("uid");
-        final int LIMIT = 15;
+        Integer LIMIT = parseParaInt(request.getParameter("limit"));
+        LIMIT = LIMIT==null? 20 : LIMIT;
         String spage = request.getParameter("page");
         Integer start = spage == null ? new Integer(0) : Integer.valueOf(spage) * LIMIT;
 
         String title = setEmptyIfNull(request.getParameter("title"));
-        String syear = request.getParameter("year");
-        Integer year = (syear==null || syear.isEmpty()) ? null : Integer.valueOf(syear);
+        Integer year = parseParaInt(request.getParameter("year"));
         String director = setEmptyIfNull(request.getParameter("director"));
         String star_firstname = setEmptyIfNull(request.getParameter("star_firstname"));
         String star_lastname = setEmptyIfNull(request.getParameter("star_lastname"));
         String sortby = request.getParameter("sortby");
         String sorttype = request.getParameter("sorttype");
+        
 
         String genre = request.getParameter("genre");
 
@@ -32,43 +34,19 @@
         queryParameter = queryParameter == null ? "" : queryParameter;
         String url = request.getRequestURL()+"?"+queryParameter;
     %>
-    <div class="container-fluid mb-70">
-        <nav class="navbar navbar-default navbar-fixed-top"> 
-            <div class="container-fluid"> <div class="navbar-header"> 
-                <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6" aria-expanded="false"> 
-                <span class="sr-only">Toggle navigation</span> 
-                <span class="icon-bar"></span>
-                 <span class="icon-bar"></span> 
-                 <span class="icon-bar"></span> 
-                 </button> <a href="/fabflix/jsp/Main.jsp" class="navbar-brand">Fabflix</a> 
-            </div>
-             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6"> 
-             <ul class="nav navbar-nav"> 
-                 <li><a href="/fabflix/jsp/Main.jsp">Main</a></li>
-                 <li><a href="/fabflix/jsp/Browse.jsp">Browse</a></li>
-                 <li class="active"><a href="#">Movies</a></li> 
-                 <li><a href="/fabflix/jsp/Search.jsp">Search</a></li>
-                 <%=getRightButton(uid)%>
-             </ul> 
-             </div> 
-            </div> 
-        </nav>
-    </div>
-    
+
+
+    <%@ include file="header.jsp"%>
 
 
 
-    <%-- Declare and define the runQuery() method. --%>
     <%! 
-        private String getRightButton(Integer uid){
-            if(uid == null){
-                return "<li class='pull-right'><a href='/fabflix'>Login</a></li> ";
-            }
-            return "<li class='pull-right'><a href='/fabflix/jsp/ShoppingCart.jsp'>Shopping Cart</a></li> ";
-
-        }
         public String setEmptyIfNull(String input){
             return input==null ? "%" : input;
+        }
+
+        public Integer parseParaInt(String input){
+            return (input==null || input.isEmpty()) ? null : Integer.valueOf(input);
         }
 
         public String sortQuery(String input_query, String sortby, String sorttype){
@@ -284,7 +262,7 @@
                         "<td><a href='" + m_trailer_url + "'>Link</a></td>" +
                         "<td>" + getGenreByMovieID(conn,m_id) + "</td>" +
                         "<td>" + getStarsByID(conn,m_id) + "</td>" +
-                        "<td><div><input type='text' class='form-control' aria-label='...' maxlength='3' size='3' title='"+m_title+"' id='th-"+ m_id+ "'></div><div><button type='button' class='btn btn-default' onclick='addToCartByInput("+ m_id+ ")'>Add to Cart</button></div> </td>" +
+                        "<td><div><input type='text' class='form-control text-center' aria-label='...' value='1' title='"+m_title+"' id='th-"+ m_id+ "'></div><div class='text-center'><button type='button' class='btn btn-default' onclick='addToCartByInput("+ m_id+ ")'>Add to Cart</button></div> </td>" +
                     "</tr>\n");
         }
         
@@ -359,9 +337,6 @@
         
     
     %>
-    <div class="container">
-        <div id="message"></div>
-    </div>
     <div class="container-fluid">
         <div class="table-responsive movie-table">
             <table width="100%" class="table table-hover">
@@ -379,9 +354,26 @@
                 <%= getMovieList(title,year,director,star_firstname,star_lastname,genre,title_start_with,start,LIMIT,sortby,sorttype) %>
                 
             </table>
-            <%= getPage(title,year,director,star_firstname,star_lastname,genre,title_start_with,start,LIMIT,url) %>
+
+            
+            
         </div>
+        <div class="dropup pull-right">
+                      <button href="" data-target="#" class="dropdown-toggle btn btn-primary" data-toggle="dropdown" aria-expanded="false"><%=LIMIT%>
+                        <b class="caret"></b><div class="ripple-container"></div></button>
+                      <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0)" onclick="changePageItemNum(10)">10</a></li>
+                        <li><a href="javascript:void(0)" onclick="changePageItemNum(20)">20</a></li>
+                        <li><a href="javascript:void(0)" onclick="changePageItemNum(30)">30</a></li>
+                        <li><a href="javascript:void(0)" onclick="changePageItemNum(40)">40</a></li>
+                        <li><a href="javascript:void(0)" onclick="changePageItemNum(50)">50</a></li>
+                      </ul>
+            </div>
+            <div class="clearfix"></div>
+        <%= getPage(title,year,director,star_firstname,star_lastname,genre,title_start_with,start,LIMIT,url) %>
     </div>
+
+    
     
     
     <%@ include file="footer.jsp"%>

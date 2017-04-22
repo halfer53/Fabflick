@@ -6,5 +6,6 @@
 
 
     <script >
-        $.material.init()
+        $.material.init();
+        $.material.ripples();
     </script>

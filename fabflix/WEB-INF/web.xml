@@ -49,6 +49,16 @@
     <servlet-name>ShowSessionServlet</servlet-name>
     <url-pattern>/servlet/ShowSession</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>CheckCreditCardServlet</servlet-name>
+    <servlet-class>CheckCreditCard</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CheckCreditCardServlet</servlet-name>
+    <url-pattern>/servlet/CheckCreditCard</url-pattern>
+  </servlet-mapping>
 
 
 </web-app>

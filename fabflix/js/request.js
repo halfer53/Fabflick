@@ -1,8 +1,4 @@
 
-function ErrorMsg(id,mesg){
-    $(id).html("<div class='alert alert-warning' role='alert'>"+mesg+"</div>");
-}
-
 function loginRequest(){
     var username = $("#username-input").val();
     var password = $("#password-input").val();
@@ -27,11 +23,13 @@ function loginRequest(){
     }
 }
 
-
+function ErrorMsg(id,mesg){
+    $(id).html("<div class='alert alert-warning' role='alert'>"+mesg+"</div>");
+}
 
 function success(id){
     $(id).hide();
-    $(id).html("<div class='alert alert-success' role='alert'>Success</div>");
+    $(id).html("<div class='text-center h3 mb-30' role='alert'>Success</div>");
     $(id).fadeIn();
     $(id).fadeOut();
 }
@@ -46,6 +44,17 @@ function requestSort(className,data){
     }else{
         result+= "&sorttype=asc";
     }
+    if(result.charAt(0) != '?'){
+        result = '?' + result;
+    }
+    window.location.href=  window.location.pathname+result;
+}
+
+function changePageItemNum(num){
+    url = window.location.search;
+    var result = url.replace(/[&]?limit=[0-9]+/g,'');
+    result = result.replace(/[&]?page=[0-9]+/g,'');
+    result+= "&limit="+num;
     if(result.charAt(0) != '?'){
         result = '?' + result;
     }
@@ -118,4 +127,54 @@ function updateCartByID(id){
     }
     success("#message");
     
+}
+
+function checkout(uid){
+    if(!uid){
+        alert("Plz login first");
+        return;
+    }
+    var arr = JSON.parse(localStorage.getItem("Cart"));
+    if(!arr || arr.length==0){
+        alert("Plz add some items to your cart");
+        return;
+    }
+    window.location.href=  "/fabflix/jsp/Checkout.jsp";
+}
+
+function checkCreditCard(uid){
+    var arr = JSON.parse(localStorage.getItem("Cart"));
+    if(!uid){
+        alert("Plz login first");
+        return;
+    }
+    if(!arr || arr.length==0){
+        alert("Plz add some items to your cart");
+        return;
+    }
+    var firstname = document.getElementById("firstname-input").value;
+    var lastname = document.getElementById("lastname-input").value;
+    var expiration = document.getElementById("expiration-input").value;
+    var moviesid = [];
+    
+    for(var i=0;i<arr.length;i++){
+        moviesid.push(arr[i].id);
+    }
+    $.ajax({
+        type: "GET",
+        url: "/fabflix/servlet/CheckCreditCard",
+        data: {
+            firstname: firstname,
+            lastname:lastname,
+            expiration: expiration,
+            moviesid:moviesid
+        },
+        success: function(data){
+            success("#message");
+            window.location.href = "/fabflix/jsp/PaymentSuccess.jsp";
+        },
+        error: function(xhr, ajaxOptions, thrownError){
+            ErrorMsg("#message","Credit Card Not Found");
+        }
+    })
 }

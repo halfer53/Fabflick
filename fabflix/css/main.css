@@ -22,3 +22,18 @@
 .ml-40{
     margin-left:40px;
 }
+.mb-30{
+    margin-bottom: 30px;
+}
+.btn-drop{
+    color:#fff !important;
+    background: #4285F4 !important;
+}
+.btn-drop:hover{
+    color:#fff !important;
+    background-color: #5a95f5!important;
+}
+.dropdown{
+    margin-right:30px;
+    margin-bottom:50px;
+}
