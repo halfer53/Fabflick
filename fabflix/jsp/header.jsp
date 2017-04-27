@@ -1,4 +1,5 @@
     <%
+        Integer uid = (Integer)session.getAttribute("uid");
         String page_name = request.getRequestURI().substring(request.getContextPath().length());
         page_name = page_name.substring(5);//remove /jsp/
     %>
