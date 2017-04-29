@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><anime id="11059" restricted="false">
+<type>OVA</type>
+<episodecount>3</episodecount>
+<startdate>2015-09-26</startdate>
+<enddate>2015-09-26</enddate>
+<titles>
+<title xml:lang="x-jat" type="main">Aria the Avvenire</title>
+<title xml:lang="x-jat" type="short">Aria5</title>
+<title xml:lang="x-jat" type="short">Aria 2015</title>
+<title xml:lang="ja" type="official">ARIA The AVVENIRE</title>
+</titles>
+<relatedanime>
+<anime id="5424" type="Prequel">Aria the Origination</anime>
+</relatedanime>
+<recommendations total="2">
+<recommendation type="For Fans" uid="279344">Good finale for Aria the * Series. After Origination, I felt there should be some more. After this, I am satisfied. For fans only, a must-see. Others should watch Aria the Animation first. :)</recommendation>
+<recommendation type="Recommended" uid="512389">An elegant construction of both new and old, a love letter as warm, wise and beautiful as Aria ever was; while the real-world loss of the two women who provided the speaking and singing voices of Athena is both signified and circumnavigated with great respect.  Practically perfect.  Bring the tissues.</recommendation>
+</recommendations>
+<url>http://www.ariacompany.net/</url>
+<creators>
+<name id="9212" type="Animation Work">TYO Animations</name>
+<name id="5611" type="Original Work">Amano Kozue</name>
+<name id="3562" type="Character Design">Onji Masayuki</name>
+<name id="3611" type="Series Composition">Satou Jun`ichi</name>
+<name id="9212" type="Work">TYO Animations</name>
+<name id="3611" type="Direction">Satou Jun`ichi</name>
+</creators>
+<description>Note: The Blu-ray boxes for each Aria TV series contained one episode of Aria the Avvenire each, for a total of three: the http://anidb.net/a2659 [Aria the Animation] box shipped with the first episode on 24.12.2015, the http://anidb.net/a4243 [Aria the Natural] box shipped with the second episode on 23.03.2016, and the http://anidb.net/a5424 [Aria the Origination] box shipped with the third episode on 24.06.2016. All three episodes were also shown at a special event on 26.09.2015.</description>
+<ratings>
+<permanent count="262">8.73</permanent>
+<temporary count="263">7.92</temporary>
+</ratings>
+<picture>174277.jpg</picture>
+<resources>
+<resource type="1">
+<externalentity>
+<identifier>16769</identifier>
+</externalentity>
+</resource>
+<resource type="2">
+<externalentity>
+<identifier>29893</identifier>
+</externalentity>
+</resource>
+<resource type="4">
+<externalentity>
+<url>http://comic.mag-garden.co.jp/aria/avvenire.html</url>
+</externalentity>
+<externalentity>
+<url>http://www.ariacompany.net/</url>
+</externalentity>
+</resource>
+<resource type="7">
+<externalentity>
+<identifier>ARIA_(漫画)</identifier>
+</externalentity>
+</resource>
+<resource type="9">
+<externalentity>
+<identifier>351951</identifier>
+</externalentity>
+</resource>
+</resources>
+<tags>
+<tag id="30" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-10">
+<name>meta tags</name>
+<description>These tags are used for maintenance.</description>
+</tag>
+<tag id="1802" parentid="2606" infobox="true" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-01-24">
+<name>seinen</name>
+<description>Seinen, literally "young man", is one of the main demographic classifications applied to manga, and, by extension, to anime, especially manga-based ones. As the name implies, seinen works are marketed primarily to an audience of young men; the age range commonly understood to be the target of such works goes roughly from 17 to somewhere in the 40s.</description>
+<picurl>181651.jpg</picurl>
+</tag>
+<tag id="2605" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-28">
+<name>dynamic</name>
+<description>Some of the central structural elements in anime are: 
+Plot Continuity 
+How does the plot or several plots unfold. Are they a strictly linear retelling of one big continuing story, a serial, possibly with several side stories, or is the content chopped into a set of unconnected episodes, only sharing the same setting and characters?
+Stereotype Characters
+Then there is the question of the character set presentation. Is it completely original, or is it your usual stereotypical character cast. Both choices have their merit, for example it would not really make much sense to reinvent the wheel for a harem anime. Fans of that genre come to expect their favourite stereotype protagonists.
+Plot Twists
+Finally there is the question of how complex the plot / the story unfolds. Are there side-plots that merge into the main plot leading to unexpected plot twists, or is the anime quite predictable? The latter would not be appropriate for detective stories. In harem anime on the other hand a foreseeable outcome is actually something the fans will come to expect.</description>
+</tag>
+<tag id="2606" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-10-18">
+<name>target audience</name>
+<description>Anime, like everything else in the modern world, is targeted towards specific audiences, both implicitly by the creators and overtly by the marketing. While categories are associated with specific sex and age groups, this is not a bar on the anime being enjoyed by people who don`t fit into that band; not only do crossover titles exist, but the categories also have a considerable following outside their main demographic, and a person might as well enjoy anime from all categories. Still, does not invalidate the usefulness of marking a title as one of the categories; the same themes will likely be treated differently in anime geared for different audiences. Only one should not jump the gun and assume that a title will be more or less serious or present content in this or that way due to its target audience, or conversely assume the target audience on the content and its presentation alone. As such, the audience categories help form a broad impression of how a title might work with the announced themes, but offer little to no in-depth information about specific content or its treatment.
+The audience categories originate from manga magazines, which group titles of a same intended audience into a magazine that is advertised as belonging to that category, and so manga-based anime will have the category from their parent work. As for anime based on other works, the audience is often debatable, but comparing information such as time slot to the manga-based anime generally helps figure out the most likely possibility.</description>
+</tag>
+<tag id="2607" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-29">
+<name>themes</name>
+<description>Themes describe the very central elements important to the anime stories. They set the backdrop against which the protagonists must face their challenges. Be it School Life, present Daily Life, Military action, Cyberpunk, Law and Order detective work, Sports, or the Underworld. These are only but a few of the more typical backgrounds for anime plots. Add to that a Conspiracy setting with a possible tragic outcome, the Themes span most of the imaginable subject matter relevant to anime.</description>
+</tag>
+<tag id="2609" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-22">
+<name>original work</name>
+<description>What the anime is based on! Mostly of academic interest, but a useful bit of info, hinting at the possible depth of story.</description>
+</tag>
+<tag id="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-22">
+<name>setting</name>
+<description>The setting describes in what time and place an anime takes place. To a certain extent it describes what you can expect from the world in the anime.</description>
+</tag>
+<tag id="2612" parentid="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-09-04">
+<name>time</name>
+<description>This placeholder lists different epochs in human history and more vague but important timelines such as the future, the present and the past.</description>
+</tag>
+<tag id="2613" parentid="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-09-04">
+<name>place</name>
+<description>The places the anime can take place in. Includes more specific places such as a country on Earth, as well as more general places such as a dystopia or a mirror world.</description>
+</tag>
+<tag id="2626" parentid="2612" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2009-05-15">
+<name>future</name>
+<description>Anime that fall under the future category are the ones that have a society that could have originated from ours. In most cases it should go hand to hand with sci-fi since we expect the future to consist of advanced technology, however, in the case where it`s explicitly stated in the story that the anime takes place "x years into the future", the state of technology doesn`t matter as long as it`s long into the future. The anime can be set in an alternative universe not tied with our own, as long as it has a futuristic feel to it.
+This category sports quite a lot of anime, mostly stemming from SciFi, but not necessarily only from there.</description>
+</tag>
+<tag id="2627" parentid="2613" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-20">
+<name>space</name>
+<description>The final frontier.</description>
+</tag>
+<tag id="2660" parentid="2627" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2009-05-15">
+<name>other planet</name>
+<description>The anime will fit this category if some or all of the action takes place on another planet which is supposedly in the same universe as Earth, not a complete fantasy world; usually there has to be some concept of space travel. The Latin name for Earth - Terra, would also pass the condition of being in the same universe as Earth. Basically, even mentioning of Earth existing or having existed would be enough. Although Moon is a moon, it also qualifies as Other Planet.</description>
+</tag>
+<tag id="2765" parentid="2660" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2013-03-02">
+<name>Mars</name>
+<description>The fourth planet from the sun in the solar system.
+Popular sci-fi setting for human colonisation and terraforming efforts.</description>
+</tag>
+<tag id="2798" parentid="2609" infobox="true" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-07">
+<name>manga</name>
+<description>Manga is the lifeblood that drives the anime industry. Everything and its mother is based on manga. However! There are exceptions where the manga was not the basis for the anime.
+It`s common practice to make manga adaptations of many popular anime, there`s a manga based on Evangelion, and two (one shounen and one shoujo) based on each of Escaflowne and Mahou Tsukai Tai. Also it`s quite common to release manga and anime versions of a story in parallel, for instance Nadesico and Shoujo Kakumei Utena. There are also cases where an anime continues in a manga, as in the case of Angel Beats! and Angel Beats: Heaven`s Door, or reverse.</description>
+</tag>
+<tag id="2864" parentid="2607" infobox="true" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2014-12-29">
+<name>daily life</name>
+<description>The antics of the protagonists do not take place in some exotic setting or time, but in everyday life. When not "at the job" this means getting up in the morning, making meals, house cleaning, going shopping or out to eat, visiting the bath house or spa, leisure activities in the spare time, etc. The time "on the job" for students is School Life, for others working in their profession. Daily Life is basically a synonym for everything normal, repetitive, and trivial happening to your average person.</description>
+</tag>
+<tag id="3955" parentid="30" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-08">
+<name>DESCRIPTION MISSING</name>
+<description>The description for this entry is missing. e.g plot, biography...
+Please help by adding it, and remove this tag afterwards. Thank you.</description>
+</tag>
+<tag id="4333" parentid="6230" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2015-07-06">
+<name>predominantly female cast</name>
+<description>A show with a predominantly female cast has mostly females as main and secondary cast members while few if any male characters have major roles. This also applies when a male lead is surrounded by females of lesser individual plot relevance, such as in a harem setting.</description>
+<picurl>70752.jpg</picurl>
+</tag>
+<tag id="5963" parentid="2607" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2016-09-12">
+<name>utopia</name>
+<description>"Paradise". Portrays a peaceful, united civilization striving for perfection. This may include the world living as one in peace or just an isolated society, at peace with all their surroundings and anything that exists on the outside is irrelevant. In these conditions, humans may have obtained balance with technology which now exists merely to enhance human living standards. Advanced science and technology allow the absence of death and suffering and/or changes in human nature and condition. Technology has affected the way humans live to such an extent that normal functions such as sleep, eating or reproduction are replaced by artificial means (which may include a society comprised of a single gender). A healthier, more intelligent race has been bred. Many or all people exist with traits and special talents.</description>
+</tag>
+<tag id="6230" parentid="2605" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-10-20">
+<name>cast</name>
+</tag>
+</tags>
+<characters>
+<character id="1286" type="main character in" update="2010-02-02">
+<rating votes="483">8.83</rating>
+<name>Mizunashi Akari</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>A native of Manhome (Earth) who immigrated to Aqua when she was 15 to become an undine. While not as skillful at sculling a gondola as Alice, nor as familiar with the history of her adopted city as Aika, Akari makes friends quickly and converses easily with customers and other strangers. She finds enjoyment in things or events that others think humdrum and mundane, for which Aika and Alice call her "mysterious." Akari often says hohe or hahi, which is her short version of "wow." When Akari used gondola simulations on Manhome, she accidentally learned how to row backwards and had to relearn the proper method when she started at Aria Company; however, as Aika notes, "Akari is almost invincible when she rows backwards."</description>
+<picture>15593.jpg</picture>
+<seiyuu id="642" picture="156264.jpg">Hazuki Erino</seiyuu>
+</character>
+<character id="1287" type="secondary cast in" update="2011-01-24">
+<rating votes="265">7.86</rating>
+<name>Alicia Florence</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>The only other undine with Aria Company, Alicia is one of the three Water Fairies of Neo-Venezia, called the "Snow White" (白き妖精, Shiroki Yousei, lit. "White Fairy"). At the start of the series, she is 19 and the most popular undine in the city. Like Akari, she is relaxed and easy-going, but she also likes to tease others (especially her childhood friend Akira). Her favorite phrase is Ara Ara ("Well Well") and she frequently giggles, to Akira`s annoyance.</description>
+<picture>15584.jpg</picture>
+<seiyuu id="74" picture="84835.jpg">Oohara Sayaka</seiyuu>
+</character>
+<character id="7787" type="secondary cast in" update="2015-12-26">
+<rating votes="145">3.94</rating>
+<name>Aria Pokoteng</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>President Aria is the Aria Company`s mascot, a male Aqua breed feline (common traits include larger size compared to Earth breeds, and human-level intelligence). He is smart enough to understand human speech. He was an alley cat before taken in by Grandma 20 years ago, and has been the company`s mascot ever since.</description>
+<picture>26811.jpg</picture>
+<seiyuu id="551" picture="17857.jpg">Nishimura Chinami</seiyuu>
+</character>
+<character id="8498" type="main character in" update="2011-04-08">
+<rating votes="233">7.02</rating>
+<name>Aika S. Granzchesta</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>Aika was the first friend http://anidb.net/ch1286 [Akari] makes on Aqua. She is the only daughter and heir of Himeya Company`s owners, but does not enjoy the distinction as she feels the company`s employees fawned on her too much.
+Aika speaks bluntly and often responds to Akari`s idealistic comments with "Embarrassing remarks are not allowed!" (恥ずかしいセリフ禁止!, Hazukashii serifu kinshi!). Despite their contrasting personalities, she gets along well with Akari and http://anidb.net/ch8499 [Alice], but frequently squabbles with her mentor, http://anidb.net/ch8505 [Akira], whom she resembles.
+Aika considers herself reliable, especially compared to distractable Akari and antisocial Alice, but both her friends call her a crybaby for her tendency to tear up when emotional. She is proud of her gondola skill as an undine, and can be very competitive about it.</description>
+<picture>27662.jpg</picture>
+<seiyuu id="305" picture="37148.jpg">Saitou Chiwa</seiyuu>
+</character>
+<character id="8499" type="main character in" update="2010-03-08">
+<rating votes="280">8.98</rating>
+<name>Alice Carroll</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>Alice is friends with Akari and Aika, the undines of Aria and Himeya, respectively. She`s an apprentice of one of the Orange Planet`s Primas - Athena - and has to split her time into going to school and rowing training. Although being only a Pair, her skill surpasses both Akari and Aika`s. They practice together despite working for rival companies.
+Alice is the first undine to be promoted straight from Pair to Prima, skipping the middle "level". She is promoted first out of three; Akari and Aika were Singles at that time.
+At the beginning, she is introverted and anti-social, but she lightens up as the series progresses.
+She often uses dekkai (でっかい, "huge") as an intensifier.</description>
+<picture>27656.jpg</picture>
+<seiyuu id="346" picture="17184.jpg">Hirohashi Ryou</seiyuu>
+</character>
+<character id="8501" type="secondary cast in" update="2012-01-12">
+<rating votes="90">5.80</rating>
+<name>Aino Ai</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>Ai is a girl from Manhome. She befriends http://anidb.net/ch1286 [Akari] and becomes Akari`s e-mail correspondent, while visiting Aqua whenever she can.
+At the end of Aria the Origination she joins http://anidb.net/ch7786 [Aria Company] as a Pair under Akari.</description>
+<picture>27658.jpg</picture>
+<seiyuu id="591" picture="17988.jpg">Mizuhashi Kaori</seiyuu>
+</character>
+<character id="8505" type="secondary cast in" update="2010-02-02">
+<rating votes="163">7.93</rating>
+<name>Akira E. Ferrari</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>Akira is one of Neo-Venezia`s Three Water Fairies, and a native of Aqua. As a Prima undine, Akira is called the "Crimson Rose" (真紅の薔薇, Shinku no Bara?) and is famed for her conversational skills. Throughout the story, she`s holding blade oar number 27. She has many admirers among her customers, especially her female ones, but she considers herself very feminine.
+Akira is mentor to Aika, who calls her the Demon Instructor for her strictness and her loud, brusque personality. Akira is particularly harsh with Aika because she believes there is potential in her.
+Akira and Alicia are childhood friends.</description>
+<picture>27665.jpg</picture>
+<seiyuu id="570" picture="151691.jpg">Minagawa Junko</seiyuu>
+</character>
+<character id="8506" type="secondary cast in" update="2017-04-25">
+<rating votes="152">7.36</rating>
+<name>Athena Glory</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>Athena Glory is one of Neo-Venezia`s Three Water Fairies, known by the title "Siren" (天上の謳声, Tenjou no Utagoe, lit. "Heavenly Voice") for her beautiful singing voice. Her blade oar number is 36. She is Alice`s mentor at Orange Planet. She often appears quiet most of the time and an airhead who does not pay attention to her surroundings (in the anime, she is shown more than once forgetting to duck while rowing under a bridge), but she genuinely cares about Alice.
+Athena has a strange laugh that comes out sounding as though she is angry. She was a trainee undine with Alicia and Akira, and joined them in joint practice.
+Her signature song is http://anidb.net/s7270 [Barcarolle], sung by the voice actor http://anidb.net/cr3917 [Kawai Eri]. She also features another song named http://anidb.net/s7258 [Coccoro], also by Kawai Eri.</description>
+<picture>27666.jpg</picture>
+<seiyuu id="563" picture="73156.jpg">Kawakami Tomoko</seiyuu>
+</character>
+<character id="75708" type="secondary cast in" update="2015-09-19">
+<rating votes="2">7.73</rating>
+<name>Azusa B. McLaren</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>Azusa B. McLaren is a Single undine working in Himeya company. Like her senior http://anidb.net/ch8498 [Aika], she is brave, direct and self-confident. She doesn`t look before she leaps when it comes to something that interests her. She notes any important information in her electronic organizer. She practices with http://anidb.net/ch75709 [Anya] from Orange Planet.
+Source: ANN</description>
+<picture>174280.jpg</picture>
+<seiyuu id="6" picture="171987.jpg">Nakahara Mai</seiyuu>
+</character>
+<character id="75709" type="secondary cast in" update="2015-09-19">
+<rating votes="2">7.73</rating>
+<name>Anya Dostoyevskaya</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>Anya Dostoyevskaya is a Single undine working in Orange Planet and http://anidb.net/ch8499 [Alice]`s junior. She has a calm and gentle personality, but sometimes demonstrates spontaneity, such as blurting out "From Siberia!" to anyone she has just met. She sometimes speaks in a literary tone. She practices with http://anidb.net/ch75708 [Azusa] from Himeya.
+Source: ANN</description>
+<picture>174281.jpg</picture>
+<seiyuu id="20497" picture="62433.jpg">Kayano Ai</seiyuu>
+</character>
+</characters>
+<episodes>
+<episode id="166684" update="2016-02-19">
+<epno type="1">1</epno>
+<length>20</length>
+<airdate>2015-09-26</airdate>
+<rating votes="2">8.74</rating>
+<title xml:lang="ja">その 逢いたかったあなたに...</title>
+<title xml:lang="en">To You, Who I Wanted to Meet...</title>
+<title xml:lang="x-jat">Sono Aitakatta Anata ni...</title>
+</episode>
+<episode id="167831" update="2015-05-07">
+<epno type="4">T1</epno>
+<length>1</length>
+<airdate>2015-04-05</airdate>
+<title xml:lang="ja">ARIA The AVVENIRE 特報</title>
+<title xml:lang="en">PV 01 (30 sec)</title>
+<title xml:lang="x-jat">Aria the Avvenire Tokuhou</title>
+</episode>
+<episode id="168892" update="2016-03-26">
+<epno type="1">2</epno>
+<length>20</length>
+<airdate>2015-09-26</airdate>
+<rating votes="2">9.49</rating>
+<title xml:lang="ja">その 暖かなさよならは...</title>
+<title xml:lang="en">That Warm Goodbye...</title>
+<title xml:lang="x-jat">Sono Atataka na Sayonara wa...</title>
+</episode>
+<episode id="168893" update="2016-06-27">
+<epno type="1">3</epno>
+<length>30</length>
+<airdate>2015-09-26</airdate>
+<rating votes="2">10.00</rating>
+<title xml:lang="ja">その 遙かなる未来へ</title>
+<title xml:lang="en">To That Far Away Future...</title>
+<title xml:lang="x-jat">Sono Haruka Naru Mirai e</title>
+</episode>
+<episode id="176120" update="2016-03-20">
+<epno type="3">C1</epno>
+<length>2</length>
+<airdate>2015-09-26</airdate>
+<title xml:lang="en">Ending</title>
+</episode>
+</episodes>
+</anime>

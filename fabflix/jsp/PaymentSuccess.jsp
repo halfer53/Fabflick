@@ -1,6 +1,6 @@
 <%@ page import="java.io.*,java.util.*,java.sql.*"%>
 <%@ page import="javax.servlet.http.*,javax.servlet.*" %>
-
+<%@ page contentType="text/html; charset=UTF-8" %>
 <html>
     <head>
         <%@ include file="head.jsp"%>

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?><anime id="1308" restricted="false">
+<type>Movie</type>
+<episodecount>1</episodecount>
+<startdate>1993-12-18</startdate>
+<enddate>1993-12-18</enddate>
+<titles>
+<title xml:lang="x-jat" type="main">Ginga Eiyuu Densetsu: Aratanaru Tatakai no Overture</title>
+<title xml:lang="en" type="synonym">Legend of Galactic Heroes: Overture to a New War</title>
+<title xml:lang="en" type="synonym">Overture to a New War</title>
+<title xml:lang="en" type="synonym">LoGH: Overture to a New War</title>
+<title xml:lang="en" type="synonym">Legend of the Galactic Heroes MOVIE (1993)</title>
+<title xml:lang="fr" type="synonym">Les héros de la galaxie - Le film 3</title>
+<title xml:lang="es" type="synonym">La Leyenda de los Heroes de la Galaxia: Obertura a una nueva batalla</title>
+<title xml:lang="en" type="short">OtaNW</title>
+<title xml:lang="x-jat" type="short">Overture</title>
+<title xml:lang="ja" type="official">銀河英雄伝説 新たなる戦いの序曲[オーヴァチュア]</title>
+</titles>
+<relatedanime>
+<anime id="584" type="Sequel">Ginga Eiyuu Densetsu</anime>
+<anime id="1310" type="Prequel">Ginga Eiyuu Densetsu Gaiden</anime>
+</relatedanime>
+<recommendations total="1"/>
+<url>http://www.ginei.jp</url>
+<creators>
+<name id="970" type="Animation Work">Kitty Film</name>
+<name id="991" type="Original Work">Tanaka Yoshiki</name>
+<name id="4506" type="Direction">Shimizu Keizou</name>
+<name id="5457" type="Character Design">Ikeda Yuuji</name>
+<name id="5457" type="Character Design">Ikeda Yuuji</name>
+</creators>
+<description>The recently ennobled http://anidb.net/ch186 [Reinhard von Lohengramm] who on suspicion of imperial favouritism and nepotism is facing resistance from his peers, and http://anidb.net/ch737 [Yang Wen-Li] the unwilling hero of the opposite faction, must prove their worth in the Battle of Astate...
+Note: The film is a more detailed retelling of the first 2 episodes of the Legend of Galactic Heroes OVA series.</description>
+<ratings>
+<permanent count="795">8.89</permanent>
+<temporary count="799">8.06</temporary>
+<review count="1">9.33</review>
+</ratings>
+<picture>53490.jpg</picture>
+<resources>
+<resource type="1">
+<externalentity>
+<identifier>1865</identifier>
+</externalentity>
+</resource>
+<resource type="2">
+<externalentity>
+<identifier>3016</identifier>
+</externalentity>
+</resource>
+<resource type="3">
+<externalentity>
+<identifier>2532</identifier>
+<identifier>cygdao</identifier>
+</externalentity>
+</resource>
+<resource type="4">
+<externalentity>
+<url>http://www.ginei.jp</url>
+</externalentity>
+</resource>
+<resource type="9">
+<externalentity>
+<identifier>89856</identifier>
+</externalentity>
+</resource>
+</resources>
+<tags>
+<tag id="36" parentid="2607" infobox="true" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2017-04-17">
+<name>military</name>
+<description>The military, also known as the armed forces, are forces authorized and legally entitled to use deadly force so as to support the interests of the state and its citizens. The task of the military is usually defined as defence of the state and its citizens and the prosecution of war against foreign powers. The military may also have additional functions within a society, including construction, emergency services, social ceremonies, and guarding critical areas.
+Source: Wikipedia</description>
+</tag>
+<tag id="1802" parentid="2606" infobox="true" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-01-24">
+<name>seinen</name>
+<description>Seinen, literally "young man", is one of the main demographic classifications applied to manga, and, by extension, to anime, especially manga-based ones. As the name implies, seinen works are marketed primarily to an audience of young men; the age range commonly understood to be the target of such works goes roughly from 17 to somewhere in the 40s.</description>
+<picurl>181651.jpg</picurl>
+</tag>
+<tag id="2606" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-10-18">
+<name>target audience</name>
+<description>Anime, like everything else in the modern world, is targeted towards specific audiences, both implicitly by the creators and overtly by the marketing. While categories are associated with specific sex and age groups, this is not a bar on the anime being enjoyed by people who don`t fit into that band; not only do crossover titles exist, but the categories also have a considerable following outside their main demographic, and a person might as well enjoy anime from all categories. Still, does not invalidate the usefulness of marking a title as one of the categories; the same themes will likely be treated differently in anime geared for different audiences. Only one should not jump the gun and assume that a title will be more or less serious or present content in this or that way due to its target audience, or conversely assume the target audience on the content and its presentation alone. As such, the audience categories help form a broad impression of how a title might work with the announced themes, but offer little to no in-depth information about specific content or its treatment.
+The audience categories originate from manga magazines, which group titles of a same intended audience into a magazine that is advertised as belonging to that category, and so manga-based anime will have the category from their parent work. As for anime based on other works, the audience is often debatable, but comparing information such as time slot to the manga-based anime generally helps figure out the most likely possibility.</description>
+</tag>
+<tag id="2607" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-29">
+<name>themes</name>
+<description>Themes describe the very central elements important to the anime stories. They set the backdrop against which the protagonists must face their challenges. Be it School Life, present Daily Life, Military action, Cyberpunk, Law and Order detective work, Sports, or the Underworld. These are only but a few of the more typical backgrounds for anime plots. Add to that a Conspiracy setting with a possible tragic outcome, the Themes span most of the imaginable subject matter relevant to anime.</description>
+</tag>
+<tag id="2609" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-22">
+<name>original work</name>
+<description>What the anime is based on! Mostly of academic interest, but a useful bit of info, hinting at the possible depth of story.</description>
+</tag>
+<tag id="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-22">
+<name>setting</name>
+<description>The setting describes in what time and place an anime takes place. To a certain extent it describes what you can expect from the world in the anime.</description>
+</tag>
+<tag id="2611" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-08">
+<name>elements</name>
+<description>Next to Themes setting the backdrop for the protagonists in anime, there are the more detailed plot Elements that centre on character interactions: "What do characters do to each other or what is done to them?". Is it violent Action, an awe-inspiring Adventure in a foreign place, the gripping life of a Detective, a slapstick Comedy, an Ecchi Harem anime, a SciFi epic, or some Fantasy travelling adventure?</description>
+</tag>
+<tag id="2612" parentid="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-09-04">
+<name>time</name>
+<description>This placeholder lists different epochs in human history and more vague but important timelines such as the future, the present and the past.</description>
+</tag>
+<tag id="2613" parentid="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-09-04">
+<name>place</name>
+<description>The places the anime can take place in. Includes more specific places such as a country on Earth, as well as more general places such as a dystopia or a mirror world.</description>
+</tag>
+<tag id="2626" parentid="2612" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2009-05-15">
+<name>future</name>
+<description>Anime that fall under the future category are the ones that have a society that could have originated from ours. In most cases it should go hand to hand with sci-fi since we expect the future to consist of advanced technology, however, in the case where it`s explicitly stated in the story that the anime takes place "x years into the future", the state of technology doesn`t matter as long as it`s long into the future. The anime can be set in an alternative universe not tied with our own, as long as it has a futuristic feel to it.
+This category sports quite a lot of anime, mostly stemming from SciFi, but not necessarily only from there.</description>
+</tag>
+<tag id="2627" parentid="2613" weight="500" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-20">
+<name>space</name>
+<description>The final frontier.</description>
+</tag>
+<tag id="2639" parentid="2846" infobox="true" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-29">
+<name>space travel</name>
+<description>Space Travel usually refers going to space or travelling there with or without a spacecraft. There are different forms of space travel like Interplanetary travel, Interstellar travel or Intergalactic travel. Since it isn`t possible to travel faster than light, most anime series involve some sort "sub-space travel mechanism" as a way to travel faster than light.</description>
+</tag>
+<tag id="2661" parentid="2627" weight="500" localspoiler="false" globalspoiler="false" verified="true" update="2009-05-18">
+<name>shipboard</name>
+<description>Beam me up, Scotty! Space stations (think Death Star) also count. Basically, this category is to tell if the setting takes place onboard a spaceship in space. This category is not applicable if the spaceship lies on a planet and never actually gets into space.</description>
+</tag>
+<tag id="2799" parentid="2609" infobox="true" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2010-05-14">
+<name>novel</name>
+<description>Note that novel means book with words in paper, so no comics and no "visual novels", which should go under manga and dating-sim - visual Novel/erotic game respectively.
+Note that it can be applied to novels as we know them but also the typical light novels for teens and young adults, which are common in Japan and aside from being short include a number of illustrations.</description>
+</tag>
+<tag id="2841" parentid="2611" weight="300" localspoiler="false" globalspoiler="false" verified="true" update="2015-09-08">
+<name>action</name>
+<description>Action anime usually involve a fairly straightforward story of good guys versus bad guys, where most disputes are resolved by using physical force. It often contains a lot of shooting, explosions and fighting.</description>
+</tag>
+<tag id="2846" parentid="2611" infobox="true" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2016-09-04">
+<name>science fiction</name>
+<description>Science fiction stories usually focus on how situations could be different in the future when we are more technologically advanced; due to either our own achievements or having met with other civilizations whom we have learned from.</description>
+</tag>
+<tag id="2858" parentid="2611" weight="200" localspoiler="false" globalspoiler="false" verified="true" update="2010-09-10">
+<name>romance</name>
+<description>Romance describes a story that deals with love between two or more characters typically also having an optimistic ending. Romance is also a difficulty encountered when creating a harem.</description>
+</tag>
+<tag id="2867" parentid="2607" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2012-10-08">
+<name>politics</name>
+<description>From commies to fat capitalist pigs, all the stuff done by the "guys with the power", mainly evil tactics for gaining more power over the masses.
+Watching this title may remind you why CNN is boring.</description>
+</tag>
+<tag id="2931" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-12-04">
+<name>unsorted</name>
+<description>a bunch of tags that still need to be either deleted or moved into proper places.</description>
+</tag>
+<tag id="3245" parentid="2931" weight="0" localspoiler="false" globalspoiler="false" verified="false" update="2010-02-05">
+<name>strategy</name>
+<description>Instead of blindly running into a battle or trap, at least one of the protagonists devises a clever strategy to significantly improve the odds of victory.</description>
+</tag>
+<tag id="3581" parentid="2931" weight="0" localspoiler="false" globalspoiler="false" verified="false" update="2009-05-23">
+<name>tactics</name>
+</tag>
+<tag id="3795" parentid="6151" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-10-25">
+<name>full HD version available</name>
+<description>This anime has been released in high definition formats such as HD DVD or Blu-ray Disc, and as such a full HD (1080p) version is available. This is irrespective of whether specific groups have released rips of such formats to the internet. Note that HDTV is not considered a full HD source!</description>
+</tag>
+<tag id="4081" parentid="2841" weight="400" localspoiler="false" globalspoiler="false" verified="true" update="2008-06-02">
+<name>space battles</name>
+<description>There are space battles in this anime. Usually between Earth forces and some alien invader, but ship to ship skirmishes in deep space are just as common.</description>
+</tag>
+<tag id="5929" parentid="2846" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-10">
+<name>space opera</name>
+<description>Space opera is a sub-genre of fiction that emphasizes romantic adventures in space. Space opera generally involves large-scale conflicts between opponents with powerful abilities and technology. The genre will often be melodramatic, sometimes playing music that can be nothing short of awesome. Warfare and a battle of wits are usually less emphasized, preferring romance (with exceptions, e.g. Ginga Eiyuu Densetsu). Some space operas tend to be formulaic and sometimes even prosaic, often employing very simple devices and somewhat obvious strategies. An example of this would be the infamous laws of physics in the Macross universe, in which the main male lead will hardly ever get hit in battle.</description>
+</tag>
+<tag id="6005" parentid="2607" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2011-10-17">
+<name>battle of wits</name>
+<description>There is some intellectual battle between the characters. They each might attempt to discern what the other knows and/or could be planning. Then, rather than simply relying on the use of raw power, try to deduce an effective strategy to foil their opponent(s). The battle of wits can be in the center of the intrigue or just a side story.
+Examples: Death Note, Code Geass</description>
+</tag>
+<tag id="6151" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-10">
+<name>technical aspects</name>
+<description>It may sometimes be useful to know about technical aspects of a show, such as information about its broadcasting or censorship. Such information can be found here.</description>
+</tag>
+</tags>
+<characters>
+<character id="186" type="main character in" update="2012-07-10">
+<rating votes="518">9.27</rating>
+<name>Reinhard von Lohengramm</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Reinhard was born into a poor noble family. He lived with his father and his older sister Annerose. His mother died when he was young so he knew very little about her. When Reinhard moved to a middle class suburban neighborhood, he met Siegfried Kircheis and they soon became inseparable friends. When his father sold Annerose to become Kaiser Friedrich IV`s concubine, Reinhard swore that he would overthrow the Goldenbaum dynasty to rescue his older sister. He left school to join the military academy and persuaded Kircheis to come along with him.</description>
+<picture>90719.jpg</picture>
+<seiyuu id="4932" picture="16806.jpg">Horikawa Ryou</seiyuu>
+</character>
+<character id="187" type="secondary cast in" update="2008-12-15">
+<rating votes="172">8.42</rating>
+<name>Siegfried Kircheis</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Reinhard von Lohengramm`s childhood friend and ally, possessing comparable military and personal ability.</description>
+<picture>14456.jpg</picture>
+<seiyuu id="354" picture="25810.jpg">Hironaka Masashi</seiyuu>
+</character>
+<character id="188" type="secondary cast in" update="2008-12-15">
+<rating votes="12">6.23</rating>
+<name>August Samuel Wahlen</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>14475.jpg</picture>
+<seiyuu id="3234" picture="151700.jpg">Okabe Masaaki</seiyuu>
+</character>
+<character id="189" type="secondary cast in" update="2008-12-19">
+<rating votes="11">5.43</rating>
+<name>Cornelius Lutz</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>14476.jpg</picture>
+<seiyuu id="710" picture="21589.jpg">Hori Katsunosuke</seiyuu>
+</character>
+<character id="191" type="secondary cast in" update="2008-12-18">
+<rating votes="26">6.97</rating>
+<name>Fritz Josef Bittenfeld</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>15787.jpg</picture>
+<seiyuu id="2981" picture="23711.jpg">Noda Keiichi</seiyuu>
+</character>
+<character id="192" type="secondary cast in" update="2008-12-19">
+<rating votes="24">6.90</rating>
+<name>Ernest Mecklinger</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>14478.jpg</picture>
+<seiyuu id="614" picture="18136.jpg">Hashi Takaya</seiyuu>
+</character>
+<character id="193" type="secondary cast in" update="2008-12-15">
+<rating votes="111">8.87</rating>
+<name>Wolfgang Mittermeyer</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>14474.jpg</picture>
+<seiyuu id="1816" picture="20691.jpg">Mori Katsuji</seiyuu>
+</character>
+<character id="194" type="secondary cast in" update="2016-05-23">
+<rating votes="263">9.14</rating>
+<name>Oskar von Reuenthal</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>14468.jpg</picture>
+<seiyuu id="2" picture="16471.jpg">Wakamoto Norio</seiyuu>
+</character>
+<character id="195" type="secondary cast in" update="2016-05-27">
+<rating votes="92">9.12</rating>
+<name>Paul von Oberstein</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Minister of Military and Internal Affairs.</description>
+<picture>187105.jpg</picture>
+<seiyuu id="1819" picture="20694.jpg">Shiozawa Kaneto</seiyuu>
+</character>
+<character id="196" type="secondary cast in" update="2008-12-19">
+<name>Klaus von Lichtenlade</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>14470.jpg</picture>
+<seiyuu id="3239" picture="24221.jpg">Ito Hiroshi</seiyuu>
+</character>
+<character id="200" type="secondary cast in" update="2016-05-27">
+<rating votes="4">1.64</rating>
+<name>Gregor von Muckenberger</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>187119.jpg</picture>
+<seiyuu id="2271" picture="23219.jpg">Shibata Hidekatsu</seiyuu>
+</character>
+<character id="202" type="secondary cast in" update="2008-12-23">
+<rating votes="25">7.52</rating>
+<name>Willibald Joachim von Merkatz</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>15731.jpg</picture>
+<seiyuu id="1818" picture="20692.jpg">Naya Gorou</seiyuu>
+</character>
+<character id="204" type="secondary cast in" update="2012-08-11">
+<rating votes="18">3.51</rating>
+<name>Adrian Rubinsky</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>14461.jpg</picture>
+<seiyuu id="37" picture="43092.jpg">Kobayashi Kiyoshi</seiyuu>
+</character>
+<character id="205" type="secondary cast in" update="2008-12-23">
+<rating votes="44">6.36</rating>
+<name>Annerose von Grunewald</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>14465.jpg</picture>
+<seiyuu id="364" picture="17207.jpg">Han Keiko</seiyuu>
+</character>
+<character id="207" type="secondary cast in" update="2016-05-31">
+<name>Magdalena von Westpfahl</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>Baroness Magdalena von Westpfahl was a close friend of http://anidb.net/ch205 [Annerose von Grunewald].</description>
+<picture>187276.jpg</picture>
+<seiyuu id="3240" picture="45305.jpg">Yokoo Mari</seiyuu>
+</character>
+<character id="212" type="secondary cast in" update="2008-12-18">
+<name>Nikolas Boltik</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>14557.jpg</picture>
+<seiyuu id="3256">Jinnai Tatsuyuki</seiyuu>
+</character>
+<character id="213" type="secondary cast in" update="2008-12-18">
+<rating votes="8">2.71</rating>
+<name>Bernhard von Schneider</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>14494.jpg</picture>
+<seiyuu id="3254" picture="2047.gif">Meguro Yuuichi</seiyuu>
+</character>
+<character id="214" type="secondary cast in" update="2016-05-26">
+<name>Staaden</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>187086.jpg</picture>
+<seiyuu id="3237" picture="24219.jpg">Murakoshi Ichirou</seiyuu>
+</character>
+<character id="215" type="secondary cast in" update="2016-06-04">
+<name>Erlache</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Rear Admiral Erlache was directly under the command of http://anidb.net/ch186 [Reinhard von Lohengramm] at the http://anidb.net/e7160 [Battle of Astarte].</description>
+<picture>187395.jpg</picture>
+<seiyuu id="2026" picture="21352.jpg">Yara Yuusaku</seiyuu>
+</character>
+<character id="238" type="secondary cast in" update="2008-12-18">
+<rating votes="8">6.37</rating>
+<name>Adalbert von Fahrenheit</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>An admiral, whose humble background mirrors that of Reinhard von Lohengramm, specialising in attack.</description>
+<picture>15036.jpg</picture>
+<seiyuu id="27" picture="26123.jpg">Hayami Shou</seiyuu>
+</character>
+<character id="251" type="secondary cast in" update="2008-12-19">
+<rating votes="2">1.64</rating>
+<name>Anton Ferner</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>14549.jpg</picture>
+<seiyuu id="2037" picture="21371.jpg">Horiuchi Ken`yuu</seiyuu>
+</character>
+<character id="254" type="secondary cast in" update="2008-12-19">
+<rating votes="3">1.64</rating>
+<name>Flegel</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>14545.jpg</picture>
+<seiyuu id="281" picture="151723.jpg">Futamata Issei</seiyuu>
+</character>
+<character id="261" type="secondary cast in" update="2008-12-19">
+<name>Otto von Braunschweig</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>14539.jpg</picture>
+<seiyuu id="1658" picture="19747.jpg">Kobayashi Osamu</seiyuu>
+</character>
+<character id="297" type="secondary cast in" update="2008-12-19">
+<rating votes="2">1.64</rating>
+<name>Arthur von Streit</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>14578.jpg</picture>
+<seiyuu id="3220" picture="24200.jpg">Totani Kouji</seiyuu>
+</character>
+<character id="737" type="main character in" update="2008-12-19">
+<rating votes="1056">9.40</rating>
+<name>Yang Wenli</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Yang Wen-li, is one of two protagonists within the series, the other being Reinhard von Lohengramm. Both share similar roles within their respective nations as famous national heroes renowned for their military skill. Compared to Reinhard, Yang is much more humble and dislikes his popularity as being a burden, while Reinhard relishes his prestige and desires more. At the start of the series, Yang has gained some fame as the "Hero of El Facil" for his exploits in the evacuation of the planet before Imperial occupation, and gains much more fame to become a national hero by the end of the first season.</description>
+<picture>15835.jpg</picture>
+<seiyuu id="3252" picture="24231.jpg">Tomiyama Kei</seiyuu>
+</character>
+<character id="739" type="secondary cast in" update="2016-06-04">
+<name>Jean Robert Lap</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Lt. Cmdr. Jean Robert Lapp was http://anidb.net/ch737 [Yang Wen-li]`s friend from the days when they were classmates at the Officer Academy. He was held in high regard by Yang, who valued the fact that Lapp`s thoughts and methods differed from his own.
+He died in the http://anidb.net/e7160 [Battle of Astarte] when his ship, the http://anidb.net/ch82367 [Pergamonn], was lost in combat. He was posthumously promoted two ranks to the rank of Captain. At the time of his death, he was engaged to http://anidb.net/ch761 [Jessica Edwards].</description>
+<picture>187402.jpg</picture>
+<seiyuu id="1733" picture="25839.jpg">Tanaka Hideyuki</seiyuu>
+</character>
+<character id="740" type="secondary cast in" update="2016-05-27">
+<name>Paeta</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Died in the Rugpool Prison political prisoner riots</description>
+<picture>15040.jpg</picture>
+<seiyuu id="2275" picture="21922.jpg">Tokumaru Kan</seiyuu>
+</character>
+<character id="741" type="secondary cast in" update="2008-12-23">
+<rating votes="60">6.50</rating>
+<name>Dusty Attenborough</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>15041.jpg</picture>
+<seiyuu id="189" picture="23873.jpg">Inoue Kazuhiko</seiyuu>
+</character>
+<character id="742" type="secondary cast in" update="2010-01-24">
+<rating votes="33">5.98</rating>
+<name>Julian Mintz</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Yang`s adopted son, he later served as commander of the Iselhorn Republic Military at the age of eighteen.</description>
+<picture>15042.jpg</picture>
+<seiyuu id="270" picture="25681.jpg">Sasaki Nozomu</seiyuu>
+</character>
+<character id="743" type="secondary cast in" update="2008-12-19">
+<rating votes="10">1.57</rating>
+<name>Job Truniht</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>15043.jpg</picture>
+<seiyuu id="339" picture="79312.jpg">Ishizuka Unshou</seiyuu>
+</character>
+<character id="744" type="secondary cast in" update="2008-12-19">
+<rating votes="4">6.46</rating>
+<name>Sidney Sitolet</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>15044.jpg</picture>
+<seiyuu id="23" picture="188505.jpg">Utsumi Kenji</seiyuu>
+</character>
+<character id="745" type="secondary cast in" update="2008-12-17">
+<rating votes="19">5.90</rating>
+<name>Alex Cazellnu</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>15045.jpg</picture>
+<seiyuu id="3255" picture="39572.jpg">Keaton Yamada</seiyuu>
+</character>
+<character id="750" type="secondary cast in" update="2016-06-04">
+<rating votes="8">3.74</rating>
+<name>Dwight Greenhill</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Admiral Dwight Greenhill was a highly respected officer, who served as chief of staff to http://anidb.net/ch744 [Fleet Admiral Sidney Sitolet] and later to http://anidb.net/ch769 [Fleet Admiral Lazll Lobos] during the invasion of the Galactic Empire in SC 796. His daughter was http://anidb.net/ch749 [Frederica Greenhill].
+He led the http://anidb.net/ch6225 [National Salvation Military Council] during the military coup d`etat on Heinessen.</description>
+<picture>187383.jpg</picture>
+<seiyuu id="3248" picture="157354.jpg">Masamune Issei</seiyuu>
+</character>
+<character id="751" type="secondary cast in" update="2008-12-18">
+<rating votes="4">2.72</rating>
+<name>Edwin Fischer</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>15052.jpg</picture>
+<seiyuu id="2489" picture="22426.jpg">Suzuki Taimei</seiyuu>
+</character>
+<character id="757" type="secondary cast in" update="2016-05-26">
+<rating votes="2">1.64</rating>
+<name>Ansbach</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>187055.jpg</picture>
+<seiyuu id="3233" picture="171389.jpg">Inoue Makio</seiyuu>
+</character>
+<character id="761" type="secondary cast in" update="2008-12-20">
+<rating votes="9">6.81</rating>
+<name>Jessica Edwards</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>15063.jpg</picture>
+<seiyuu id="407" picture="17254.jpg">Koyama Mami</seiyuu>
+</character>
+<character id="769" type="secondary cast in" update="2008-12-20">
+<rating votes="4">1.64</rating>
+<name>Lazzll Lobos</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>15072.jpg</picture>
+<seiyuu id="2366" picture="22145.jpg">Ooki Tamio</seiyuu>
+</character>
+<character id="795" type="secondary cast in" update="2016-05-26">
+<name>Ehrenberg</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>187095.jpg</picture>
+<seiyuu id="2279" picture="23207.jpg">Satou Masaharu</seiyuu>
+</character>
+<character id="796" type="secondary cast in" update="2016-05-31">
+<name>Steinhof</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>One of the three Space Admirals at the end of the Goldenbaum dynasty.</description>
+<picture>187280.jpg</picture>
+<seiyuu id="3238" picture="186228.jpg">Katsuta Hisashi</seiyuu>
+</character>
+<character id="810" type="secondary cast in" update="2016-05-25">
+<name>Lao</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Officer on http://anidb.net/ch741 [Dusty Attenborough]`s staff.</description>
+<picture>187037.jpg</picture>
+<seiyuu id="3253" picture="24232.jpg">Kameyama Sukekiyo</seiyuu>
+</character>
+<character id="815" type="secondary cast in" update="2016-05-11">
+<name>Sanders</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Adjutant to Fahrenheit.</description>
+<picture>186698.jpg</picture>
+<seiyuu id="3235" picture="25824.jpg">Satou Hiroyuki</seiyuu>
+</character>
+<character id="1161" type="secondary cast in" update="2008-12-19">
+<name>Holst Shurer</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>15521.jpg</picture>
+</character>
+<character id="1412" type="secondary cast in" update="2016-06-04">
+<name>Pastoll</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Vice Admiral Pastolle was the commander of the 4th Fleet. He was killed in the http://anidb.net/e7160 [Battle of Astarte] when his flagship, the http://anidb.net/ch82368 [Leonidas], was lost in combat.</description>
+<picture>187401.jpg</picture>
+<seiyuu id="67" picture="25195.jpg">Ishii Kouji</seiyuu>
+</character>
+</characters>
+<episodes>
+<episode id="14033" update="2011-10-20">
+<epno type="1">1</epno>
+<length>95</length>
+<airdate>1993-10-15</airdate>
+<rating votes="3">5.77</rating>
+<title xml:lang="en">Complete Movie</title>
+</episode>
+</episodes>
+</anime>

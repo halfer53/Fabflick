@@ -12,6 +12,16 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 
 public class Logging extends HttpServlet{
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+    throws ServletException
+    {
+       try{
+            request.setCharacterEncoding("UTF-8");
+            chain.doFilter(request, response);
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+    }
     public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
          PrintWriter out = response.getWriter();
         try{
@@ -38,7 +48,7 @@ public class Logging extends HttpServlet{
 
     public int login(String username,String password) throws Exception{
         Class.forName("com.mysql.jdbc.Driver").newInstance();
-        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/moviedb","root","cs122b" )) {
+        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" )) {
             String query = "SELECT * FROM customers WHERE email = ? AND password = ?";
             try(PreparedStatement stmt = conn.prepareStatement(query)) {
                 stmt.setString(1,username);

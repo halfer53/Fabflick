@@ -1,10 +1,10 @@
 <%@ page import="java.io.*,java.util.*,java.sql.*"%>
 <%@ page import="javax.servlet.http.*,javax.servlet.*" %>
-
+<%@ page contentType="text/html; charset=UTF-8" %>
 <html>
     <head>
         <%@ include file="head.jsp"%>
-        <title>Movie</title>
+        <title>anime</title>
     </head>
 <body>
     
@@ -19,8 +19,8 @@
         String title = setEmptyIfNull(request.getParameter("title"));
         Integer year = parseParaInt(request.getParameter("year"));
         String director = setEmptyIfNull(request.getParameter("director"));
-        String star_firstname = setEmptyIfNull(request.getParameter("star_firstname"));
-        String star_lastname = setEmptyIfNull(request.getParameter("star_lastname"));
+        String voice_actor_firstname = setEmptyIfNull(request.getParameter("voice_actor_firstname"));
+        String voice_actor_lastname = setEmptyIfNull(request.getParameter("voice_actor_lastname"));
         String sortby = request.getParameter("sortby");
         String sorttype = request.getParameter("sorttype");
         
@@ -50,7 +50,7 @@
 
         public String sortQuery(String input_query, String sortby, String sorttype){
 
-            ArrayList<String> sortTypeList = new ArrayList<String>(Arrays.asList("year", "title"));
+            ArrayList<String> sortTypeList = new ArrayList<String>(Arrays.asList("year", "title","rating"));
             String squery = " ORDER BY ";
             String stype_a = " ASC";
             String stype_d = " DESC";
@@ -75,15 +75,15 @@
 
         private String getGenreQuery(String genre){
 
-            return "SELECT DISTINCT m.* FROM genres_in_movies as gm, movies as m, genres as g WHERE gm.movie_id = m.id AND gm.genre_id = g.id AND g.name = '"+genre+"' LIMIT ?,?";
+            return "SELECT DISTINCT m.* FROM genres_in_animes as gm, animes as m, genres as g WHERE gm.anime_id = m.id AND gm.genre_id = g.id AND g.name = '"+genre+"' LIMIT ?,?";
         }
 
-        private String getMovieTitleStartWithQuery(String title_start_with){
-            return "SELECT * FROM movies WHERE title LIKE '"+title_start_with+"%' LIMIT ?,?";
+        private String getanimeTitleStartWithQuery(String title_start_with){
+            return "SELECT * FROM animes WHERE title LIKE '"+title_start_with+"%' LIMIT ?,?";
         }
 
-        private String getMovieQuery(String title,Integer year,String director,String star_firstname,String star_lastname){
-            String query = "SELECT DISTINCT m.* FROM stars_in_movies as sm, stars as s, movies as m WHERE sm.star_id = s.id AND sm.movie_id = m.id AND s.first_name LIKE '%"+star_firstname+"%' AND s.last_name LIKE '%" +star_lastname+"%' AND m.title LIKE '%"+title+"%' AND m.director LIKE '%"+director+"%' ";
+        private String getanimeQuery(String title,Integer year,String director,String voice_actor_firstname,String voice_actor_lastname){
+            String query = "SELECT DISTINCT m.* FROM voice_actors_in_animes as sm, voice_actors as s, animes as m WHERE sm.voice_actor_id = s.id AND sm.anime_id = m.id AND s.first_name LIKE '%"+voice_actor_firstname+"%' AND s.last_name LIKE '%" +voice_actor_lastname+"%' AND m.title LIKE '%"+title+"%' AND m.director LIKE '%"+director+"%' ";
             String yquery = "AND m.year = ";
             String lquery = " LIMIT ?,?";
             if(year != null){
@@ -93,12 +93,12 @@
             return query;
         }
 
-        private String getMovieListByTitleStart(String title_start,Integer start, Integer LIMIT,String sortby,String sorttype){
+        private String getanimeListByTitleStart(String title_start,Integer start, Integer LIMIT,String sortby,String sorttype){
             String query="";
             try{
                 Class.forName("com.mysql.jdbc.Driver").newInstance();
-                try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/moviedb","root","cs122b" )) {
-                        query = sortQuery(getMovieTitleStartWithQuery(title_start),sortby,sorttype);
+                try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" )) {
+                        query = sortQuery(getanimeTitleStartWithQuery(title_start),sortby,sorttype);
                         try(PreparedStatement stmt = conn.prepareStatement(query)) {
                             stmt.setInt(1,start);
                             stmt.setInt(2,LIMIT);
@@ -114,12 +114,12 @@
 
         }
 
-        private String getMovieListByGenre(String genre,Integer start, Integer LIMIT,String sortby, String sorttype){
+        private String getanimeListByGenre(String genre,Integer start, Integer LIMIT,String sortby, String sorttype){
             String query="";
             try{
 
                 Class.forName("com.mysql.jdbc.Driver").newInstance();
-                try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/moviedb","root","cs122b" )) {
+                try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" )) {
                         query = sortQuery(getGenreQuery(genre),sortby,sorttype);
                         try(PreparedStatement stmt = conn.prepareStatement(query)) {
                             stmt.setInt(1,start);
@@ -136,9 +136,8 @@
 
         }
 
-        public String getSortClass(String sortby, Integer isortby, String sorttype){
+        public String getSortClass(String sortby, String this_sortby, String sorttype){
             String r = "class='sortable ";
-            String this_sortby = isortby == 1? "title" : "year";
             if(sortby != null && sortby.equals(this_sortby)){
                 if(sorttype == null){
                 return r+"both'";
@@ -153,19 +152,27 @@
         }
 
 
-        private String getGenreByMovieID(Connection conn, int movieid) throws SQLException{
+        private String getGenreByanimeID(Connection conn, int animeid) throws SQLException{
             StringBuffer sb = new StringBuffer();
-            String query = "SELECT g.* FROM genres_in_movies as gm, genres as g WHERE gm.genre_id = g.id AND gm.movie_id = ?";
+            String query = "SELECT g.* FROM genres_in_animes as gm, genres as g WHERE gm.genre_id = g.id AND gm.anime_id = ?";
             PreparedStatement pst = conn.prepareStatement(query);
-            pst.setInt(1,movieid);
+            pst.setInt(1,animeid);
             ResultSet rs = pst.executeQuery();
-
+            int counter = 0;
             while(rs.next()){
                 Integer gid = rs.getInt("id");
                 String name = rs.getString("name");
-                sb.append("<a href='/fabflix/jsp/Movie.jsp?genre="+name+ "'>");
+                if(counter == 5){
+                    sb.append("<span class=\"complete\">");
+                }
+                sb.append("<a href='/fabflix/jsp/Anime.jsp?genre="+name+ "'>");
                 sb.append(name);
                 sb.append("</a><br>");
+                counter++;
+            }
+            if(counter > 5){
+                sb.append("</span>");
+                sb.append("<button class=\"btn btn-default center-block more\">more...</button>");
             }
             pst.close();
             rs.close();
@@ -175,19 +182,27 @@
 
         
 
-        private String getStarsByID(Connection conn, int movieid) throws SQLException{
+        private String getvoice_actorsByID(Connection conn, int animeid) throws SQLException{
             StringBuffer sb = new StringBuffer();
-            String query = "SELECT s.* FROM stars_in_movies as sm, stars as s WHERE sm.star_id = s.id AND sm.movie_id = ?";
+            String query = "SELECT s.* FROM voice_actors_in_animes as sm, voice_actors as s WHERE sm.voice_actor_id = s.id AND sm.anime_id = ?";
             PreparedStatement pst = conn.prepareStatement(query);
-            pst.setInt(1,movieid);
+            pst.setInt(1,animeid);
             ResultSet rs = pst.executeQuery();
-
+            int counter = 0;
             while(rs.next()){
                 Integer sid = rs.getInt("id");
                 String name = rs.getString("first_name")+" "+rs.getString("last_name");
-                sb.append("<a href='/fabflix/jsp/SingleStar.jsp?id="+sid.toString()+ "'>");
+                if(counter == 5){
+                    sb.append("<span class=\"complete\">");
+                }
+                sb.append("<a href='/fabflix/jsp/SingleVoiceActor.jsp?id="+sid.toString()+ "'>");
                 sb.append(name);
                 sb.append("</a><br>");
+                counter++;
+            }
+            if(counter > 5){
+                sb.append("</span>");
+                sb.append("<button class=\"btn btn-default center-block more\">more...</button>");
             }
             pst.close();
             rs.close();
@@ -195,16 +210,16 @@
 
         }
 
-        private String getMovieList(String title,Integer year,String director,String star_firstname,String star_lastname,String genre, String title_start_with, Integer start,Integer LIMIT,String sortby, String sorttype) throws SQLException {
+        private String getanimeList(String title,Integer year,String director,String voice_actor_firstname,String voice_actor_lastname,String genre, String title_start_with, Integer start,Integer LIMIT,String sortby, String sorttype) throws SQLException {
             String query = "";
             
             try{
                 if(genre != null && !genre.isEmpty()){
-                    return getMovieListByGenre(genre,start,LIMIT,sortby,sorttype);
+                    return getanimeListByGenre(genre,start,LIMIT,sortby,sorttype);
                 }else if(title_start_with != null && !title_start_with.isEmpty()){
-                    return getMovieListByTitleStart(title_start_with,start,LIMIT,sortby,sorttype);
+                    return getanimeListByTitleStart(title_start_with,start,LIMIT,sortby,sorttype);
                 }else{
-                    return getMovieListGeneral(title,year,director,star_firstname,star_lastname,start,LIMIT,sortby,sorttype);
+                    return getanimeListGeneral(title,year,director,voice_actor_firstname,voice_actor_lastname,start,LIMIT,sortby,sorttype);
                 }
               
             }catch(Exception e){
@@ -213,17 +228,17 @@
             }
         }
 
-       private String getMovieListGeneral (String title,Integer year,String director,String star_firstname,String star_lastname,Integer start,Integer LIMIT,String sortby, String sorttype) throws SQLException {
+       private String getanimeListGeneral (String title,Integer year,String director,String voice_actor_firstname,String voice_actor_lastname,Integer start,Integer LIMIT,String sortby, String sorttype) throws SQLException {
             
 
             String query = "";
             
             try{
                 Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/moviedb","root","cs122b" );
+                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" );
 
-                String movie_query = getMovieQuery(title,year,director,star_firstname,star_lastname);
-                query = sortQuery(movie_query,sortby,sorttype);
+                String anime_query = getanimeQuery(title,year,director,voice_actor_firstname,voice_actor_lastname);
+                query = sortQuery(anime_query,sortby,sorttype);
 
                 PreparedStatement pst = conn.prepareStatement(query);
                 pst.setInt(1,start);
@@ -252,15 +267,14 @@
             String m_title = rs.getString("title");
             String m_director = rs.getString("director");
             Integer m_year = rs.getInt("year");
-            String m_banner_url = rs.getString("banner_url");
-            String m_trailer_url = rs.getString("trailer_url");
+            Float m_rating = rs.getFloat("rating");
             sb.append(  "<tr>" + "<td>" + m_id + "</td>" + 
-                        "<td><a href='/fabflix/jsp/SingleMovie.jsp?id="+m_id + "'>" + m_title + "</a></td>" + 
+                        "<td><a href='/fabflix/jsp/SingleAnime.jsp?id="+m_id + "'>" + m_title + "</a></td>" + 
                         "<td>" + m_director + "</td>" +
-                        "<td>" + Integer.toString(m_year) + "</td>" +
-                        "<td><a href='" + m_trailer_url + "'>Link</a></td>" +
-                        "<td>" + getGenreByMovieID(conn,m_id) + "</td>" +
-                        "<td>" + getStarsByID(conn,m_id) + "</td>" +
+                        "<td>" + m_rating.toString() + "</td>" +
+                        "<td>" + m_year.toString() + "</td>" +
+                        "<td>" + getGenreByanimeID(conn,m_id) + "</td>" +
+                        "<td>" + getvoice_actorsByID(conn,m_id) + "</td>" +
                         "<td><div><input type='text' class='form-control text-center' aria-label='...' value='1' title='"+m_title+"' id='th-"+ m_id+ "'></div><div class='text-center'><button type='button' class='btn btn-default' onclick='addToCartByInput("+ m_id+ ")'>Add to Cart</button></div> </td>" +
                     "</tr>\n");
         }
@@ -268,14 +282,14 @@
         return sb.toString();
       }
 
-      private String getPage(String title,Integer year,String director,String star_firstname,String star_lastname,String genre, String title_start_with,Integer start, Integer LIMIT,String url) throws SQLException{
+      private String getPage(String title,Integer year,String director,String voice_actor_firstname,String voice_actor_lastname,String genre, String title_start_with,Integer start, Integer LIMIT,String url) throws SQLException{
             String query = "";
             if(genre != null && !genre.isEmpty()){
                 query = getGenreQuery(genre);//genre,start,LIMIT
             }else if(title_start_with != null && !title_start_with.isEmpty()){
-                query = getMovieTitleStartWithQuery(title_start_with);
+                query = getanimeTitleStartWithQuery(title_start_with);
             }else{
-                query = getMovieQuery(title,year,director,star_firstname,star_lastname);
+                query = getanimeQuery(title,year,director,voice_actor_firstname,voice_actor_lastname);
             }
             return pageCursor(query,start,LIMIT,url);
 
@@ -316,7 +330,7 @@
       private boolean hasPage(String query,Integer start, Integer LIMIT) throws SQLException{
         try{
             Class.forName("com.mysql.jdbc.Driver").newInstance();
-            try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/moviedb","root","cs122b" )) {
+            try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" )) {
                     try(PreparedStatement stmt = conn.prepareStatement(query)) {
                         stmt.setInt(1,start+LIMIT);
                         stmt.setInt(2,LIMIT);
@@ -337,20 +351,20 @@
     
     %>
     <div class="container-fluid">
-        <div class="table-responsive movie-table">
+        <div class="table-responsive anime-table">
             <table width="100%" class="table table-hover">
                 <thead>
                     <tr>
                        <th>ID</th>
-                       <th id="th-title"><div onclick="requestSort(this.className,'title')" <%= getSortClass(sortby,1,sorttype) %>>Title</div></th>
+                       <th id="th-title"><div onclick="requestSort(this.className,'title')" <%= getSortClass(sortby,"title",sorttype) %>>Title</div></th>
                        <th>Director</th>
-                       <th id="th-year"><div onclick="requestSort(this.className,'year')" <%= getSortClass(sortby,2,sorttype) %>>Year</div></th>
-                       <th>Trailer URL</th>
+                       <th id="th-year"><div onclick="requestSort(this.className,'rating')" <%= getSortClass(sortby,"rating",sorttype) %>>Rating</div></th>
+                       <th id="th-year"><div onclick="requestSort(this.className,'year')" <%= getSortClass(sortby,"year",sorttype) %>>Year</div></th>
                        <th>Genres</th>
-                       <th>Stars</th>
+                       <th>voice_actors</th>
                     </tr>
                 </thead>
-                <%= getMovieList(title,year,director,star_firstname,star_lastname,genre,title_start_with,start,LIMIT,sortby,sorttype) %>
+                <%= getanimeList(title,year,director,voice_actor_firstname,voice_actor_lastname,genre,title_start_with,start,LIMIT,sortby,sorttype) %>
                 
             </table>
 
@@ -369,7 +383,7 @@
                       </ul>
             </div>
             <div class="clearfix"></div>
-        <%= getPage(title,year,director,star_firstname,star_lastname,genre,title_start_with,start,LIMIT,url) %>
+        <%= getPage(title,year,director,voice_actor_firstname,voice_actor_lastname,genre,title_start_with,start,LIMIT,url) %>
     </div>
 
     

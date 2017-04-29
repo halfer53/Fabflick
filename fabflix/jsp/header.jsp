@@ -12,7 +12,7 @@
             if(uid == null){
                 return "<li "+getHeaderClass("ShoppingCart.jsp",page_name)+"><a href='/fabflix'>Login</a></li> ";
             }
-            return "<li "+getHeaderClass("ShoppingCart.jsp",page_name)+"><a href='/fabflix/jsp/ShoppingCart.jsp'>Shopping Cart</a></li> ";
+            return "<li "+getHeaderClass("ShoppingCart.jsp",page_name)+"><a href='/fabflix/jsp/ShoppingCart.jsp'>Checkout</a></li> ";
 
         }
     %>
@@ -30,7 +30,7 @@
              <ul class="nav navbar-nav"> 
                  <li <%=getHeaderClass("Main.jsp",page_name)%>><a href="/fabflix/jsp/Main.jsp">Main</a></li>
                  <li <%=getHeaderClass("Browse.jsp",page_name)%>><a href="/fabflix/jsp/Browse.jsp">Browse</a></li>
-                 <li <%=getHeaderClass("Movie.jsp",page_name)%>><a href="/fabflix/jsp/Movie.jsp">Movies</a></li> 
+                 <li <%=getHeaderClass("Anime.jsp",page_name)%>><a href="/fabflix/jsp/Anime.jsp">Animes</a></li> 
                  <li <%=getHeaderClass("Search.jsp",page_name)%>><a href="/fabflix/jsp/Search.jsp">Search</a></li>
                  <%=getRightButton(uid,page_name)%>
              </ul> 

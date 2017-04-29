@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?><anime id="11829" restricted="false">
+<type>Movie</type>
+<episodecount>1</episodecount>
+<startdate>2016-07-03</startdate>
+<enddate>2016-07-03</enddate>
+<titles>
+<title xml:lang="x-jat" type="main">Kimi no Na wa.</title>
+<title xml:lang="zh-Hant" type="synonym">你的名字</title>
+<title xml:lang="en" type="short">your name</title>
+<title xml:lang="ja" type="official">君の名は. your name.</title>
+<title xml:lang="en" type="official">Your Name.</title>
+<title xml:lang="fr" type="official">Your Name.</title>
+<title xml:lang="ko" type="official">너의 이름은.</title>
+<title xml:lang="fi" type="official">your name.</title>
+<title xml:lang="ro" type="official">Numele tau e ...</title>
+<title xml:lang="zh-Hant" type="official">你的名字.</title>
+</titles>
+<recommendations total="10">
+<recommendation type="Recommended" uid="344241">Just Beautiful.
+The soundtrack made by Radwimps fit perfectly.</recommendation>
+<recommendation type="Recommended" uid="332520">This movie is a complete masterpiece ! I can`t ask anything more from it. The arts, the music, the characters, the comedy, the characters development (a bit lacking maybe but it`s just a movie!), a twist and a proper ending are part of this movie !</recommendation>
+<recommendation type="Must See" uid="257071">Absolutely gorgeous. Has all of the Shinkai-ness of Place Promised (and which Children Who Chase Lost Voices sadly lacked), but with a healthy dose of pure entertainment on the level of The Girl Who Leapt Through Time and Summer Wars.
+
+My new favourite Shinkai film for sure, and probably my new favourite film (live action or anime) of all time. If this happens to air in a theatre nearby, I can`t stress enough how much I recommend spending the time/money to go see it there, or waiting for the BluRay- you really aren`t getting the whole experience unless you do.</recommendation>
+<recommendation type="Must See" uid="560966">Kimi no Na wa (Your Name) is heartwarming story of romance, tragedy, and joy.  Shinkai Makoto tells a wonderful tale, while also giving a very realistic view of what you`d experience if you swapped bodies with someone.  Also as expected from Shinkai, the visuals are stunning; he certainly lives up to the "rain porn" expectations from Kotonoha no Niwa.</recommendation>
+<recommendation type="Must See" uid="528918">Beautiful and touching. No doubt about it, this is a must see!</recommendation>
+<recommendation type="Must See" uid="111078">another master piece, if you like the work of makoto shinkai you must see this movie</recommendation>
+<recommendation type="Must See" uid="296862">This is definitely on par with 5 Centimeters per Second - and most definitely a must watch for all Shinkai-fans and for everyone else, too!</recommendation>
+<recommendation type="Must See" uid="231802">If you see this post 8 years from now, and felt you have been searching for something all your life - then it is this "Kimi no na wa" that you were searching for.
+
+For once, I will leave my recommendations short because what I write will probably can`t be justice enough for it.
+
+Just take an easy day off and watch this, you will no regret. MUST SEE at well 10/10!</recommendation>
+<recommendation type="Must See" uid="428629">this is really marvelous movie......you don t need any recommendation this is a must see....makoto shinkai still makes me proud that i am alive.....Arigatou</recommendation>
+</recommendations>
+<url>http://kiminona.com/</url>
+<creators>
+<name id="4486" type="Character Design">Andou Masashi</name>
+<name id="47019" type="Music">Radwimps</name>
+<name id="445" type="Original Work">Shinkai Makoto</name>
+<name id="445" type="Direction">Shinkai Makoto</name>
+<name id="2210" type="Character Design">Tanaka Masayoshi</name>
+<name id="10345" type="Work">CoMix Wave Films</name>
+</creators>
+<description>http://anidb.net/ch78861 [Mitsuha] is a female high school student who lives in a rural town nestled deep in the mountains. She laments that she lives in the countryside, and yearns for the wonderful lifestyle in Tokyo.
+http://anidb.net/ch78862 [Taki] is a male high school student who lives in central Tokyo. He spends time with his friends, works part-time at an Italian restaurant, and is also interested in architecture and fine arts.
+One day, Mitsuha has a dream where she is a young man. Taki also has a dream where he is a female student attending high school in the countryside. What is the secret behind their dreams?
+Source: ANN
+Note: The movie premiered at Anime Expo 2016. Regular cinematic release started on August 26.</description>
+<ratings>
+<permanent count="618">9.20</permanent>
+<temporary count="635">8.66</temporary>
+<review count="3">6.38</review>
+</ratings>
+<picture>184462.jpg</picture>
+<resources>
+<resource type="1">
+<externalentity>
+<identifier>18171</identifier>
+</externalentity>
+</resource>
+<resource type="2">
+<externalentity>
+<identifier>32281</identifier>
+</externalentity>
+</resource>
+<resource type="4">
+<externalentity>
+<url>http://kiminona.com/</url>
+</externalentity>
+</resource>
+<resource type="6">
+<externalentity>
+<identifier>Your_Name</identifier>
+</externalentity>
+</resource>
+<resource type="7">
+<externalentity>
+<identifier>君の名は。</identifier>
+</externalentity>
+</resource>
+<resource type="8">
+<externalentity>
+<identifier>4276</identifier>
+</externalentity>
+</resource>
+<resource type="9">
+<externalentity>
+<identifier>355058</identifier>
+</externalentity>
+</resource>
+<resource type="10">
+<externalentity>
+<identifier>19409</identifier>
+</externalentity>
+</resource>
+<resource type="23">
+<externalentity>
+<identifier>kiminona_movie</identifier>
+</externalentity>
+</resource>
+</resources>
+<tags>
+<tag id="2605" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-28">
+<name>dynamic</name>
+<description>Some of the central structural elements in anime are: 
+Plot Continuity 
+How does the plot or several plots unfold. Are they a strictly linear retelling of one big continuing story, a serial, possibly with several side stories, or is the content chopped into a set of unconnected episodes, only sharing the same setting and characters?
+Stereotype Characters
+Then there is the question of the character set presentation. Is it completely original, or is it your usual stereotypical character cast. Both choices have their merit, for example it would not really make much sense to reinvent the wheel for a harem anime. Fans of that genre come to expect their favourite stereotype protagonists.
+Plot Twists
+Finally there is the question of how complex the plot / the story unfolds. Are there side-plots that merge into the main plot leading to unexpected plot twists, or is the anime quite predictable? The latter would not be appropriate for detective stories. In harem anime on the other hand a foreseeable outcome is actually something the fans will come to expect.</description>
+</tag>
+<tag id="2607" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-29">
+<name>themes</name>
+<description>Themes describe the very central elements important to the anime stories. They set the backdrop against which the protagonists must face their challenges. Be it School Life, present Daily Life, Military action, Cyberpunk, Law and Order detective work, Sports, or the Underworld. These are only but a few of the more typical backgrounds for anime plots. Add to that a Conspiracy setting with a possible tragic outcome, the Themes span most of the imaginable subject matter relevant to anime.</description>
+</tag>
+<tag id="2609" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-22">
+<name>original work</name>
+<description>What the anime is based on! Mostly of academic interest, but a useful bit of info, hinting at the possible depth of story.</description>
+</tag>
+<tag id="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-22">
+<name>setting</name>
+<description>The setting describes in what time and place an anime takes place. To a certain extent it describes what you can expect from the world in the anime.</description>
+</tag>
+<tag id="2611" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-08">
+<name>elements</name>
+<description>Next to Themes setting the backdrop for the protagonists in anime, there are the more detailed plot Elements that centre on character interactions: "What do characters do to each other or what is done to them?". Is it violent Action, an awe-inspiring Adventure in a foreign place, the gripping life of a Detective, a slapstick Comedy, an Ecchi Harem anime, a SciFi epic, or some Fantasy travelling adventure?</description>
+</tag>
+<tag id="2612" parentid="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-09-04">
+<name>time</name>
+<description>This placeholder lists different epochs in human history and more vague but important timelines such as the future, the present and the past.</description>
+</tag>
+<tag id="2613" parentid="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-09-04">
+<name>place</name>
+<description>The places the anime can take place in. Includes more specific places such as a country on Earth, as well as more general places such as a dystopia or a mirror world.</description>
+</tag>
+<tag id="2624" parentid="2612" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2017-02-20">
+<name>present</name>
+<description>Somewhere between past and future.</description>
+</tag>
+<tag id="2630" parentid="2613" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2012-10-13">
+<name>Earth</name>
+<description>The Earth is the third planet from the Sun, and the densest and fifth-largest of the eight planets in the Solar System. It is in effect a ball of hot mud, but on the surface it`s cold enough, so most of us live on it (or are supposed to). It is circa 4.5 billion years old, and, unless we humans succeed in destroying it over the next couple of centuries, it is expected to last for quite another while, though the changes in the Sun`s emissions due to its aging will likely cause the extinction of everything; the species of earthlings are guaranteed to die, even if we fail to kill them -- unless, of course, we find ourselves another planet and figure out a way to take everything there. Our little planet on a corner of this galaxy may mean nothing in the grand scheme of things, but to its inhabitants it is their home, so, as a species, we cherish it dearly, to the point many cultures even to this day deify it. Being the home to the human civilizations, the Earth is the main setting of most fiction, be it anime or otherwise, but not only are many titles set in other places, such as unrelated fantasy worlds, in a considerable number of fictional titles the Earth is actually destroyed by aggressive alien invaders.</description>
+<picurl>126792.jpg</picurl>
+</tag>
+<tag id="2634" parentid="2613" weight="300" localspoiler="false" globalspoiler="false" verified="true" update="2014-02-27">
+<name>countryside</name>
+<description>The anime takes place far from the any densely populated areas like cities, i.e. out in the suburbs, in the countryside with many fields and forests.</description>
+</tag>
+<tag id="2672" parentid="2834" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2015-05-31">
+<name>Japan</name>
+<description>Last stronghold for humanity. If Tokyo falls, it`s all over. Tokyo Tower will undoubtedly fall anyway.</description>
+</tag>
+<tag id="2676" parentid="2672" weight="300" localspoiler="false" globalspoiler="false" verified="true" update="2012-10-22">
+<name>Tokyo</name>
+<description>Tokyo, as real-world location is the backdrop of this anime.
+Tokyo (東京 Tōkyō, "Eastern Capital") is one of the 47 prefectures of Japan. Tokyo is the capital of Japan, the centre of the Greater Tokyo Area, and the largest metropolitan area of the world. It is the seat of the Japanese government and the Imperial Palace, and the home of the Japanese Imperial Family. Tokyo is in the Kantou region on the south-eastern side of the main island Honshu and includes the Izu Islands and Ogasawara Islands. Tokyo Metropolis was formed in 1943 from the merger of the former Tokyo Prefecture (東京府 Tōkyō-fu) and the city of Tokyo (東京市 Tōkyō-shi).
+(Source: Wikipedia)</description>
+</tag>
+<tag id="2797" parentid="2609" infobox="true" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-05-18">
+<name>new</name>
+<description>Not based on anything, the story is a new work, usually made up by the people involved in creating the anime. Generally if an original work (原作) credit is given, it will be to the studio, or director, or other members of the production team.</description>
+</tag>
+<tag id="2834" parentid="2630" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2016-10-04">
+<name>Asia</name>
+<description>Asia is Earth`s largest and most populous continent, located primarily in the eastern and northern hemispheres and sharing the continental landmass of Eurasia with the continent of Europe. Asia covers an area of 44,579,000 square kilometers, about 30% of Earth`s total land area and 8.7% of the Earth`s total surface area. The continent, which has long been home to the majority of the human population, was the site of many of the first civilizations. Asia is notable for not only its overall large size and population, but also dense and large settlements as well as vast barely populated regions within the continent of 4.4 billion people.
+Source: Wikipedia</description>
+<picurl>192245.jpg</picurl>
+</tag>
+<tag id="2858" parentid="2611" weight="300" localspoiler="false" globalspoiler="false" verified="true" update="2010-09-10">
+<name>romance</name>
+<description>Romance describes a story that deals with love between two or more characters typically also having an optimistic ending. Romance is also a difficulty encountered when creating a harem.</description>
+</tag>
+<tag id="2862" parentid="2607" weight="200" localspoiler="false" globalspoiler="false" verified="true" update="2012-10-11">
+<name>friendship</name>
+<description>The feeling of trust, kindness, and friendship between a group of high school students for example, is a central theme of this anime.</description>
+</tag>
+<tag id="2874" parentid="2607" weight="200" localspoiler="true" globalspoiler="false" verified="true" update="2015-02-16">
+<name>disaster</name>
+<description>A disaster is a large-scale natural or human-made situation that causes great loss of or threat to life, health, property, or environment in such a way that society or environment are affected substantially.</description>
+</tag>
+<tag id="3145" parentid="2874" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2015-06-14">
+<name>impact event</name>
+<description>An impact event is a collision between celestial objects causing measurable effects. Impact events have physical consequences and have been found to regularly occur in planetary systems, though the most frequent involve asteroids, comets or meteoroids and have minimal impact. When large objects impact terrestrial planets like the Earth, there can be significant physical and biospheric consequences, though atmospheres mitigate many surface impacts through atmospheric entry. Impact structures are dominant landforms on many celestial solid objects and present the strongest empirical evidence for their frequency and scale. In fiction, an impact event is a common way to end the world as we know it, either through the impact itself or through its aftermath, and it may happen either naturally or through human hands; this may include man-made objects, such as space debris and fictional space colonies.
+Source: Wikipedia</description>
+</tag>
+<tag id="3934" parentid="2605" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-04-10">
+<name>non-linear</name>
+<description>The story is told achronologically.</description>
+</tag>
+<tag id="3974" parentid="2607" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-11-02">
+<name>star-crossed lovers</name>
+<description>Two lovers — usually teenagers — destined to be kept apart no matter how hard they struggle to be together. It may be fate or just feuding families, or even something as mundane as a few hundred miles, but something will always be in their way. Often, the two can only be together in death. The phrase is astrological in origin, stemming from the belief that the positions of the stars ruled over people`s fates. To describe a relationship as "star-crossed" is to say that it is "thwarted by a malign star", or that the stars are working against the relationship. Shakespeare`s Romeo and Juliet is the most famous example of this archetype but it dates back at least as far as the ancient Greeks.
+"From forth the fatal loins of these two foes, / a pair of star-cross`d lovers, take their life."
+- Romeo and Juliet, prologue</description>
+</tag>
+<tag id="4278" parentid="6151" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2012-07-04">
+<name>stand-alone movie</name>
+<description>You can watch this movie without having to watch something else first. This tag should not used for sequels, side stories, or summary movies, but may be used if the movie is either the first anime in a franchise or a remake.
+The movie must be feature-length. For shorts, use the `short movie` tag.</description>
+</tag>
+<tag id="6021" parentid="2611" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-10-07">
+<name>gender bender</name>
+<description>Term used to refer to a person who takes on the role of their opposite gender. This often only reaches to the extent of cross-dressing (involving physical appearance and clothing only), but in rarer cases, involves a total gender swap (which seems to be more common in anime) - where the willing or unwilling victim receives a body opposite of their original gender (either permanently or temporarily), with all natural parts per their new body fully (or just all-out amply) included.
+Example of cross-dressing gender bender: "Maria+Holic"
+Examples of body-swap gender bender: "Kashimashi: Girl meets Girl", "Birdy the Mighty Decode"</description>
+</tag>
+<tag id="6055" parentid="2605" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2015-01-15">
+<name>time loop</name>
+<description>A time loop is a common plot device in science fiction (especially in universes where time travel is commonplace). Events in the story repeat themselves a number of times with or without some variation with each pass. Most characters either do not realise this is occurring or are attempting to break the cycle in some way. 
+One well-known example of this is in the 1993 film Groundhog Day, in which the main character is the only one aware of the time loop, although time loops had appeared in many fictional works prior to that. Stories with time loops commonly center on correcting past mistakes or on getting a character to recognise some key truth; escape from the loop may then follow.</description>
+</tag>
+<tag id="6151" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-10">
+<name>technical aspects</name>
+<description>It may sometimes be useful to know about technical aspects of a show, such as information about its broadcasting or censorship. Such information can be found here.</description>
+</tag>
+</tags>
+<characters>
+<character id="53044" type="cameo appearance in" update="2013-02-21">
+<rating votes="22">4.94</rating>
+<name>Yukino Yukari</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>132426.jpg</picture>
+<seiyuu id="176" picture="192484.jpg">Hanazawa Kana</seiyuu>
+</character>
+<character id="78861" type="main character in" update="2016-10-13">
+<rating votes="14">7.96</rating>
+<name>Miyamizu Mitsuha</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>192748.jpg</picture>
+<seiyuu id="42899" picture="172022.jpg">Kamishiraishi Mone</seiyuu>
+</character>
+<character id="78862" type="main character in" update="2016-10-13">
+<rating votes="9">8.86</rating>
+<name>Tachibana Taki</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>192749.jpg</picture>
+<seiyuu id="3785" picture="71854.jpg">Kamiki Ryuunosuke</seiyuu>
+</character>
+<character id="82380" type="secondary cast in" update="2016-10-11">
+<rating votes="1">9.00</rating>
+<name>Teshigawara Katsuhiko</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>64297.png</picture>
+<seiyuu id="46339" picture="188649.jpg">Narita Ryou</seiyuu>
+</character>
+<character id="82381" type="secondary cast in" update="2016-10-11">
+<rating votes="1">9.07</rating>
+<name>Natori Sayaka</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>64294.png</picture>
+<seiyuu id="1625" picture="80617.jpg">Yuuki Aoi</seiyuu>
+</character>
+<character id="82382" type="secondary cast in" update="2016-10-11">
+<rating votes="2">6.50</rating>
+<name>Okudera Miki</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>64295.png</picture>
+<seiyuu id="5037" picture="28760.jpg">Nagasawa Masami</seiyuu>
+</character>
+<character id="82383" type="secondary cast in" update="2016-10-11">
+<rating votes="1">9.07</rating>
+<name>Miyamizu Hitoha</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>64292.png</picture>
+<seiyuu id="4624" picture="26958.jpg">Ichihara Etsuko</seiyuu>
+</character>
+<character id="82384" type="secondary cast in" update="2016-10-11">
+<rating votes="2">7.29</rating>
+<name>Miyamizu Yotsuha</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>64293.png</picture>
+<seiyuu id="46341" picture="188650.jpg">Tani Kanon</seiyuu>
+</character>
+<character id="82385" type="secondary cast in" update="2016-10-11">
+<rating votes="2">6.49</rating>
+<name>Fujii Tsukasa</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>64291.png</picture>
+<seiyuu id="10776" picture="77627.jpg">Shimazaki Nobunaga</seiyuu>
+</character>
+<character id="82386" type="secondary cast in" update="2016-10-11">
+<rating votes="1">4.56</rating>
+<name>Takagi Masahiro</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>64296.png</picture>
+<seiyuu id="34296" picture="131974.jpg">Ishikawa Kaito</seiyuu>
+</character>
+<character id="85284" type="secondary cast in" update="2016-10-03">
+<rating votes="1">9.07</rating>
+<name>Taki`s Father</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>192201.jpg</picture>
+<seiyuu id="189" picture="23873.jpg">Inoue Kazuhiko</seiyuu>
+</character>
+</characters>
+<episodes>
+<episode id="173745" update="2015-12-12">
+<epno type="4">T1</epno>
+<length>2</length>
+<airdate>2015-12-10</airdate>
+<title xml:lang="ja">特報</title>
+<title xml:lang="en">PV (1 min 4 sec)</title>
+<title xml:lang="x-jat">Tokuhou</title>
+</episode>
+<episode id="176735" update="2016-08-15">
+<epno type="1">1</epno>
+<length>110</length>
+<airdate>2016-07-03</airdate>
+<rating votes="11">7.41</rating>
+<title xml:lang="en">Complete Movie</title>
+</episode>
+<episode id="178524" update="2017-01-09">
+<epno type="4">T2</epno>
+<length>2</length>
+<airdate>2016-04-09</airdate>
+<title xml:lang="en">PV2</title>
+</episode>
+<episode id="180720" update="2016-10-02">
+<epno type="4">T5</epno>
+<length>1</length>
+<title xml:lang="ja">重なる想い篇</title>
+<title xml:lang="en">Suntory`s Tennesui x Kimi no na Wa: Overlapping Thoughts</title>
+</episode>
+<episode id="180721" update="2016-10-02">
+<epno type="4">T4</epno>
+<length>1</length>
+<title xml:lang="ja">瀧の想い篇</title>
+<title xml:lang="en">Suntory`s Tennesui x Kimi no na Wa: Taki`s Thoughts</title>
+</episode>
+<episode id="180722" update="2016-10-02">
+<epno type="4">T3</epno>
+<length>1</length>
+<title xml:lang="ja">三葉の想い篇</title>
+<title xml:lang="en">Suntory`s Tennesui x Kimi no na Wa: Mitsuha`s Thoughts</title>
+</episode>
+</episodes>
+</anime>

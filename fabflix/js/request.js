@@ -67,9 +67,12 @@ function addToCartByInput(id){
         alert("Plz Enter a valid number");
         return;
     }
-    var objects = JSON.parse(localStorage.getItem("Cart"));
     var title = $('#th-'+id).attr("title");
-    console.log(title);
+    addToCartByAttr(id,quantity,title);
+}
+
+function addToCartByAttr(id,quantity,title){
+    var objects = JSON.parse(localStorage.getItem("Cart"));
     if(objects == null){
         objects = [];
         objects.push({ id:id,quantity:quantity,title:title});
@@ -152,22 +155,24 @@ function checkCreditCard(uid){
         alert("Plz add some items to your cart");
         return;
     }
+    var id = document.getElementById("id-input").value;
     var firstname = document.getElementById("firstname-input").value;
     var lastname = document.getElementById("lastname-input").value;
     var expiration = document.getElementById("expiration-input").value;
-    var moviesid = [];
+    var animesid = [];
     
     for(var i=0;i<arr.length;i++){
-        moviesid.push(arr[i].id);
+        animesid.push(arr[i].id);
     }
     $.ajax({
         type: "GET",
         url: "/fabflix/servlet/CheckCreditCard",
         data: {
+            id: id,
             firstname: firstname,
             lastname:lastname,
             expiration: expiration,
-            moviesid:moviesid
+            animesid:animesid
         },
         success: function(data){
             success("#message");
@@ -178,3 +183,22 @@ function checkCreditCard(uid){
         }
     })
 }
+$.fn.clicktoggle = function(a, b) {
+    return this.each(function() {
+        var clicked = false;
+        $(this).click(function() {
+            if (clicked) {
+                clicked = false;
+                return b.apply(this, arguments);
+            }
+            clicked = true;
+            return a.apply(this, arguments);
+        });
+    });
+};
+$(".more").clicktoggle(function() {
+  $(this).text("less..").siblings(".complete").show();
+}, function() {
+  $(this).text("more..").siblings(".complete").hide();
+});
+

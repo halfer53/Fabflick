@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><anime id="10937" restricted="false">
+<type>Movie</type>
+<episodecount>1</episodecount>
+<startdate>2016-09-17</startdate>
+<enddate>2016-09-17</enddate>
+<titles>
+<title xml:lang="x-jat" type="main">Eiga Koe no Katachi</title>
+<title xml:lang="ja" type="official">映画 聲の形</title>
+<title xml:lang="en" type="official">A Silent Voice</title>
+</titles>
+<url>http://koenokatachi-movie.com/</url>
+<creators>
+<name id="529" type="Chief Animation Direction">Nishiya Futoshi</name>
+<name id="39776" type="Music">Ushio Kensuke</name>
+<name id="736" type="Work">Kyoto Animation</name>
+<name id="1791" type="Direction">Yamada Naoko</name>
+<name id="41690" type="Original Work">Ooima Yoshitoki</name>
+<name id="736" type="Animation Work">Kyoto Animation</name>
+<name id="529" type="Character Design">Nishiya Futoshi</name>
+</creators>
+<description>A deaf elementary school girl, Nishimiya Shouko, upon transferring, meets a boy named Ishida Shouya in her new class. Shouya, who is not deaf, leads the class in bullying Shouko, because she is deaf. As the bullying continues, the class starts to bully Shouya for bullying Shouko. After graduating from elementary school, Shouko and Shouya do not speak to each other. Until later, when Shouya, tormented over his past, decides he must see Shouko once more. Shouya wants to make amends for what he did in elementary school and be Shouko`s friend.
+Source: ANN</description>
+<ratings>
+<permanent count="32">8.38</permanent>
+<temporary count="33">8.21</temporary>
+</ratings>
+<picture>188217.jpg</picture>
+<resources>
+<resource type="1">
+<externalentity>
+<identifier>16661</identifier>
+</externalentity>
+</resource>
+<resource type="2">
+<externalentity>
+<identifier>28851</identifier>
+</externalentity>
+</resource>
+<resource type="4">
+<externalentity>
+<url>http://koenokatachi-movie.com/</url>
+</externalentity>
+</resource>
+<resource type="5">
+<externalentity>
+<url>http://asilentvoice.co.uk/</url>
+</externalentity>
+</resource>
+<resource type="6">
+<externalentity>
+<identifier>A_Silent_Voice_(manga)</identifier>
+</externalentity>
+</resource>
+<resource type="7">
+<externalentity>
+<identifier>聲の形</identifier>
+</externalentity>
+</resource>
+<resource type="9">
+<externalentity>
+<identifier>354499</identifier>
+</externalentity>
+</resource>
+<resource type="10">
+<externalentity>
+<identifier>19575</identifier>
+</externalentity>
+</resource>
+</resources>
+<tags>
+<tag id="922" parentid="2606" infobox="true" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2015-02-04">
+<name>shounen</name>
+<description>In the context of manga and associated media, shounen, literally meaning "youth" and often also specifically "boy", refers to a male audience roughly between the ages of 10 and 18.
+Source: Wikipedia</description>
+</tag>
+<tag id="2606" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-10-18">
+<name>target audience</name>
+<description>Anime, like everything else in the modern world, is targeted towards specific audiences, both implicitly by the creators and overtly by the marketing. While categories are associated with specific sex and age groups, this is not a bar on the anime being enjoyed by people who don`t fit into that band; not only do crossover titles exist, but the categories also have a considerable following outside their main demographic, and a person might as well enjoy anime from all categories. Still, does not invalidate the usefulness of marking a title as one of the categories; the same themes will likely be treated differently in anime geared for different audiences. Only one should not jump the gun and assume that a title will be more or less serious or present content in this or that way due to its target audience, or conversely assume the target audience on the content and its presentation alone. As such, the audience categories help form a broad impression of how a title might work with the announced themes, but offer little to no in-depth information about specific content or its treatment.
+The audience categories originate from manga magazines, which group titles of a same intended audience into a magazine that is advertised as belonging to that category, and so manga-based anime will have the category from their parent work. As for anime based on other works, the audience is often debatable, but comparing information such as time slot to the manga-based anime generally helps figure out the most likely possibility.</description>
+</tag>
+<tag id="2607" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-29">
+<name>themes</name>
+<description>Themes describe the very central elements important to the anime stories. They set the backdrop against which the protagonists must face their challenges. Be it School Life, present Daily Life, Military action, Cyberpunk, Law and Order detective work, Sports, or the Underworld. These are only but a few of the more typical backgrounds for anime plots. Add to that a Conspiracy setting with a possible tragic outcome, the Themes span most of the imaginable subject matter relevant to anime.</description>
+</tag>
+<tag id="2609" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-22">
+<name>original work</name>
+<description>What the anime is based on! Mostly of academic interest, but a useful bit of info, hinting at the possible depth of story.</description>
+</tag>
+<tag id="2798" parentid="2609" infobox="true" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-07">
+<name>manga</name>
+<description>Manga is the lifeblood that drives the anime industry. Everything and its mother is based on manga. However! There are exceptions where the manga was not the basis for the anime.
+It`s common practice to make manga adaptations of many popular anime, there`s a manga based on Evangelion, and two (one shounen and one shoujo) based on each of Escaflowne and Mahou Tsukai Tai. Also it`s quite common to release manga and anime versions of a story in parallel, for instance Nadesico and Shoujo Kakumei Utena. There are also cases where an anime continues in a manga, as in the case of Angel Beats! and Angel Beats: Heaven`s Door, or reverse.</description>
+</tag>
+<tag id="2869" parentid="2607" weight="100" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-23">
+<name>school life</name>
+<description>Since a large part of the anime audience still takes part in school life or is visiting college, it is only natural to choose a setting the audience can identify with, be it elementary, middle, or high school. For the older viewers a college setting with more mature real-life problems is appropriate. And since clubs take up so much time in the lives of students, these are obviously also important.</description>
+</tag>
+<tag id="3606" parentid="6249" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2013-03-11">
+<name>family without father</name>
+<description>For some reason the protagonists father is no longer among the living. The much too early death was due to sickness or accident.
+This plot device adds a certain degree of tragedy to the anime and usually has repercussions on the rest of the family: Possibly the grieve-stricken mother and children barely function as humans. Or adding emphasis to the overall financial predicament of the family, should the father have been the money earner.</description>
+</tag>
+<tag id="3741" parentid="2607" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-10-25">
+<name>bullying</name>
+<description>Bullying is the use of force, threat, or coercion to abuse, intimidate, or aggressively dominate others. One who engages in bullying is known as a bully.
+Source: Wikipedia</description>
+</tag>
+<tag id="6249" parentid="2607" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-10-31">
+<name>family life</name>
+</tag>
+</tags>
+<characters>
+<character id="82228" type="main character in" update="2016-05-27">
+<name>Ishida Shouya</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="470" picture="17419.jpg">Irino Miyu</seiyuu>
+</character>
+<character id="82229" type="main character in" update="2016-05-27">
+<name>Nishimiya Shouko</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="2296" picture="189623.jpg">Hayami Saori</seiyuu>
+</character>
+<character id="84229" type="appears in" update="2016-08-26">
+<name>Ishida Shouya (Shougakusei)</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="46759" picture="190628.jpg">Matsuoka Mayu</seiyuu>
+</character>
+<character id="84230" type="secondary cast in" update="2016-08-26">
+<name>Nishimiya Yuzuru</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="1625" picture="80617.jpg">Yuuki Aoi</seiyuu>
+</character>
+<character id="84231" type="secondary cast in" update="2016-08-26">
+<name>Sahara Miyoko</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="443" picture="145927.jpg">Ishikawa Yui</seiyuu>
+</character>
+<character id="84232" type="secondary cast in" update="2016-08-26">
+<name>Kawai Miki</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="27977" picture="76416.jpg">Han Megumi</seiyuu>
+</character>
+<character id="84233" type="secondary cast in" update="2016-08-26">
+<name>Ueno Naoka</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="34696" picture="171383.jpg">Kaneko Yuuki</seiyuu>
+</character>
+<character id="84234" type="secondary cast in" update="2016-08-26">
+<name>Nagatsuka Tomohiro</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="4755" picture="183070.jpg">Ono Kenshou</seiyuu>
+</character>
+<character id="84235" type="secondary cast in" update="2016-08-26">
+<name>Mashiba Satoshi</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="303" picture="166016.jpg">Toyonaga Toshiyuki</seiyuu>
+</character>
+<character id="84236" type="appears in" update="2016-08-26">
+<name>Nishimiya Shouko (Shougakusei)</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="2296" picture="189623.jpg">Hayami Saori</seiyuu>
+</character>
+</characters>
+<episodes>
+<episode id="176786" update="2016-09-05">
+<epno type="1">1</epno>
+<length>130</length>
+<airdate>2016-09-17</airdate>
+<title xml:lang="en">Complete Movie</title>
+</episode>
+<episode id="181854" update="2017-01-15">
+<epno type="2">S1</epno>
+<length>25</length>
+<title xml:lang="en">Special Program</title>
+</episode>
+</episodes>
+</anime>

@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?><anime id="11734" restricted="false">
+<type>TV Series</type>
+<episodecount>39</episodecount>
+<startdate>2016-04-02</startdate>
+<enddate>2016-12-24</enddate>
+<titles>
+<title xml:lang="x-jat" type="main">JoJo no Kimyou na Bouken: Diamond wa Kudakenai</title>
+<title xml:lang="en" type="synonym">Jojo`s Bizarre Adventure Part 4: Diamond is Unbreakable</title>
+<title xml:lang="en" type="synonym">JoJo`s Bizarre Adventure: Diamond Is Not Crash</title>
+<title xml:lang="bg" type="synonym">Невероятните приключения на Джо-Джо: Вечен диамант</title>
+<title xml:lang="en" type="short">JJBA 2016</title>
+<title xml:lang="x-jat" type="short">JoJo 2016</title>
+<title xml:lang="ja" type="official">ジョジョの奇妙な冒険 ダイヤモンドは砕けない</title>
+<title xml:lang="en" type="official">JoJo`s Bizarre Adventure: Diamond Is Unbreakable</title>
+</titles>
+<relatedanime>
+<anime id="10835" type="Prequel">JoJo no Kimyou na Bouken: Stardust Crusaders (2015)</anime>
+</relatedanime>
+<url>http://jojo-animation.com/</url>
+<creators>
+<name id="2213" type="Character Design">Nishii Terumi</name>
+<name id="2702" type="Series Composition">Kobayashi Yasuko</name>
+<name id="981" type="Original Work">Araki Hirohiko</name>
+<name id="16061" type="Direction">Tsuda Naokatsu</name>
+<name id="2887" type="Animation Work">David Production</name>
+<name id="6306" type="Music">Kanno Yuugo</name>
+<name id="1477" type="Direction">Katou Toshiyuki</name>
+</creators>
+<description>It is 1999 (10 years after http://anidb.net/ch81467 [Kuujou Joutarou] defeated http://anidb.net/ch75409 [DIO] in Egypt), and high schooler http://anidb.net/ch81463 [Higashikata Jousuke] (illegitimate son of http://anidb.net/ch1742 [Joseph Joestar]) lives in the small and peaceful town of Morioh, Japan.
+The Arrow, manifesting latent Stand abilities, travels throughout Morioh; as Jousuke and his friends seek out the culprits of a series of homicides.</description>
+<ratings>
+<permanent count="374">8.35</permanent>
+<temporary count="380">7.79</temporary>
+</ratings>
+<picture>184243.jpg</picture>
+<resources>
+<resource type="1">
+<externalentity>
+<identifier>17832</identifier>
+</externalentity>
+</resource>
+<resource type="2">
+<externalentity>
+<identifier>31933</identifier>
+</externalentity>
+</resource>
+<resource type="4">
+<externalentity>
+<url>http://jojo-animation.com/</url>
+</externalentity>
+</resource>
+<resource type="8">
+<externalentity>
+<identifier>4100</identifier>
+</externalentity>
+</resource>
+<resource type="9">
+<externalentity>
+<identifier>354618</identifier>
+</externalentity>
+</resource>
+<resource type="10">
+<externalentity>
+<identifier>19039</identifier>
+</externalentity>
+</resource>
+<resource type="28">
+<externalentity>
+<identifier>jojos-bizarre-adventure</identifier>
+</externalentity>
+</resource>
+</resources>
+<tags>
+<tag id="922" parentid="2606" infobox="true" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2015-02-04">
+<name>shounen</name>
+<description>In the context of manga and associated media, shounen, literally meaning "youth" and often also specifically "boy", refers to a male audience roughly between the ages of 10 and 18.
+Source: Wikipedia</description>
+</tag>
+<tag id="2606" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-10-18">
+<name>target audience</name>
+<description>Anime, like everything else in the modern world, is targeted towards specific audiences, both implicitly by the creators and overtly by the marketing. While categories are associated with specific sex and age groups, this is not a bar on the anime being enjoyed by people who don`t fit into that band; not only do crossover titles exist, but the categories also have a considerable following outside their main demographic, and a person might as well enjoy anime from all categories. Still, does not invalidate the usefulness of marking a title as one of the categories; the same themes will likely be treated differently in anime geared for different audiences. Only one should not jump the gun and assume that a title will be more or less serious or present content in this or that way due to its target audience, or conversely assume the target audience on the content and its presentation alone. As such, the audience categories help form a broad impression of how a title might work with the announced themes, but offer little to no in-depth information about specific content or its treatment.
+The audience categories originate from manga magazines, which group titles of a same intended audience into a magazine that is advertised as belonging to that category, and so manga-based anime will have the category from their parent work. As for anime based on other works, the audience is often debatable, but comparing information such as time slot to the manga-based anime generally helps figure out the most likely possibility.</description>
+</tag>
+<tag id="2607" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-29">
+<name>themes</name>
+<description>Themes describe the very central elements important to the anime stories. They set the backdrop against which the protagonists must face their challenges. Be it School Life, present Daily Life, Military action, Cyberpunk, Law and Order detective work, Sports, or the Underworld. These are only but a few of the more typical backgrounds for anime plots. Add to that a Conspiracy setting with a possible tragic outcome, the Themes span most of the imaginable subject matter relevant to anime.</description>
+</tag>
+<tag id="2609" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-22">
+<name>original work</name>
+<description>What the anime is based on! Mostly of academic interest, but a useful bit of info, hinting at the possible depth of story.</description>
+</tag>
+<tag id="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-22">
+<name>setting</name>
+<description>The setting describes in what time and place an anime takes place. To a certain extent it describes what you can expect from the world in the anime.</description>
+</tag>
+<tag id="2611" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-08">
+<name>elements</name>
+<description>Next to Themes setting the backdrop for the protagonists in anime, there are the more detailed plot Elements that centre on character interactions: "What do characters do to each other or what is done to them?". Is it violent Action, an awe-inspiring Adventure in a foreign place, the gripping life of a Detective, a slapstick Comedy, an Ecchi Harem anime, a SciFi epic, or some Fantasy travelling adventure?</description>
+</tag>
+<tag id="2613" parentid="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-09-04">
+<name>place</name>
+<description>The places the anime can take place in. Includes more specific places such as a country on Earth, as well as more general places such as a dystopia or a mirror world.</description>
+</tag>
+<tag id="2617" parentid="2841" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2013-10-15">
+<name>calling your attacks</name>
+<description>"GIGAAAAAA DRIIIIIILLL BREAKEEEEEERRR"
+If you can do something more impressive than just throw a punch, your attack(s) must have an equally impressive name. More than that, you have to call it out as you launch the attack. It doesn`t matter if it`s a martial arts move, a magical spell or your secret superweapon, if you can`t say its name, it just isn`t nearly as cool or effective.
+Having a special attack is always a must, but not impressive enough. Every special attack needs a name. A really awesome and outstanding name which is easy to remember and even easier and impressive to yell. Because it just is not enough to name your attack. No, to unleash the full power of your attack, you have to call its name in your most MANLY and LOUDEST voice.
+It does not matter whether it is a martial arts move, a magical spell or flying drills from your mecha, if you can`t call its name, it just isn`t nearly as cool or effective. Not a requirement but wearing shades while calling your attack makes it at least twice as cool, moreover giving your mecha or magical companion shades too results in an immeasurable level of awesomeness, bringing down every enemy just through the POWER OF YOUR VOICE.
+A standard feature of practically every mecha, mahou shoujo, high fantasy, or martial arts anime.
+[Source: TV Tropes]</description>
+<picurl>144260.jpg</picurl>
+</tag>
+<tag id="2623" parentid="2611" infobox="true" weight="500" localspoiler="false" globalspoiler="false" verified="true" update="2011-01-06">
+<name>super power</name>
+<description>Be it an ancient Greek Heracles, a cybernetic muscle-man, or a fourteen year-old girl in a mini-skirted sailor suit. As long as they have super powers, they`re in the show.</description>
+</tag>
+<tag id="2630" parentid="2613" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2012-10-13">
+<name>Earth</name>
+<description>The Earth is the third planet from the Sun, and the densest and fifth-largest of the eight planets in the Solar System. It is in effect a ball of hot mud, but on the surface it`s cold enough, so most of us live on it (or are supposed to). It is circa 4.5 billion years old, and, unless we humans succeed in destroying it over the next couple of centuries, it is expected to last for quite another while, though the changes in the Sun`s emissions due to its aging will likely cause the extinction of everything; the species of earthlings are guaranteed to die, even if we fail to kill them -- unless, of course, we find ourselves another planet and figure out a way to take everything there. Our little planet on a corner of this galaxy may mean nothing in the grand scheme of things, but to its inhabitants it is their home, so, as a species, we cherish it dearly, to the point many cultures even to this day deify it. Being the home to the human civilizations, the Earth is the main setting of most fiction, be it anime or otherwise, but not only are many titles set in other places, such as unrelated fantasy worlds, in a considerable number of fictional titles the Earth is actually destroyed by aggressive alien invaders.</description>
+<picurl>126792.jpg</picurl>
+</tag>
+<tag id="2672" parentid="2834" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2015-05-31">
+<name>Japan</name>
+<description>Last stronghold for humanity. If Tokyo falls, it`s all over. Tokyo Tower will undoubtedly fall anyway.</description>
+</tag>
+<tag id="2798" parentid="2609" infobox="true" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-07">
+<name>manga</name>
+<description>Manga is the lifeblood that drives the anime industry. Everything and its mother is based on manga. However! There are exceptions where the manga was not the basis for the anime.
+It`s common practice to make manga adaptations of many popular anime, there`s a manga based on Evangelion, and two (one shounen and one shoujo) based on each of Escaflowne and Mahou Tsukai Tai. Also it`s quite common to release manga and anime versions of a story in parallel, for instance Nadesico and Shoujo Kakumei Utena. There are also cases where an anime continues in a manga, as in the case of Angel Beats! and Angel Beats: Heaven`s Door, or reverse.</description>
+</tag>
+<tag id="2834" parentid="2630" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2016-10-04">
+<name>Asia</name>
+<description>Asia is Earth`s largest and most populous continent, located primarily in the eastern and northern hemispheres and sharing the continental landmass of Eurasia with the continent of Europe. Asia covers an area of 44,579,000 square kilometers, about 30% of Earth`s total land area and 8.7% of the Earth`s total surface area. The continent, which has long been home to the majority of the human population, was the site of many of the first civilizations. Asia is notable for not only its overall large size and population, but also dense and large settlements as well as vast barely populated regions within the continent of 4.4 billion people.
+Source: Wikipedia</description>
+<picurl>192245.jpg</picurl>
+</tag>
+<tag id="2841" parentid="2611" infobox="true" weight="500" localspoiler="false" globalspoiler="false" verified="true" update="2015-09-08">
+<name>action</name>
+<description>Action anime usually involve a fairly straightforward story of good guys versus bad guys, where most disputes are resolved by using physical force. It often contains a lot of shooting, explosions and fighting.</description>
+</tag>
+<tag id="2853" parentid="2611" weight="300" localspoiler="false" globalspoiler="false" verified="true" update="2017-02-13">
+<name>comedy</name>
+<description>Anime whose central struggle causes hilarious results. These stories are built upon funny characters, situations and events. A comedy anime is laced with humour and sets out to provoke laughter from the audience.
+Japanese humour can be a bit strange to westerners, so if you`re new to this type of humour, just bear with it; it`ll most likely grow on you if you`re a fan of other kinds of comedy.</description>
+<picurl>198104.jpg</picurl>
+</tag>
+<tag id="2863" parentid="2607" infobox="true" weight="500" localspoiler="false" globalspoiler="false" verified="true" update="2009-05-18">
+<name>proxy battles</name>
+<description>In our terms, a proxy battle is a battle where humans use creatures/robots to do the fighting for them, either by commanding those creatures/robots or by simply evolving them/changing them into battle mode. Often the training aspect is also involved, or in some cases the proxies are nothing more than holographic representatives of some other variation of competition (like for example a card game). While many popular shounen anime fit under this category, it`s not limited to shounen anime.</description>
+</tag>
+<tag id="2869" parentid="2607" weight="200" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-23">
+<name>school life</name>
+<description>Since a large part of the anime audience still takes part in school life or is visiting college, it is only natural to choose a setting the audience can identify with, be it elementary, middle, or high school. For the older viewers a college setting with more mature real-life problems is appropriate. And since clubs take up so much time in the lives of students, these are obviously also important.</description>
+</tag>
+<tag id="2931" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-12-04">
+<name>unsorted</name>
+<description>a bunch of tags that still need to be either deleted or moved into proper places.</description>
+</tag>
+<tag id="4394" parentid="6233" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-21">
+<name>defeat means friendship</name>
+<description>In a series based around an endless series of one-on-one fights, defeating a Worthy Opponent or The Rival will sometimes convert them to the hero`s side, if not always to his cause. 
+Furthermore, no matter how many people the Worthy Opponent has killed, how much grief he has caused, even if he slaughtered helpless children or the hero`s own family, as soon as he shows a bit of remorse or goes out of his way to help the hero even once, he will be welcomed into the hero`s circle of True Companions with open arms.
+(Source: TVTropes)</description>
+</tag>
+<tag id="5863" parentid="2798" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2015-07-09">
+<name>Weekly Shounen Jump</name>
+<description>The Weekly Shounen Jump is a Japanese manga magazine released on a weekly basis. Its main target audience consists of young males and it features several manga titles. The magazine was created by http://anidb.net/cr780 [Shueisha] in July, 1968, and was originally only called Shounen Jump, because it was not published every week at the time. A number of very famous shounen manga were or are published in it, such as http://anidb.net/a386 [Hokuto no Ken], http://anidb.net/a231 [Dragon Ball], http://anidb.net/a942 [City Hunter], http://anidb.net/a826 [Saint Seiya], http://anidb.net/a590 [Slam Dunk], http://anidb.net/a312 [Yuu Yuu Hakushou], http://anidb.net/a69 [One Piece], http://anidb.net/a239 [Naruto], http://anidb.net/a2369 [Bleach], http://anidb.net/a4563 [Death Note], http://anidb.net/a3468 [Gintama], to name a few of the most well-known.</description>
+<picurl>5312.png</picurl>
+</tag>
+<tag id="5962" parentid="2931" weight="0" localspoiler="false" globalspoiler="false" verified="false" update="2016-09-11">
+<name>rural town</name>
+<description>The rural town is one that is either isolated from what is considered "normal" society or it is so far away from the city centre that there are not a lot of buildings. Some rural towns do not have the technology of the city (and some want it that way), while others just seem to be behind the times. Most of these towns have some sort of farming culture or inn culture.</description>
+</tag>
+<tag id="6233" parentid="2611" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2015-08-11">
+<name>tropes</name>
+<description>A trope is a commonly recurring literary and rhetorical devices, motifs or clichés in creative works. This use is a broader redefining of a literary trope, the use of figurative language, via word, phrase, or even an image, for artistic effect, such as using a figure of speech.
+Source: Wikipedia</description>
+</tag>
+</tags>
+<characters>
+<character id="81463" type="main character in" update="2016-04-03">
+<rating votes="13">7.56</rating>
+<name>Higashikata Jousuke</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Josuke Higashikata (東方 仗助, Higashikata Jōsuke), the Suke (助 in his name may also be read as "Jo"?) is the main protagonist of http://anidb.net/a11734 [Diamond Is Unbreakable].
+Josuke is a high school freshman residing in the town of Morioh. Part IV begins as Jotaro Kujo searches for him on behalf of Joseph Joestar, Josuke`s aging, absent father.</description>
+<picture>63677.png</picture>
+<seiyuu id="3155" picture="24137.jpg">Ono Yuuki</seiyuu>
+</character>
+<character id="81464" type="main character in" update="2016-04-03">
+<rating votes="13">3.14</rating>
+<name>Hirose Kouichi</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Koichi Hirose (広瀬 康一 Hirose Kōichi) is a central character and ally featured primarily in Diamond Is Unbreakable.</description>
+<picture>63678.png</picture>
+<seiyuu id="1678" picture="68277.jpg">Kaji Yuuki</seiyuu>
+</character>
+<character id="81465" type="main character in" update="2016-04-03">
+<rating votes="6">5.63</rating>
+<name>Nijimura Okuyasu</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Okuyasu Nijimura (虹村 億泰 Nijimura Okuyasu) is a central character and core ally in Diamond Is Unbreakable.
+Introduced as an antagonist, Okuyasu soon becomes Josuke Higashikata`s best friend.</description>
+<picture>185171.jpg</picture>
+<seiyuu id="335" picture="64826.jpg">Takagi Wataru</seiyuu>
+</character>
+<character id="81466" type="main character in" update="2016-04-03">
+<rating votes="10">7.96</rating>
+<name>Kishibe Rohan</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Rohan Kishibe (岸辺 露伴 Kishibe Rohan) is a character introduced in Diamond Is Unbreakable.
+A successful professional mangaka, Rohan is often roped into paranormal events while conducting research for his latest manga.</description>
+<picture>185172.jpg</picture>
+<seiyuu id="225" picture="17044.jpg">Sakurai Takahiro</seiyuu>
+</character>
+<character id="81467" type="main character in" update="2016-04-03">
+<rating votes="18">9.01</rating>
+<name>Kuujou Joutarou</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Jotaro Kujo (空条 承太郎 Kūjō Jōtarō) is the protagonist of Stardust Crusaders. He appears prominently in Diamond Is Unbreakable, and is the nephew of Josuke Higashikata despite being born first.</description>
+<picture>185173.jpg</picture>
+<seiyuu id="250" picture="157976.jpg">Ono Daisuke</seiyuu>
+</character>
+<character id="82059" type="secondary cast in" update="2016-05-14">
+<rating votes="5">4.72</rating>
+<name>Hazamada Toshikazu</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>63792.png</picture>
+<seiyuu id="18131" picture="21316.jpg">Shimowada Hiroki</seiyuu>
+</character>
+<character id="82060" type="secondary cast in" update="2016-05-14">
+<rating votes="5">2.99</rating>
+<name>Kobayashi Tamami</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>63793.png</picture>
+<seiyuu id="3141" picture="65575.jpg">Tsuruoka Satoshi</seiyuu>
+</character>
+<character id="82061" type="appears in" update="2016-05-14">
+<rating votes="2">5.59</rating>
+<name>Higashikata Tomoko</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>63794.png</picture>
+<seiyuu id="356" picture="17197.jpg">Toyoguchi Megumi</seiyuu>
+</character>
+<character id="82062" type="appears in" update="2016-05-14">
+<rating votes="1">3.38</rating>
+<name>Higashikata Ryouhei</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>63795.png</picture>
+<seiyuu id="282" picture="17112.jpg">Houki Katsuhisa</seiyuu>
+</character>
+<character id="82063" type="secondary cast in" update="2016-05-14">
+<rating votes="4">5.29</rating>
+<name>Katagiri Anjuuro</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>63796.png</picture>
+<seiyuu id="373" picture="191382.jpg">Hamada Kenji</seiyuu>
+</character>
+<character id="82064" type="secondary cast in" update="2016-05-14">
+<rating votes="5">7.74</rating>
+<name>Nijimura Keichou</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>63797.png</picture>
+<seiyuu id="78" picture="16686.jpg">Shimura Tomoyuki</seiyuu>
+</character>
+<character id="82173" type="secondary cast in" update="2016-05-23">
+<rating votes="15">3.77</rating>
+<name>Yamagishi Yukako</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>63826.png</picture>
+<seiyuu id="10" picture="16574.jpg">Noto Mamiko</seiyuu>
+</character>
+<character id="82364" type="secondary cast in" update="2016-06-04">
+<rating votes="7">5.96</rating>
+<name>Tonio Trussardi</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>63852.png</picture>
+<seiyuu id="2248" picture="170362.jpg">Kawashima Tokuyoshi</seiyuu>
+</character>
+<character id="82566" type="secondary cast in" update="2016-06-15">
+<rating votes="3">4.86</rating>
+<name>Joseph Joestar</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>63895.png</picture>
+<seiyuu id="339" picture="79312.jpg">Ishizuka Unshou</seiyuu>
+</character>
+<character id="82694" type="secondary cast in" update="2016-08-18">
+<rating votes="3">3.20</rating>
+<name>Otoishi Akira</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Plays the guitar, his stand represents Red Hot Chilli Pepper.</description>
+<picture>63915.png</picture>
+<seiyuu id="143" picture="23260.jpg">Morikubo Shoutarou</seiyuu>
+</character>
+<character id="82912" type="appears in" update="2016-07-08">
+<rating votes="1">1.08</rating>
+<name>Shizuka Joestar</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>63943.png</picture>
+<seiyuu id="2792" picture="26717.jpg">Kawata Taeko</seiyuu>
+</character>
+<character id="83420" type="secondary cast in" update="2016-08-05">
+<rating votes="9">9.40</rating>
+<name>Sugimoto Reimi</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>64019.png</picture>
+<seiyuu id="10951" picture="60680.jpg">Hara Sayuri</seiyuu>
+</character>
+<character id="83421" type="secondary cast in" update="2016-07-29">
+<rating votes="5">5.97</rating>
+<name>Yanguu Shigekiyo</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>64020.png</picture>
+<seiyuu id="254" picture="17073.jpg">Yamaguchi Kappei</seiyuu>
+</character>
+<character id="83680" type="main character in" update="2016-08-30">
+<rating votes="10">7.90</rating>
+<name>Kira Yoshikage</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>190687.jpg</picture>
+<seiyuu id="341" picture="52370.jpg">Morikawa Toshiyuki</seiyuu>
+</character>
+</characters>
+<episodes>
+<episode id="173951" update="2015-12-21">
+<epno type="4">T1</epno>
+<length>3</length>
+<airdate>2015-12-19</airdate>
+<rating votes="1">6.55</rating>
+<title xml:lang="en">PV1</title>
+<title xml:lang="x-jat">PV1</title>
+</episode>
+<episode id="176207" update="2016-11-21">
+<epno type="1">4</epno>
+<length>25</length>
+<airdate>2016-04-23</airdate>
+<rating votes="5">8.34</rating>
+<title xml:lang="ja">虹村兄弟 その2</title>
+<title xml:lang="en">The Nijimura Brothers, Part 2</title>
+<title xml:lang="x-jat">Nijimura Kyoudai: Sono 2</title>
+</episode>
+<episode id="176208" update="2016-11-21">
+<epno type="1">3</epno>
+<length>25</length>
+<airdate>2016-04-16</airdate>
+<rating votes="5">8.34</rating>
+<title xml:lang="ja">虹村兄弟 その1</title>
+<title xml:lang="en">The Nijimura Brothers, Part 1</title>
+<title xml:lang="x-jat">Nijimura Kyoudai: Sono 1</title>
+</episode>
+<episode id="176209" update="2016-11-21">
+<epno type="1">2</epno>
+<length>25</length>
+<airdate>2016-04-09</airdate>
+<rating votes="5">8.38</rating>
+<title xml:lang="ja">東方仗助! アンジェロに会う</title>
+<title xml:lang="en">Josuke Higashikata! Meets Angelo</title>
+<title xml:lang="x-jat">Higashikata Jousuke! Angelo ni Au</title>
+</episode>
+<episode id="176210" update="2016-11-21">
+<epno type="1">1</epno>
+<length>25</length>
+<airdate>2016-04-02</airdate>
+<rating votes="5">7.81</rating>
+<title xml:lang="ja">空条承太郎! 東方仗助に会う</title>
+<title xml:lang="en">Jotaro Kujo! Meets Josuke Higashikata</title>
+<title xml:lang="x-jat">Kuujou Joutarou! Higashikata Jousuke ni Au</title>
+</episode>
+<episode id="176281" update="2016-03-25">
+<epno type="4">T4</epno>
+<length>2</length>
+<rating votes="1">6.55</rating>
+<title xml:lang="en">PV2 - Koichi</title>
+</episode>
+<episode id="176282" update="2016-03-25">
+<epno type="4">T3</epno>
+<length>2</length>
+<rating votes="1">6.55</rating>
+<title xml:lang="en">PV2 - Jotaro</title>
+</episode>
+<episode id="176283" update="2016-03-25">
+<epno type="4">T2</epno>
+<length>2</length>
+<rating votes="1">6.55</rating>
+<title xml:lang="en">PV2 - Josuke</title>
+</episode>
+<episode id="176802" update="2016-07-26">
+<epno type="3">C3</epno>
+<length>2</length>
+<airdate>2016-04-09</airdate>
+<rating votes="2">8.72</rating>
+<title xml:lang="en">Ending</title>
+</episode>
+<episode id="176803" update="2016-04-09">
+<epno type="3">C1</epno>
+<length>2</length>
+<airdate>2016-04-09</airdate>
+<rating votes="2">8.70</rating>
+<title xml:lang="en">Opening 1</title>
+</episode>
+<episode id="176904" update="2016-11-21">
+<epno type="1">8</epno>
+<length>25</length>
+<airdate>2016-05-21</airdate>
+<rating votes="4">6.64</rating>
+<title xml:lang="ja">山岸由花子は恋をする その1</title>
+<title xml:lang="en">Yukako Yamagishi Falls in Love, Part 1</title>
+<title xml:lang="x-jat">Yamagishi Yukako wa Koi o Suru: Sono 1</title>
+</episode>
+<episode id="176905" update="2016-11-21">
+<epno type="1">7</epno>
+<length>25</length>
+<airdate>2016-05-14</airdate>
+<rating votes="5">7.85</rating>
+<title xml:lang="ja">間田敏和(サーフェス)</title>
+<title xml:lang="en">Toshikazu Hazamada (Show Off)</title>
+<title xml:lang="x-jat">Hazamada Toshikazu (Surface)</title>
+</episode>
+<episode id="176906" update="2016-11-21">
+<epno type="1">6</epno>
+<length>25</length>
+<airdate>2016-05-07</airdate>
+<rating votes="5">6.61</rating>
+<title xml:lang="ja">広瀬康一 (エコーズ)</title>
+<title xml:lang="en">Koichi Hirose (Reverb)</title>
+<title xml:lang="x-jat">Hirose Kouichi (Echoes)</title>
+</episode>
+<episode id="176907" update="2016-11-21">
+<epno type="1">5</epno>
+<length>25</length>
+<airdate>2016-04-30</airdate>
+<rating votes="5">8.87</rating>
+<title xml:lang="ja">虹村兄弟 その3</title>
+<title xml:lang="en">The Nijimura Brothers, Part 3</title>
+<title xml:lang="x-jat">Nijimura Kyoudai: Sono 3</title>
+</episode>
+<episode id="177564" update="2016-11-21">
+<epno type="1">12</epno>
+<length>25</length>
+<airdate>2016-06-18</airdate>
+<rating votes="2">4.28</rating>
+<title xml:lang="ja">レッド・ホット・チリ・ペッパー その2</title>
+<title xml:lang="en">Chili Pepper, Part 2</title>
+<title xml:lang="x-jat">Red Hot Chili Pepper: Sono 2</title>
+</episode>
+<episode id="177565" update="2016-11-21">
+<epno type="1">11</epno>
+<length>25</length>
+<airdate>2016-06-11</airdate>
+<rating votes="2">5.92</rating>
+<title xml:lang="ja">レッド・ホット・チリ・ペッパー その1</title>
+<title xml:lang="en">Chili Pepper, Part 1</title>
+<title xml:lang="x-jat">Red Hot Chili Pepper: Sono 1</title>
+</episode>
+<episode id="177566" update="2016-11-21">
+<epno type="1">10</epno>
+<length>25</length>
+<airdate>2016-06-04</airdate>
+<rating votes="5">7.78</rating>
+<title xml:lang="ja">イタリア料理を食べに行こう</title>
+<title xml:lang="en">Let`s Go Eat Some Italian Food</title>
+<title xml:lang="x-jat">Italia Ryouri o Tabe ni Ikou</title>
+</episode>
+<episode id="177567" update="2016-11-21">
+<epno type="1">9</epno>
+<length>25</length>
+<airdate>2016-05-28</airdate>
+<rating votes="5">6.61</rating>
+<title xml:lang="ja">山岸由花子は恋をする その2</title>
+<title xml:lang="en">Yukako Yamagishi Falls in Love, Part 2</title>
+<title xml:lang="x-jat">Yamagishi Yukako wa Koi o Suru: Sono 2</title>
+</episode>
+<episode id="178004" update="2016-11-21">
+<epno type="1">16</epno>
+<length>25</length>
+<airdate>2016-07-16</airdate>
+<rating votes="2">5.92</rating>
+<title xml:lang="ja">「狩り[ハンティング]」に行こう!</title>
+<title xml:lang="en">Let`s Go Hunting!</title>
+<title xml:lang="x-jat">"Hunting" ni Ikou!</title>
+</episode>
+<episode id="178005" update="2016-11-21">
+<epno type="1">15</epno>
+<length>25</length>
+<airdate>2016-07-09</airdate>
+<rating votes="2">5.92</rating>
+<title xml:lang="ja">漫画家のうちへ遊びに行こう その2</title>
+<title xml:lang="en">Let`s Go to the Manga Artist`s House, Part 2</title>
+<title xml:lang="x-jat">Mangaka no Uchi e Asobi ni Ikou: Sono 2</title>
+</episode>
+<episode id="178006" update="2016-11-21">
+<epno type="1">14</epno>
+<length>25</length>
+<airdate>2016-07-02</airdate>
+<rating votes="2">5.92</rating>
+<title xml:lang="ja">漫画家のうちへ遊びに行こう その1</title>
+<title xml:lang="en">Let`s Go to the Manga Artist`s House, Part 1</title>
+<title xml:lang="x-jat">Mangaka no Uchi e Asobi ni Ikou: Sono 1</title>
+</episode>
+<episode id="178007" update="2016-11-21">
+<epno type="1">13</epno>
+<length>25</length>
+<airdate>2016-06-25</airdate>
+<rating votes="2">4.28</rating>
+<title xml:lang="ja">やばいものを拾ったっス!</title>
+<title xml:lang="en">We Picked Up Something Crazy!</title>
+<title xml:lang="x-jat">Yabai Mono o Hirottassu!</title>
+</episode>
+<episode id="178643" update="2016-11-21">
+<epno type="1">20</epno>
+<length>25</length>
+<airdate>2016-08-13</airdate>
+<rating votes="2">3.55</rating>
+<title xml:lang="ja">山岸由花子はシンデレラに憧れる</title>
+<title xml:lang="en">Yukako Yamagishi Dreams of Cinderella</title>
+<title xml:lang="x-jat">Yamagishi Yukako wa Cinderella ni Akogareru</title>
+</episode>
+<episode id="178644" update="2016-11-21">
+<epno type="1">19</epno>
+<length>25</length>
+<airdate>2016-08-06</airdate>
+<rating votes="2">5.92</rating>
+<title xml:lang="ja">「重ちー」の収穫[ハーヴェスト] その2</title>
+<title xml:lang="en">Shigechi`s Harvest, Part 2</title>
+<title xml:lang="x-jat">"Shigechii" no Harvest: Sono 2</title>
+</episode>
+<episode id="178645" update="2016-11-21">
+<epno type="1">18</epno>
+<length>25</length>
+<airdate>2016-07-30</airdate>
+<rating votes="2">5.92</rating>
+<title xml:lang="ja">「重ちー」の収穫[ハーヴェスト] その1</title>
+<title xml:lang="en">Shigechi`s Harvest, Part 1</title>
+<title xml:lang="x-jat">"Shigechii" no Harvest: Sono 1</title>
+</episode>
+<episode id="178646" update="2016-11-21">
+<epno type="1">17</epno>
+<length>25</length>
+<airdate>2016-07-23</airdate>
+<rating votes="2">5.08</rating>
+<title xml:lang="ja">岸辺露伴の冒険</title>
+<title xml:lang="en">Rohan Kishibe`s Adventure</title>
+<title xml:lang="x-jat">Kishibe Rohan no Bouken</title>
+</episode>
+<episode id="179201" update="2016-07-26">
+<epno type="3">C2</epno>
+<length>2</length>
+<airdate>2016-07-09</airdate>
+<rating votes="1">6.55</rating>
+<title xml:lang="en">Opening 2</title>
+</episode>
+<episode id="179382" update="2016-11-21">
+<epno type="1">24</epno>
+<length>25</length>
+<airdate>2016-09-10</airdate>
+<rating votes="2">6.76</rating>
+<title xml:lang="ja">シアーハートアタック その2</title>
+<title xml:lang="en">Heart Attack, Part 2</title>
+<title xml:lang="x-jat">Sheer Heart Attack: Sono 2</title>
+</episode>
+<episode id="179383" update="2016-11-21">
+<epno type="1">23</epno>
+<length>25</length>
+<airdate>2016-09-03</airdate>
+<rating votes="2">6.76</rating>
+<title xml:lang="ja">シアーハートアタック その1</title>
+<title xml:lang="en">Heart Attack, Part 1</title>
+<title xml:lang="x-jat">Sheer Heart Attack: Sono 1</title>
+</episode>
+<episode id="179384" update="2016-11-21">
+<epno type="1">22</epno>
+<length>25</length>
+<airdate>2016-08-27</airdate>
+<rating votes="3">9.35</rating>
+<title xml:lang="ja">吉良吉影は静かに暮らしたい その2</title>
+<title xml:lang="en">Yoshikage Kira Just Wants to Live Quietly, Part 2</title>
+<title xml:lang="x-jat">Kira Yoshikage wa Shizuka ni Kurashitai: Sono 2</title>
+</episode>
+<episode id="179385" update="2016-11-21">
+<epno type="1">21</epno>
+<length>25</length>
+<airdate>2016-08-20</airdate>
+<rating votes="2">8.31</rating>
+<title xml:lang="ja">吉良吉影は静かに暮らしたい その1</title>
+<title xml:lang="en">Yoshikage Kira Just Wants to Live Quietly, Part 1</title>
+<title xml:lang="x-jat">Kira Yoshikage wa Shizuka ni Kurashitai: Sono 1</title>
+</episode>
+<episode id="179924" update="2016-11-21">
+<epno type="1">26</epno>
+<length>25</length>
+<airdate>2016-09-24</airdate>
+<rating votes="2">2.92</rating>
+<title xml:lang="ja">ジャンケン小僧がやって来る!</title>
+<title xml:lang="en">Janken Boy Is Coming!</title>
+<title xml:lang="x-jat">Janken Kozou ga Yattekuru!</title>
+</episode>
+<episode id="179925" update="2016-11-21">
+<epno type="1">25</epno>
+<length>25</length>
+<airdate>2016-09-17</airdate>
+<rating votes="2">6.76</rating>
+<title xml:lang="ja">アトム・ハート・ファーザー</title>
+<title xml:lang="en">Heart Father</title>
+<title xml:lang="x-jat">Atom Heart Father</title>
+</episode>
+<episode id="180214" update="2016-11-21">
+<epno type="1">30</epno>
+<length>25</length>
+<airdate>2016-10-22</airdate>
+<rating votes="2">5.92</rating>
+<title xml:lang="ja">猫は吉良吉影が好き</title>
+<title xml:lang="en">Cats Love Yoshikage Kira</title>
+<title xml:lang="x-jat">Neko wa Kira Yoshikage ga Suki</title>
+</episode>
+<episode id="180215" update="2016-11-21">
+<epno type="1">29</epno>
+<length>25</length>
+<airdate>2016-10-15</airdate>
+<rating votes="2">5.92</rating>
+<title xml:lang="ja">ハイウェイ・スター その2</title>
+<title xml:lang="en">Highway Go Go, Part 2</title>
+<title xml:lang="x-jat">Highway Star: Sono 2</title>
+</episode>
+<episode id="180216" update="2016-11-21">
+<epno type="1">28</epno>
+<length>25</length>
+<airdate>2016-10-08</airdate>
+<rating votes="2">4.28</rating>
+<title xml:lang="ja">ハイウェイ・スター その1</title>
+<title xml:lang="en">Highway Go Go, Part 1</title>
+<title xml:lang="x-jat">Highway Star: Sono 1</title>
+</episode>
+<episode id="180217" update="2016-11-21">
+<epno type="1">27</epno>
+<length>25</length>
+<airdate>2016-10-01</airdate>
+<rating votes="2">5.92</rating>
+<title xml:lang="ja">ぼくは宇宙人</title>
+<title xml:lang="en">I`m an Alien</title>
+<title xml:lang="x-jat">Boku wa Uchuujin</title>
+</episode>
+<episode id="180868" update="2016-11-21">
+<epno type="1">32</epno>
+<length>25</length>
+<airdate>2016-11-05</airdate>
+<rating votes="2">5.92</rating>
+<title xml:lang="ja">7月15日(木) その2</title>
+<title xml:lang="en">July 15th (Thurs), Part 2</title>
+<title xml:lang="x-jat">7 Gatsu 15 Nichi (Moku): Sono 2</title>
+</episode>
+<episode id="180869" update="2016-11-21">
+<epno type="1">31</epno>
+<length>25</length>
+<airdate>2016-10-29</airdate>
+<rating votes="2">7.57</rating>
+<title xml:lang="ja">7月15日(木) その1</title>
+<title xml:lang="en">July 15th (Thurs), Part 1</title>
+<title xml:lang="x-jat">7 Gatsu 15 Nichi (Moku): Sono 1</title>
+</episode>
+<episode id="181583" update="2016-12-07">
+<epno type="1">36</epno>
+<length>25</length>
+<airdate>2016-12-03</airdate>
+<rating votes="2">5.91</rating>
+<title xml:lang="ja">アナザーワン バイツァ・ダスト その2</title>
+<title xml:lang="en">Bites the Dust, Part 2</title>
+<title xml:lang="x-jat">Another One Bites the Dust: Sono 2</title>
+</episode>
+<episode id="181584" update="2016-11-30">
+<epno type="1">35</epno>
+<length>25</length>
+<airdate>2016-11-26</airdate>
+<rating votes="2">6.76</rating>
+<title xml:lang="ja">アナザーワン バイツァ・ダスト その1</title>
+<title xml:lang="en">Bites the Dust, Part 1</title>
+<title xml:lang="x-jat">Another One Bites the Dust: Sono 1</title>
+</episode>
+<episode id="181585" update="2016-11-30">
+<epno type="1">34</epno>
+<length>25</length>
+<airdate>2016-11-19</airdate>
+<rating votes="2">6.76</rating>
+<title xml:lang="ja">7月15日(木) その4</title>
+<title xml:lang="en">July 15th (Thurs), Part 4</title>
+<title xml:lang="x-jat">7 Gatsu 15 Nichi (Moku): Sono 4</title>
+</episode>
+<episode id="181586" update="2016-11-30">
+<epno type="1">33</epno>
+<length>25</length>
+<airdate>2016-11-12</airdate>
+<rating votes="2">4.28</rating>
+<title xml:lang="ja">7月15日(木) その3</title>
+<title xml:lang="en">July 15th (Thurs), Part 3</title>
+<title xml:lang="x-jat">7 Gatsu 15 Nichi (Moku): Sono 3</title>
+</episode>
+<episode id="182550" update="2017-01-09">
+<epno type="1">39</epno>
+<length>25</length>
+<airdate>2016-12-24</airdate>
+<rating votes="4">9.19</rating>
+<title xml:lang="ja">さよなら杜王町-黄金の心</title>
+<title xml:lang="en">Goodbye, Morioh: The Heart of Gold</title>
+<title xml:lang="x-jat">Sayonara Moriou Machi: Ougon no Kokoro</title>
+</episode>
+<episode id="182551" update="2016-12-20">
+<epno type="1">38</epno>
+<length>25</length>
+<airdate>2016-12-17</airdate>
+<rating votes="2">7.56</rating>
+<title xml:lang="ja">クレージー・D[ダイヤモンド]は砕けない その2</title>
+<title xml:lang="en">Shining D (Diamond) Is Unbreakable, Part 2</title>
+<title xml:lang="x-jat">Crazy D (Diamond) wa Kudakenai: Sono 2</title>
+</episode>
+<episode id="182552" update="2016-12-14">
+<epno type="1">37</epno>
+<length>25</length>
+<airdate>2016-12-10</airdate>
+<rating votes="2">7.56</rating>
+<title xml:lang="ja">クレージー・D[ダイヤモンド]は砕けない その1</title>
+<title xml:lang="en">Shining D (Diamond) Is Unbreakable, Part 1</title>
+<title xml:lang="x-jat">Crazy D (Diamond) wa Kudakenai: Sono 1</title>
+</episode>
+</episodes>
+</anime>

@@ -1,17 +1,13 @@
 <%@ page import="java.io.*,java.util.*,java.sql.*"%>
 <%@ page import="javax.servlet.http.*,javax.servlet.*" %>
-
+<%@ page contentType="text/html; charset=UTF-8" %>
 <html>
     <head>
         <%@ include file="head.jsp"%>
-        <title>Single Movie</title>
+        <title>Checkout</title>
     </head>
 <body>
     <%
-        
-        if(uid==null){
-            response.sendError(403,"Plz Login First");
-        }
     %>
 
     <%@ include file="header.jsp"%>
@@ -33,7 +29,10 @@
     </div>
         <div class="container">
                     <h4 class="text-center">Please enter your credit detail to complete the transaction</h4>
-
+                    <div class="form-group label-floating is-empty">
+                        <label for="id-input" class="control-label">ID:</label>
+                        <input type="text" class="form-control" id="id-input" name="id">
+                    </div>
                     <div class="form-group label-floating is-empty">
                         <label for="firstname-input" class="control-label">First Name:</label>
                         <input type="text" class="form-control" id="firstname-input" name="firstname">

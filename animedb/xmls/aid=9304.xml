@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?><anime id="9304" restricted="false">
+<type>TV Series</type>
+<episodecount>26</episodecount>
+<startdate>2012-10-06</startdate>
+<enddate>2013-04-06</enddate>
+<titles>
+<title xml:lang="x-jat" type="main">JoJo no Kimyou na Bouken (2012)</title>
+<title xml:lang="ar" type="synonym">(مغامرة جوجو الغريبة (2012</title>
+<title xml:lang="bg" type="synonym">Невероятните приключения на Джо-Джо (2012)</title>
+<title xml:lang="x-jat" type="synonym">Phantom Blood</title>
+<title xml:lang="x-jat" type="synonym">Battle Tendency</title>
+<title xml:lang="en" type="short">JJBA 2012</title>
+<title xml:lang="x-jat" type="short">JoJo 2012</title>
+<title xml:lang="ja" type="official">ジョジョの奇妙な冒険 (2012)</title>
+<title xml:lang="en" type="official">Jojo`s Bizarre Adventure (2012)</title>
+<title xml:lang="zh-Hant" type="official">JoJo的奇妙冒險 (2012)</title>
+<title xml:lang="zh-Hans" type="official">JoJo的奇妙冒险 (2012)</title>
+</titles>
+<relatedanime>
+<anime id="10206" type="Sequel">JoJo no Kimyou na Bouken: Stardust Crusaders</anime>
+<anime id="4918" type="Alternative Setting">JoJo no Kimyou na Bouken: Phantom Blood</anime>
+</relatedanime>
+<similaranime>
+<anime id="386" approval="18" total="22">Hokuto no Ken</anime>
+<anime id="98" approval="1" total="6">Kenpuu Denki Berserk</anime>
+</similaranime>
+<recommendations total="11">
+<recommendation type="For Fans" uid="132945">Finally an anime tv series of this epic long running manga, to those who enjoy reading the manga, it is finally here. Finally.</recommendation>
+<recommendation type="For Fans" uid="205511">if any of you have watched the ova, then this is a must watch on your list.</recommendation>
+<recommendation type="Recommended" uid="48697">It`s definitely unique :D
+12 episodes in, and i`m not sure if it is awful or actually good. Worth a watch just for that.</recommendation>
+<recommendation type="Recommended" uid="560327">This series is a perfect introduction to the awesome Jo Jo Storyline, I`ve seen many things copied from this series but nothing ever better than the original. It may seem fast paced but everything goes literally by the manga, they also made it look more intense keeping that manga style look and effects that made this story so great in its time. If your a fan of anime and looking for a amazing adventure that might even make you say "WTF DID I JUST SEE" more than once this is for you.</recommendation>
+<recommendation type="Recommended" uid="275472">The thing about JoJo is that it`s seperated into many parts, which all focus on a different member of the Joestar family. For example, the first part of the story involves Jonathan, a true gentleman, and the second part involves his grandson, Joseph. So, some people might like a certain member a little more. Personally, I like Joseph more because he`s a cunning badass, and I thought the first part was a little boring, but now I`m hooked! Just be patient and enjoy this bizarre adventure!</recommendation>
+<recommendation type="Recommended" uid="539006">WRRRYYYYYY</recommendation>
+<recommendation type="Must See" uid="391389">Amazing Anime.. Feels a bit like hokuto no ken but that is not a bad thing.</recommendation>
+<recommendation type="Must See" uid="165460">I`ve always heard about jojo, but never actualy read it. And now i must say i`m shocked, Never before a fighter anime has left me so satisfied. 
+
+And while i usualy abhor sequels, i really hope to see more of this in the future. Literaly a must see.</recommendation>
+<recommendation type="Must See" uid="289333">one of the best adaptations out there, and simply one of the best shows in last couple of years, must see for any shounen fan.</recommendation>
+<recommendation type="Must See" uid="281995">A true classic! The animation might seem weird at first, but it`s clearly done with the intention of resembling the original as much as possible, and when you get used to it, it`s quite cool. The story is simple, but exciting and captivating. You can`t help but love the main characters in each saga.</recommendation>
+<recommendation type="Must See" uid="232559">Your Hamon is not strong enough! To compensate, you must watch this, now!</recommendation>
+</recommendations>
+<url>http://wwws.warnerbros.co.jp/jojo-animation/</url>
+<creators>
+<name id="2887" type="Animation Work">David Production</name>
+<name id="1910" type="Character Design">Shimizu Takako</name>
+<name id="12357" type="Direction">Suzuki Ken`ichi</name>
+<name id="2702" type="Series Composition">Kobayashi Yasuko</name>
+<name id="981" type="Original Work">Araki Hirohiko</name>
+<name id="1910" type="Chief Animation Direction">Shimizu Takako</name>
+<name id="1414" type="Music">Iwasaki Taku</name>
+<name id="2529" type="Music">Matsuo Hayato</name>
+</creators>
+<description>* Based on a manga by http://anidb.net/cr981 [Araki Hirohiko], originally serialised in Weekly Shounen Jump from 1987 to 2002, before being transferred to the monthly Ultra Jump in 2004.
+An epic horror-action-adventure! Spanning the generations of the Joestar family, each arc focuses on a certain member of the family and his/her battles with vampires, super vampires, and other Stand users.
+Phantom Blood stars http://anidb.net/ch2068 [Jonathan Joestar] and the ambitious http://anidb.net/ch895 [Dio Brando]. It shows how the stone mask was found and how Dio first obtained and utilized his powers. Once Jonathan and http://anidb.net/ch47869 [Robert E. O. Speedwagon] realize Dio`s intentions, they must team up with http://anidb.net/ch47870 [Will A. Zeppeli] and learn Ripple (Hamon) to stop Dio.
+Source: Baka-Updates</description>
+<ratings>
+<permanent count="1761">8.18</permanent>
+<temporary count="1771">7.92</temporary>
+<review count="5">7.29</review>
+</ratings>
+<picture>91163.jpg</picture>
+<resources>
+<resource type="1">
+<externalentity>
+<identifier>14445</identifier>
+</externalentity>
+</resource>
+<resource type="2">
+<externalentity>
+<identifier>14719</identifier>
+</externalentity>
+</resource>
+<resource type="4">
+<externalentity>
+<url>http://wwws.warnerbros.co.jp/jojo-animation/</url>
+</externalentity>
+</resource>
+<resource type="6">
+<externalentity>
+<identifier>JoJo's_Bizarre_Adventure</identifier>
+</externalentity>
+</resource>
+<resource type="7">
+<externalentity>
+<identifier>ジョジョの奇妙な冒険</identifier>
+</externalentity>
+</resource>
+<resource type="8">
+<externalentity>
+<identifier>2732</identifier>
+</externalentity>
+</resource>
+<resource type="9">
+<externalentity>
+<identifier>343752</identifier>
+</externalentity>
+</resource>
+<resource type="10">
+<externalentity>
+<identifier>15315</identifier>
+</externalentity>
+</resource>
+<resource type="23">
+<externalentity>
+<identifier>anime_jojo</identifier>
+</externalentity>
+</resource>
+<resource type="28">
+<externalentity>
+<identifier>jojos-bizarre-adventure</identifier>
+</externalentity>
+</resource>
+</resources>
+<tags>
+<tag id="30" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-10">
+<name>meta tags</name>
+<description>These tags are used for maintenance.</description>
+</tag>
+<tag id="922" parentid="2606" infobox="true" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2015-02-04">
+<name>shounen</name>
+<description>In the context of manga and associated media, shounen, literally meaning "youth" and often also specifically "boy", refers to a male audience roughly between the ages of 10 and 18.
+Source: Wikipedia</description>
+</tag>
+<tag id="1152" parentid="2849" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2010-04-23">
+<name>undead</name>
+</tag>
+<tag id="1409" parentid="1152" infobox="true" weight="500" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-15">
+<name>vampire</name>
+<description>A vampire is a mythological or folkloric nocturnal undead. Vampires use long fangs to penetrate the necks of people, usually young females, to drink their blood, both as a form of nourishment and to turn the targets into slaves.
+In the classic vampire stories, they are thought to have no reflection in mirrors, are able to shapeshift into bats (sometimes also wolves or some form of fog), have unlimited lifespan and superhuman strength, reflexes and senses, and may only be killed by silver bullets, silver blades, a stake through the heart, fire, or exposure to sunlight; on the other hand, they cannot tolerate garlic, holy water, or Christian crosses (sometimes expanded to religious symbols in general).
+In modern anime, these limitations are usually dropped, and they become far more powerful and fearsome opponents than usual. A human bitten, or sometimes even scratched, by a vampire typically becomes a slave, eventually dying as if poisoned, and becoming a vampire, ghoul, zombie, or other form of undead after death, often staying under the command of the vampire who originally bit them.</description>
+<picurl>47034.jpg</picurl>
+</tag>
+<tag id="2604" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2015-04-02">
+<name>content indicators</name>
+<description>The content indicators branch is intended to be a less geographically specific tool than the `age rating` used by convention, for warning about things that might cause offence. Obviously there is still a degree of subjectivity involved, but hopefully it will prove useful for parents with delicate children, or children with delicate parents.</description>
+</tag>
+<tag id="2605" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-28">
+<name>dynamic</name>
+<description>Some of the central structural elements in anime are: 
+Plot Continuity 
+How does the plot or several plots unfold. Are they a strictly linear retelling of one big continuing story, a serial, possibly with several side stories, or is the content chopped into a set of unconnected episodes, only sharing the same setting and characters?
+Stereotype Characters
+Then there is the question of the character set presentation. Is it completely original, or is it your usual stereotypical character cast. Both choices have their merit, for example it would not really make much sense to reinvent the wheel for a harem anime. Fans of that genre come to expect their favourite stereotype protagonists.
+Plot Twists
+Finally there is the question of how complex the plot / the story unfolds. Are there side-plots that merge into the main plot leading to unexpected plot twists, or is the anime quite predictable? The latter would not be appropriate for detective stories. In harem anime on the other hand a foreseeable outcome is actually something the fans will come to expect.</description>
+</tag>
+<tag id="2606" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-10-18">
+<name>target audience</name>
+<description>Anime, like everything else in the modern world, is targeted towards specific audiences, both implicitly by the creators and overtly by the marketing. While categories are associated with specific sex and age groups, this is not a bar on the anime being enjoyed by people who don`t fit into that band; not only do crossover titles exist, but the categories also have a considerable following outside their main demographic, and a person might as well enjoy anime from all categories. Still, does not invalidate the usefulness of marking a title as one of the categories; the same themes will likely be treated differently in anime geared for different audiences. Only one should not jump the gun and assume that a title will be more or less serious or present content in this or that way due to its target audience, or conversely assume the target audience on the content and its presentation alone. As such, the audience categories help form a broad impression of how a title might work with the announced themes, but offer little to no in-depth information about specific content or its treatment.
+The audience categories originate from manga magazines, which group titles of a same intended audience into a magazine that is advertised as belonging to that category, and so manga-based anime will have the category from their parent work. As for anime based on other works, the audience is often debatable, but comparing information such as time slot to the manga-based anime generally helps figure out the most likely possibility.</description>
+</tag>
+<tag id="2607" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-29">
+<name>themes</name>
+<description>Themes describe the very central elements important to the anime stories. They set the backdrop against which the protagonists must face their challenges. Be it School Life, present Daily Life, Military action, Cyberpunk, Law and Order detective work, Sports, or the Underworld. These are only but a few of the more typical backgrounds for anime plots. Add to that a Conspiracy setting with a possible tragic outcome, the Themes span most of the imaginable subject matter relevant to anime.</description>
+</tag>
+<tag id="2609" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-22">
+<name>original work</name>
+<description>What the anime is based on! Mostly of academic interest, but a useful bit of info, hinting at the possible depth of story.</description>
+</tag>
+<tag id="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-22">
+<name>setting</name>
+<description>The setting describes in what time and place an anime takes place. To a certain extent it describes what you can expect from the world in the anime.</description>
+</tag>
+<tag id="2611" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-08">
+<name>elements</name>
+<description>Next to Themes setting the backdrop for the protagonists in anime, there are the more detailed plot Elements that centre on character interactions: "What do characters do to each other or what is done to them?". Is it violent Action, an awe-inspiring Adventure in a foreign place, the gripping life of a Detective, a slapstick Comedy, an Ecchi Harem anime, a SciFi epic, or some Fantasy travelling adventure?</description>
+</tag>
+<tag id="2612" parentid="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-09-04">
+<name>time</name>
+<description>This placeholder lists different epochs in human history and more vague but important timelines such as the future, the present and the past.</description>
+</tag>
+<tag id="2613" parentid="2610" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-09-04">
+<name>place</name>
+<description>The places the anime can take place in. Includes more specific places such as a country on Earth, as well as more general places such as a dystopia or a mirror world.</description>
+</tag>
+<tag id="2617" parentid="2841" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2013-10-15">
+<name>calling your attacks</name>
+<description>"GIGAAAAAA DRIIIIIILLL BREAKEEEEEERRR"
+If you can do something more impressive than just throw a punch, your attack(s) must have an equally impressive name. More than that, you have to call it out as you launch the attack. It doesn`t matter if it`s a martial arts move, a magical spell or your secret superweapon, if you can`t say its name, it just isn`t nearly as cool or effective.
+Having a special attack is always a must, but not impressive enough. Every special attack needs a name. A really awesome and outstanding name which is easy to remember and even easier and impressive to yell. Because it just is not enough to name your attack. No, to unleash the full power of your attack, you have to call its name in your most MANLY and LOUDEST voice.
+It does not matter whether it is a martial arts move, a magical spell or flying drills from your mecha, if you can`t call its name, it just isn`t nearly as cool or effective. Not a requirement but wearing shades while calling your attack makes it at least twice as cool, moreover giving your mecha or magical companion shades too results in an immeasurable level of awesomeness, bringing down every enemy just through the POWER OF YOUR VOICE.
+A standard feature of practically every mecha, mahou shoujo, high fantasy, or martial arts anime.
+[Source: TV Tropes]</description>
+<picurl>144260.jpg</picurl>
+</tag>
+<tag id="2621" parentid="2841" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2012-10-21">
+<name>bullet time</name>
+<description>Bullet time refers to a simulation of variable speed (i.e. slow motion, time-lapse, …) and is characterized both by its extreme transformation of time and space to show normally imperceptible and un-filmable events, such as flying bullets.
+Most infamous scene using this technique, Neo dodging bullets in The Matrix film.</description>
+</tag>
+<tag id="2623" parentid="2611" infobox="true" weight="400" localspoiler="false" globalspoiler="false" verified="true" update="2011-01-06">
+<name>super power</name>
+<description>Be it an ancient Greek Heracles, a cybernetic muscle-man, or a fourteen year-old girl in a mini-skirted sailor suit. As long as they have super powers, they`re in the show.</description>
+</tag>
+<tag id="2625" parentid="2612" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2009-05-15">
+<name>past</name>
+<description>Anime that takes place in the past or clearly seems to take place in the past in case of an alternative universe. This category should almost always go together with one of its sub-categories, because the past can either be a depiction of a historical event(s) or not, in which case it would be alternative past.</description>
+</tag>
+<tag id="2630" parentid="2613" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2012-10-13">
+<name>Earth</name>
+<description>The Earth is the third planet from the Sun, and the densest and fifth-largest of the eight planets in the Solar System. It is in effect a ball of hot mud, but on the surface it`s cold enough, so most of us live on it (or are supposed to). It is circa 4.5 billion years old, and, unless we humans succeed in destroying it over the next couple of centuries, it is expected to last for quite another while, though the changes in the Sun`s emissions due to its aging will likely cause the extinction of everything; the species of earthlings are guaranteed to die, even if we fail to kill them -- unless, of course, we find ourselves another planet and figure out a way to take everything there. Our little planet on a corner of this galaxy may mean nothing in the grand scheme of things, but to its inhabitants it is their home, so, as a species, we cherish it dearly, to the point many cultures even to this day deify it. Being the home to the human civilizations, the Earth is the main setting of most fiction, be it anime or otherwise, but not only are many titles set in other places, such as unrelated fantasy worlds, in a considerable number of fictional titles the Earth is actually destroyed by aggressive alien invaders.</description>
+<picurl>126792.jpg</picurl>
+</tag>
+<tag id="2641" parentid="2625" infobox="true" weight="400" localspoiler="false" globalspoiler="false" verified="true" update="2009-05-18">
+<name>historical</name>
+<description>Historical anime have clear ties to our history and usually occur in a particular epoch.</description>
+</tag>
+<tag id="2684" parentid="2812" weight="200" localspoiler="false" globalspoiler="false" verified="true" update="2012-10-08">
+<name>New York</name>
+<description>AKA The Big Apple.
+The city in which many disasters happen in movies: alien invasion, monster attacks, earthquackes, tsunamis, the Doomsday, demon portal openings and they are averted by super-heroes, the army, scientists, ghost busters and many other groups.</description>
+</tag>
+<tag id="2686" parentid="2641" weight="300" localspoiler="false" globalspoiler="false" verified="true" update="2012-10-08">
+<name>Victorian period</name>
+<description>The Victorian era of British history was the period of Queen Victoria`s reign from 20 June 1837 until her death on 22 January 1901. The Victorian Era style of clothing, however, ended in 1912. It was a long period of peace, prosperity, refined sensibilities and national self-confidence for Britain. Some scholars date the beginning of the period in terms of sensibilities and political concerns to the passage of the Reform Act 1832.
+A famous era for old classic literature works.</description>
+</tag>
+<tag id="2691" parentid="2641" infobox="true" weight="400" localspoiler="false" globalspoiler="false" verified="true" update="2009-12-21">
+<name>World War II</name>
+<description>World War II, or the Second World War (often abbreviated WWII or WW2), was a global military conflict which involved most of the world`s nations, including all great powers, organised into two opposing military alliances: the Allies and the Axis. The war involved the mobilisation of over 100 million military personnel, making it the most widespread war in history. In a state of "total war," the major participants placed their entire economic, industrial, and scientific capabilities at the service of the war effort, erasing the distinction between civilian and military resources. Over seventy million people, the majority civilians, were killed, making it the deadliest conflict in human history.
+The start of the war is generally held to be September 1, 1939, with the invasion of Poland by Nazi Germany and subsequent declarations of war on Germany by most of the countries in the British Empire and Commonwealth, and by France. Many countries were already at war before this date, such as Ethiopia and Italy in the Second Italo-Abyssinian War and China and Japan in the Second Sino-Japanese War. Many who were not initially involved joined the war later, as a result of events such as the German invasion of the Soviet Union, the attacks on Pearl Harbor and British colonies, and subsequent declarations of war on Japan by the United States, the Netherlands, and British Commonwealth.
+In 1945, the war ended in a victory for the Allies. The Soviet Union and the United States subsequently emerged as the world`s superpowers, setting the stage for the Cold War which continued for the next 46 years. The United Nations was formed in the hope of preventing another world conflict. The acceptance of the principle of self-determination accelerated decolonization movements in Asia and Africa, while Western Europe itself began moving toward integration.
+------
+About the picture
+Top left: Battle of Wuhan
+Top right: Second Battle of El Alamein
+Middle left: Battle of Stalingrad
+Middle right: German dive bombers over Eastern Front winter 1943-1944
+Bottom left: Wilhelm Keitel signing German Instrument of Surrender
+Bottom right: Invasion of Lingayen Gulf</description>
+<picurl>40430.jpg</picurl>
+</tag>
+<tag id="2750" parentid="2604" infobox="true" weight="400" localspoiler="false" globalspoiler="false" verified="true" update="2009-07-28">
+<name>violence</name>
+<description>Physical force against self or other, compelling action against one`s will on pain of being hurt.</description>
+</tag>
+<tag id="2777" parentid="2809" weight="300" localspoiler="false" globalspoiler="false" verified="true" update="2012-10-06">
+<name>London</name>
+<description>Capital city of the United Kingdom.</description>
+</tag>
+<tag id="2798" parentid="2609" infobox="true" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-07">
+<name>manga</name>
+<description>Manga is the lifeblood that drives the anime industry. Everything and its mother is based on manga. However! There are exceptions where the manga was not the basis for the anime.
+It`s common practice to make manga adaptations of many popular anime, there`s a manga based on Evangelion, and two (one shounen and one shoujo) based on each of Escaflowne and Mahou Tsukai Tai. Also it`s quite common to release manga and anime versions of a story in parallel, for instance Nadesico and Shoujo Kakumei Utena. There are also cases where an anime continues in a manga, as in the case of Angel Beats! and Angel Beats: Heaven`s Door, or reverse.</description>
+</tag>
+<tag id="2809" parentid="2831" weight="300" localspoiler="false" globalspoiler="false" verified="true" update="2016-09-30">
+<name>United Kingdom</name>
+<description>The nation that once ruled half the globe (British Empire). Origin of the English language.</description>
+<picurl>64254.png</picurl>
+</tag>
+<tag id="2810" parentid="2831" weight="200" localspoiler="false" globalspoiler="false" verified="true" update="2012-02-04">
+<name>Italy</name>
+<description>A country in South-Central Europe, Italy is the home to many historically and culturally significant buildings and works of art. It is also known for its cuisine, which created items such as pizza and lasagna, and many of the finest wines. Its capital city, Rome, was once the center of the Roman Empire. Italy is also known for its crime syndicates, specially the Cosa Nostra, which operates in Sicily and also spun off to the United States and to which the word mafia is closely tied.</description>
+</tag>
+<tag id="2812" parentid="2832" weight="200" localspoiler="false" globalspoiler="false" verified="true" update="2013-03-15">
+<name>United States</name>
+<description>The United States of America (commonly referred to as the United States, the U.S., the USA, or America) is a federal constitutional republic comprising fifty states and a federal district. The country is situated mostly in central North America, where its forty-eight contiguous states and Washington, D.C., the capital district, lie between the Pacific and Atlantic Oceans, bordered by Canada to the north and Mexico to the south. The state of Alaska is in the north-west of the continent, with Canada to the east and Russia to the west across the Bering Strait. The state of Hawaii is an archipelago in the mid-Pacific. The country also possesses several territories in the Caribbean and Pacific.
+Source: wiki</description>
+<picurl>45504.jpg</picurl>
+</tag>
+<tag id="2831" parentid="2630" weight="400" localspoiler="false" globalspoiler="false" verified="true" update="2016-09-30">
+<name>Europe</name>
+<description>Europe is, by convention, one of the world`s seven traditional continents. It`s also home of medieval castles which are quite often featured in anime.</description>
+<picurl>192044.jpg</picurl>
+</tag>
+<tag id="2832" parentid="2630" weight="300" localspoiler="false" globalspoiler="false" verified="true" update="2016-10-04">
+<name>Americas</name>
+<description>The Americas, also collectively called America, encompass the totality of the continents of North America and South America. Together they make up most of Earth`s western hemisphere and comprise the New World.
+Source: Wikipedia</description>
+<picurl>192247.jpg</picurl>
+</tag>
+<tag id="2841" parentid="2611" infobox="true" weight="600" localspoiler="false" globalspoiler="false" verified="true" update="2015-09-08">
+<name>action</name>
+<description>Action anime usually involve a fairly straightforward story of good guys versus bad guys, where most disputes are resolved by using physical force. It often contains a lot of shooting, explosions and fighting.</description>
+</tag>
+<tag id="2849" parentid="2611" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2005-05-07">
+<name>fantasy</name>
+<description>Fantasy is a genre of fiction that uses magic and other supernatural phenomena as a primary element of plot, theme, or setting. Many works within the genre take place in fictional worlds where magic is common. Fantasy is generally distinguished from science fiction and horror by the expectation that it steers clear of (pseudo-)scientific and macabre themes, respectively, though there is a great deal of overlap between the three (which are subgenres of speculative fiction).
+In popular culture, the genre of fantasy is dominated by its medievalist form, especially since the worldwide success of The Lord of the Rings books by J. R. R. Tolkien. In its broadest sense however, fantasy comprises works by many writers, artists, filmmakers, and musicians, from ancient myths and legends to many recent works embraced by a wide audience today.
+Fantasy is a vibrant area of academic study in a number of disciplines (English, cultural studies, comparative literature, history, medieval studies). Work in this area ranges widely, from the structuralist theory of Tzvetan Todorov, which emphasizes the fantastic as a liminal space, to work on the connections (political, historical, literary) between medievalism and popular culture
+Source: Wiki</description>
+<picurl>68768.jpg</picurl>
+</tag>
+<tag id="2851" parentid="2611" infobox="true" weight="500" localspoiler="false" globalspoiler="false" verified="true" update="2009-05-15">
+<name>horror</name>
+<description>The horror cinematic genre is characterized by the attempt to make the viewer experience dread, fear, terror, or horror. Often their plots involve the intrusion of an evil force, event or personage, sometimes of supernatural origin, on the mundane world and the consequences thereof.</description>
+</tag>
+<tag id="2853" parentid="2611" weight="200" localspoiler="false" globalspoiler="false" verified="true" update="2017-02-13">
+<name>comedy</name>
+<description>Anime whose central struggle causes hilarious results. These stories are built upon funny characters, situations and events. A comedy anime is laced with humour and sets out to provoke laughter from the audience.
+Japanese humour can be a bit strange to westerners, so if you`re new to this type of humour, just bear with it; it`ll most likely grow on you if you`re a fan of other kinds of comedy.</description>
+<picurl>198104.jpg</picurl>
+</tag>
+<tag id="2862" parentid="2607" weight="300" localspoiler="false" globalspoiler="false" verified="true" update="2012-10-11">
+<name>friendship</name>
+<description>The feeling of trust, kindness, and friendship between a group of high school students for example, is a central theme of this anime.</description>
+</tag>
+<tag id="2868" parentid="2607" weight="100" localspoiler="false" globalspoiler="false" verified="true" update="2015-12-20">
+<name>racism</name>
+<description>Racism is prejudice, discrimination, or antagonism directed against someone of an ethnically different background based on the pseudo-scientific belief that biological differences between peoples form so-called "races" and that one`s own "race" is superior to another, possibly also holding that members of different "races" should be treated differently. Some definitions include only consciously malignant forms of discrimination, and some views include discriminatory behaviors and beliefs based on cultural, national, ethnic, caste, or religious stereotypes. In works of fiction, this may also include similar actions against other sentient species.
+Source: Wikipedia</description>
+</tag>
+<tag id="2877" parentid="2607" weight="200" localspoiler="false" globalspoiler="false" verified="true" update="2014-02-27">
+<name>revenge</name>
+<description>A primary factor that drives the plot forward, is the almost obsessive desire of one of the characters to get back at someone else.</description>
+</tag>
+<tag id="2931" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-12-04">
+<name>unsorted</name>
+<description>a bunch of tags that still need to be either deleted or moved into proper places.</description>
+</tag>
+<tag id="3317" parentid="2810" weight="100" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-24">
+<name>Venice</name>
+<description>Venice (Italian: Venezia) is a city in northern Italy and the capital and largest city of the Veneto region.</description>
+</tag>
+<tag id="3327" parentid="6149" weight="0" localspoiler="false" globalspoiler="false" verified="false" update="2008-06-08">
+<name>manly</name>
+<description>Masculinity is possessing qualities or characteristics considered typical of or appropriate to a man.
+Typical characteristics associated with masculinity are: courage, a strong physique, competitive, strong willed, and a sense of honor.
+Very important for being considered masculine however is the ability to inspire respect from your fellow brethren and/or being perceived as a virile man by the opposite sex.</description>
+</tag>
+<tag id="3411" parentid="2841" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-05-24">
+<name>fighting</name>
+<description>For some reason or other one faction has to take it out on some opponent via fight or battle. Typical examples of this are all the anime with "endless pointless fighting" tag.</description>
+</tag>
+<tag id="3683" parentid="2605" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-28">
+<name>storytelling</name>
+</tag>
+<tag id="3842" parentid="6151" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2010-10-31">
+<name>TV censoring</name>
+<description>The TV version is censored and later DVD/BD releases are uncensored, so the money-grubbing capitalists can make a couple more bucks at our expense.</description>
+</tag>
+<tag id="3909" parentid="3683" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-28">
+<name>talking is a free action</name>
+<description>Time in comics is flexible. Each panel shows a single event, which is usually accompanied by a length of dialog, which must take some time to say. This disparity is usually accepted if it isn`t taken to extremes.
+But often, characters will exposit when it`s most needed: at the story`s climax, when both the intricacies of the plot and the intensity of action hit their highest.
+While the Heroes Outrun the Fireball, Mr. Exposition might explain why the Evil Overlord`s death caused the explosion. The Action Girl can deliver impressive lectures on why the monster`s Achilles` Heel will work, while still engaging in Waif-Fu. The Superhero can quip to his heart`s content and explain his abilities while dueling one insignificant mobster, or deliver a Kirk Summation during the course of a single Finishing Move. Sometimes even apparent mere mortals can give a lecture on what is happening when it would be a much better idea to simply run like hell.
+Without stopping to breathe, apparently.
+Source: TvTrope</description>
+</tag>
+<tag id="4096" parentid="2750" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-03-23">
+<name>gore</name>
+<description>A Splatter film or Gore film is a sub-genre of horror film that deliberately focuses on graphic portrayals of gore and graphic violence. These films, through the use of special effects and excessive blood and guts, tend to display an overt interest in the vulnerability of the human body and the theatricality of its mutilation. Due to their willingness to portray images society might consider shocking, splatter films share some ideological grounds with the transgressive art movement. The term "splatter cinema" was coined by George A. Romero to describe his film Dawn of the Dead, though Dawn of the Dead is generally considered by critics to have higher aspirations, such as social commentary, than to be simply exploitative for its own sake.
+[Source: wiki]</description>
+<picurl>32491.jpg</picurl>
+</tag>
+<tag id="4159" parentid="2832" weight="200" localspoiler="false" globalspoiler="false" verified="true" update="2016-10-04">
+<name>Mexico</name>
+<description>Mexico, officially the United Mexican States, is a federal republic in the southern half of North America. The country is bordered to the north by the United States; to the south and west by the Pacific Ocean; to the southeast by Guatemala, Belize, and the Caribbean Sea; and to the east by the Gulf of Mexico. Covering almost two million square kilometers. With an estimated population of over 120 million, it is the most populous Spanish-speaking country in the world while being the second most populous country in Latin America.
+Source: Wikipedia</description>
+<picurl>192315.jpg</picurl>
+</tag>
+<tag id="4343" parentid="2931" weight="0" localspoiler="false" globalspoiler="true" verified="false" update="2009-09-21">
+<name>main character dies</name>
+<description>At least one of the main characters in the anime dies.</description>
+</tag>
+<tag id="4353" parentid="2810" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2010-11-25">
+<name>Rome</name>
+<description>Set in Italy`s capital city Rome or based in Rome.</description>
+</tag>
+<tag id="4537" parentid="2605" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-02-15">
+<name>time skip</name>
+<description>The plot features at least one skip or jump in time.
+Example: A skip from the present into the past, or time skips in increments, e.g. every hour there is a time skip by a day.</description>
+</tag>
+<tag id="4691" parentid="2831" weight="100" localspoiler="false" globalspoiler="false" verified="true" update="2016-10-08">
+<name>Switzerland</name>
+<description>Switzerland, officially the Swiss Confederation is a federal republic in Europe. While still named the "Swiss Confederation" for historical reasons, modern Switzerland is a federal directorial republic consisting of 26 cantons, with Bern as the seat of the federal authorities, called "federal city". The country is situated in Western-Central Europe, and is bordered by Italy to the south, France to the west, Germany to the north, and Austria and Liechtenstein to the east. Switzerland is a landlocked country geographically divided between the Alps, the Swiss Plateau and the Jura, spanning an area of 41,285 km². While the Alps occupy the greater part of the territory, the Swiss population of approximately eight million people is concentrated mostly on the plateau, where the largest cities are to be found: among them are the two global and economic centres Zürich and Geneva.
+Source: Wikipedia</description>
+<picurl>192470.jpg</picurl>
+</tag>
+<tag id="5762" parentid="3842" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2015-02-26">
+<name>violence censoring</name>
+<description>Describes TV shows, where parts of the scenes considered as too violent are blackened, blurred, changed to other static screen, or cut out completely.
+While TV censoring is normally used to boost the BD/DVD sales, this is done under the mantle of being "for the healthy development of youth" or similar excuses. In the long run, it`s just the same.
+Examples: Deadman Wonderland, Fate/Zero, and Mirai Nikki.</description>
+</tag>
+<tag id="5865" parentid="2931" weight="0" localspoiler="false" globalspoiler="false" verified="false" update="2009-05-22">
+<name>manly tears</name>
+<description>Somewhere down the line, it became the "norm" that boys don`t cry. The scenario does not matter; shedding tears is the ultimate no-no in terms of what you can and cannot do as a man (at least in the West, anyway). But there comes a time when a man`s emotions do get the better of him, and they pour forth - as prerequisite an impassioned speech may or may not be present - by cascading down his cheeks. These are what we like to call "manly tears". Extremely powerful. Not limited but often used in hot-blooded / super robot shows. Examples include Yuusha Ou GaoGaiGar, Getter Robo and Tengen Toppa Gurren Lagann.
+The opposite of manly tears are "girly tears".</description>
+</tag>
+<tag id="5948" parentid="6233" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-18">
+<name>visible aura</name>
+<description>Characters are surrounded by a visible energy field usually representing inner strength, but not restricted to only that.</description>
+</tag>
+<tag id="5954" parentid="6233" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-02-17">
+<name>call my name</name>
+<description>"TETSUOOOOOO!!" "KANEDAAAAAA!!"
+"TAMAHOMEEEE!!" "MIAKAAAA!!"
+Feelings of any kind towards other characters are best shown by calling each other`s name, loud, REALLY LOUD. For better effect at least twice or thrice. For lover`s couples and mortal enemies it is a requirement to run towards each other while calling each other`s name, unaware of the surroundings.</description>
+</tag>
+<tag id="6034" parentid="6233" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-11-02">
+<name>Engrish</name>
+<description>Engrish is actually a mispronunciation of English, as can be the result of someone, who does not have English as their primary language of origin (such as Japanese or Chinese). Occasionally characters in the original Japanese dialogue version of an anime will speak in English... however; this often still requires the assistance of subtitles, for while the words are meant to be said in English, the sentence structure and letter pronunciation may still be strongly related to the person’s primary language.</description>
+</tag>
+<tag id="6149" parentid="30" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-10">
+<name>TO BE MOVED TO CHARACTER</name>
+<description>Tags under this parent tag are going to be moved to character tags and removed from the anime they`re currently assigned to. They will be blocked from the anime system once that move is complete. Please help with that job if you know what characters they should be assigned to.</description>
+</tag>
+<tag id="6151" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-10">
+<name>technical aspects</name>
+<description>It may sometimes be useful to know about technical aspects of a show, such as information about its broadcasting or censorship. Such information can be found here.</description>
+</tag>
+<tag id="6233" parentid="2611" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2015-08-11">
+<name>tropes</name>
+<description>A trope is a commonly recurring literary and rhetorical devices, motifs or clichés in creative works. This use is a broader redefining of a literary trope, the use of figurative language, via word, phrase, or even an image, for artistic effect, such as using a figure of speech.
+Source: Wikipedia</description>
+</tag>
+</tags>
+<characters>
+<character id="894" type="appears in" update="2014-04-07">
+<rating votes="133">8.55</rating>
+<name>Kuujou Joutarou</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Kuujou Joutarou has a very tough exterior, and is even rather rough and delinquent, but he also is very dedicated, intense, and loyal. He is intelligent, but usually lets his (or Star Platinum`s) fists do the talking with the enemy, even though he often has to rely on his wits to deal with stand users` attacks. Joutarou has a perpetual cooler-than-thou, slightly disinterested attitude, although he loves his mother and respects his grandfather. It is not that he is unaware of his own love and/or respect; rather, he thinks anyone can tell his emotions just by looking at him, and probably thinks further effort in portraying how he feels to be a waste of time. In the manga, he`s constantly chased by adoring girls, whom he ignores or tries to drive away. He is the main target of http://anidb.net/ch895 [Dio], who realises that Joutarou is his greatest threat.</description>
+<picture>147627.jpg</picture>
+</character>
+<character id="895" type="main character in" update="2012-09-28">
+<rating votes="64">8.05</rating>
+<name>Dio Brando</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Dio Brando`s treacherous, sadistic nature may be partially explained by his abusive upbringing at the hands of an alcoholic father, whom he later killed by a slow poisoning over time. He is also ambitious, narcissistic, arrogant and megalomaniacal. He will do anything to get what he wants, even if it means trampling people, like he did to Jonathan Joestar when they were young, and relinquishing his humanity in favor of becoming a vampire. However, Dio shows a good side to those who are good to him. In particular, he has shown favourable attitudes towards Enrico Pucci, who also showed loyalty in return. Dio also has a passion for reading, as he is found in the library of his Egypt mansion many times.</description>
+<picture>45620.jpg</picture>
+<seiyuu id="139" picture="29283.jpg">Koyasu Takehito</seiyuu>
+</character>
+<character id="1742" type="appears in" update="2016-12-18">
+<rating votes="92">8.50</rating>
+<name>Joseph Joestar</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Joseph comes to the aid of his daughter Holly, and his grandson Joutarou. He teaches his grandson about the Stand, and for the most, has done his share of directing the group towards their goal, through fatherly advices and tactics and analysis. He deciphered Kakyouin Noriaki`s message despite cryptic depictions in regards to Dio`s power.</description>
+<picture>147622.jpg</picture>
+<seiyuu id="45" picture="44970.jpg">Sugita Tomokazu</seiyuu>
+</character>
+<character id="2068" type="main character in" update="2016-04-08">
+<rating votes="86">7.23</rating>
+<name>Jonathan Joestar</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>The son of the wealthy George Joestar. He is an honest, kind and positive young man whose life is fraught with tragedy. His body was taken by Dio Brando.</description>
+<picture>45624.jpg</picture>
+<seiyuu id="1692" picture="19888.jpg">Okitsu Kazuyuki</seiyuu>
+</character>
+<character id="47868" type="secondary cast in" update="2012-09-28">
+<rating votes="25">8.73</rating>
+<name>Erina Pendleton</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>45646.jpg</picture>
+<seiyuu id="12" picture="184301.jpg">Kawasumi Ayako</seiyuu>
+</character>
+<character id="47869" type="secondary cast in" update="2012-09-28">
+<rating votes="16">7.88</rating>
+<name>Robert E. O. Speedwagon</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>45584.jpg</picture>
+<seiyuu id="31" picture="65365.jpg">Ueda Youji</seiyuu>
+</character>
+<character id="47870" type="secondary cast in" update="2012-09-28">
+<rating votes="18">8.13</rating>
+<name>Will A. Zeppeli</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>45617.jpg</picture>
+<seiyuu id="107" picture="172060.jpg">Shioya Yoku</seiyuu>
+</character>
+<character id="49436" type="appears in" update="2017-04-01">
+<rating votes="8">2.47</rating>
+<name>Dio Brando</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>45659.jpg</picture>
+<seiyuu id="139" picture="29283.jpg">Koyasu Takehito</seiyuu>
+</character>
+<character id="49437" type="appears in" update="2017-04-07">
+<rating votes="3">3.52</rating>
+<name>Jonathan Joestar</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>45680.jpg</picture>
+<seiyuu id="1692" picture="19888.jpg">Okitsu Kazuyuki</seiyuu>
+</character>
+<character id="49619" type="appears in" update="2012-10-05">
+<rating votes="2">3.82</rating>
+<name>George Joestar</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>126472.jpg</picture>
+<seiyuu id="2730" picture="22755.jpg">Sugawara Masashi</seiyuu>
+</character>
+<character id="49620" type="appears in" update="2012-10-05">
+<rating votes="2">1.78</rating>
+<name>Dario Brando</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>126473.jpg</picture>
+<seiyuu id="11009" picture="39517.jpg">Miyazawa Tadashi</seiyuu>
+</character>
+<character id="49621" type="appears in" update="2012-10-05">
+<rating votes="2">5.17</rating>
+<name>Danny</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>126474.jpg</picture>
+</character>
+<character id="49813" type="appears in" update="2013-04-19">
+<rating votes="1">1.59</rating>
+<name>Shikai</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>60238.png</picture>
+<seiyuu id="33784" picture="93013.jpg">Takeuchi Eiji</seiyuu>
+</character>
+<character id="49977" type="appears in" update="2012-10-20">
+<rating votes="1">1.59</rating>
+<name>Wang Chan</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>127043.jpg</picture>
+<seiyuu id="2340" picture="151335.jpg">Naka Hiroshi</seiyuu>
+</character>
+<character id="50317" type="appears in" update="2012-11-03">
+<rating votes="2">6.12</rating>
+<name>Poco</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>127610.jpg</picture>
+<seiyuu id="320" picture="66660.jpg">Kobayashi Yumiko</seiyuu>
+</character>
+<character id="50318" type="appears in" update="2012-11-03">
+<rating votes="2">4.94</rating>
+<name>Bruford</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>127611.jpg</picture>
+<seiyuu id="592" picture="170729.jpg">Tsuda Kenjirou</seiyuu>
+</character>
+<character id="50319" type="appears in" update="2012-11-03">
+<rating votes="1">6.55</rating>
+<name>Tarkus</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>127612.jpg</picture>
+<seiyuu id="1616" picture="23191.jpg">Inada Tetsu</seiyuu>
+</character>
+<character id="50320" type="appears in" update="2012-11-03">
+<rating votes="1">1.59</rating>
+<name>Elizabeth I</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>127615.jpg</picture>
+<seiyuu id="23484" picture="151668.jpg">Keichou Yuka</seiyuu>
+</character>
+<character id="50321" type="appears in" update="2012-11-03">
+<rating votes="1">3.38</rating>
+<name>Mary Stuart</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>127616.jpg</picture>
+</character>
+<character id="50322" type="appears in" update="2015-05-29">
+<name>Jack</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>127619.jpg</picture>
+<seiyuu id="2361" picture="22135.jpg">Kusumi Naomi</seiyuu>
+</character>
+<character id="50605" type="secondary cast in" update="2012-12-03">
+<rating votes="16">7.17</rating>
+<name>Caesar Antonio Zeppeli</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>129015.jpg</picture>
+<seiyuu id="2328" picture="171565.jpg">Satou Takuya</seiyuu>
+</character>
+<character id="50606" type="main character in" update="2012-12-03">
+<rating votes="72">9.03</rating>
+<name>Joseph Joestar</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>129014.jpg</picture>
+<seiyuu id="45" picture="44970.jpg">Sugita Tomokazu</seiyuu>
+</character>
+<character id="50607" type="secondary cast in" update="2016-08-21">
+<rating votes="17">8.33</rating>
+<name>Rudolf von Stroheim</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>129017.jpg</picture>
+<seiyuu id="19" picture="50583.jpg">Imaruoka Atsushi</seiyuu>
+</character>
+<character id="50616" type="secondary cast in" update="2012-12-03">
+<rating votes="19">8.38</rating>
+<name>Lisa Lisa</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>129016.jpg</picture>
+<seiyuu id="222" picture="19786.jpg">Tanaka Atsuko</seiyuu>
+</character>
+<character id="50818" type="appears in" update="2012-11-24">
+<rating votes="1">3.38</rating>
+<name>Dire</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>128518.jpg</picture>
+<seiyuu id="2339" picture="151715.jpg">Taketora</seiyuu>
+</character>
+<character id="50819" type="secondary cast in" update="2012-11-24">
+<rating votes="2">3.45</rating>
+<name>Straits</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>128519.jpg</picture>
+<seiyuu id="190" picture="186145.jpg">Tobita Nobuo</seiyuu>
+</character>
+<character id="50820" type="appears in" update="2012-11-24">
+<rating votes="1">6.55</rating>
+<name>Tonpeti</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>128520.jpg</picture>
+<seiyuu id="2366" picture="22145.jpg">Ooki Tamio</seiyuu>
+</character>
+<character id="51201" type="secondary cast in" update="2016-08-21">
+<rating votes="7">5.04</rating>
+<name>Robert E. O. Speedwagon</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>129258.jpg</picture>
+<seiyuu id="31" picture="65365.jpg">Ueda Youji</seiyuu>
+</character>
+<character id="51202" type="appears in" update="2016-08-21">
+<rating votes="5">6.20</rating>
+<name>Erina Joestar</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>129259.jpg</picture>
+<seiyuu id="12" picture="184301.jpg">Kawasumi Ayako</seiyuu>
+</character>
+<character id="51203" type="secondary cast in" update="2012-12-09">
+<rating votes="3">4.14</rating>
+<name>Smokey Brown</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>129260.jpg</picture>
+<seiyuu id="5319" picture="188709.jpg">Hayashi Yuu</seiyuu>
+</character>
+<character id="51460" type="secondary cast in" update="2012-12-22">
+<rating votes="4">4.42</rating>
+<name>Santana</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>129838.jpg</picture>
+<seiyuu id="611" picture="18094.jpg">Nomura Kenji</seiyuu>
+</character>
+<character id="51461" type="secondary cast in" update="2013-01-13">
+<rating votes="10">7.36</rating>
+<name>Wham</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>130683.jpg</picture>
+<seiyuu id="286" picture="17117.jpg">Ootsuka Akio</seiyuu>
+</character>
+<character id="51462" type="secondary cast in" update="2013-01-20">
+<rating votes="4">6.64</rating>
+<name>ACDC</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>131075.jpg</picture>
+<seiyuu id="168" picture="80607.jpg">Fujiwara Keiji</seiyuu>
+</character>
+<character id="51463" type="secondary cast in" update="2013-01-20">
+<rating votes="10">6.02</rating>
+<name>Cars</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>131076.jpg</picture>
+<seiyuu id="189" picture="23873.jpg">Inoue Kazuhiko</seiyuu>
+</character>
+<character id="51586" type="appears in" update="2012-12-22">
+<rating votes="1">3.38</rating>
+<name>Donovan</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>129839.jpg</picture>
+<seiyuu id="2488" picture="186147.jpg">Matsuda Ken`ichirou</seiyuu>
+</character>
+<character id="52569" type="appears in" update="2013-04-06">
+<rating votes="4">3.65</rating>
+<name>Suzie Q</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>134795.jpg</picture>
+<seiyuu id="643" picture="18170.jpg">Kojima Sachiko</seiyuu>
+</character>
+<character id="52570" type="appears in" update="2013-02-02">
+<rating votes="1">1.59</rating>
+<name>Loggins</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>131697.jpg</picture>
+<seiyuu id="415" picture="72865.jpg">Nakano Yutaka</seiyuu>
+</character>
+<character id="52571" type="appears in" update="2013-02-02">
+<rating votes="2">4.47</rating>
+<name>Messina</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>131698.jpg</picture>
+<seiyuu id="601" picture="165793.jpg">Nakamura Hidetoshi</seiyuu>
+</character>
+<character id="55111" type="appears in" update="2013-04-19">
+<rating votes="1">1.59</rating>
+<name>Onna</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>60239.png</picture>
+<seiyuu id="10424" picture="172872.jpg">Watanabe Keiko</seiyuu>
+</character>
+<character id="55112" type="appears in" update="2013-04-19">
+<rating votes="1">1.08</rating>
+<name>Otoko</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>60240.png</picture>
+<seiyuu id="9114" picture="201075.jpg">Kikumoto Taira</seiyuu>
+</character>
+<character id="82388" type="appears in" update="2016-06-08">
+<name>Wired Beck</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>187465.jpg</picture>
+<seiyuu id="3141" picture="65575.jpg">Tsuruoka Satoshi</seiyuu>
+</character>
+<character id="88595" type="appears in" update="2017-04-03">
+<name>Poco no Ane</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>200587.jpg</picture>
+<seiyuu id="424" picture="17294.jpg">Endou Aya</seiyuu>
+</character>
+<character id="88691" type="appears in" update="2017-04-04">
+<name>Kisha</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>200739.jpg</picture>
+<seiyuu id="5641" picture="39837.jpg">Yoshida Seiko</seiyuu>
+</character>
+<character id="88701" type="appears in" update="2017-04-05">
+<name>Genchimin no Onna</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>200764.jpg</picture>
+<seiyuu id="27805" picture="75377.jpg">Matsuda Shiori</seiyuu>
+</character>
+<character id="88703" type="appears in" update="2017-04-05">
+<name>Onna</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>200766.jpg</picture>
+<seiyuu id="20241" picture="201078.jpg">Okada Eimi</seiyuu>
+</character>
+<character id="88753" type="appears in" update="2017-04-09">
+<name>Mario Zeppeli</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>200893.jpg</picture>
+<seiyuu id="3161" picture="69050.jpg">Yamanoi Jin</seiyuu>
+</character>
+<character id="88755" type="appears in" update="2017-04-10">
+<name>George Joestar II</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>200901.jpg</picture>
+</character>
+</characters>
+<episodes>
+<episode id="144339" update="2013-01-01">
+<epno type="1">4</epno>
+<length>25</length>
+<airdate>2012-10-27</airdate>
+<rating votes="12">6.55</rating>
+<title xml:lang="ja">波紋疾走(オーバードライブ)</title>
+<title xml:lang="en">Overdrive</title>
+<title xml:lang="x-jat">Overdrive</title>
+</episode>
+<episode id="144340" update="2013-01-01">
+<epno type="1">3</epno>
+<length>25</length>
+<airdate>2012-10-20</airdate>
+<rating votes="13">7.42</rating>
+<title xml:lang="ja">ディオとの青春</title>
+<title xml:lang="en">Youth with Dio</title>
+<title xml:lang="x-jat">Dio to no Seishun</title>
+</episode>
+<episode id="144341" update="2014-04-13">
+<epno type="1">2</epno>
+<length>25</length>
+<airdate>2012-10-13</airdate>
+<rating votes="13">7.74</rating>
+<title xml:lang="ja">過去からの手紙</title>
+<title xml:lang="en">A Letter From the Past</title>
+<title xml:lang="x-jat">Kako kara no Tegami</title>
+</episode>
+<episode id="144342" update="2014-04-13">
+<epno type="1">1</epno>
+<length>25</length>
+<airdate>2012-10-06</airdate>
+<rating votes="13">6.57</rating>
+<title xml:lang="ja">侵略者ディオ</title>
+<title xml:lang="en">Dio the Destroyer</title>
+<title xml:lang="x-jat">Shinryakusha Dio</title>
+</episode>
+<episode id="144601" update="2013-04-17">
+<epno type="3">C3</epno>
+<length>2</length>
+<airdate>2012-10-06</airdate>
+<rating votes="1">2.40</rating>
+<title xml:lang="en">Ending 1a</title>
+</episode>
+<episode id="144602" update="2012-10-12">
+<epno type="3">C1</epno>
+<length>2</length>
+<airdate>2012-10-13</airdate>
+<rating votes="1">4.20</rating>
+<title xml:lang="en">Opening 1</title>
+</episode>
+<episode id="144644" update="2012-10-07">
+<epno type="4">T1</epno>
+<length>2</length>
+<title xml:lang="en">Preview</title>
+</episode>
+<episode id="144868" update="2013-01-01">
+<epno type="1">6</epno>
+<length>25</length>
+<airdate>2012-11-10</airdate>
+<rating votes="10">6.26</rating>
+<title xml:lang="ja">あしたの勇気</title>
+<title xml:lang="en">Courage for Tomorrow</title>
+<title xml:lang="x-jat">Ashita no Yuuki</title>
+</episode>
+<episode id="144869" update="2013-01-01">
+<epno type="1">5</epno>
+<length>25</length>
+<airdate>2012-11-03</airdate>
+<rating votes="10">6.40</rating>
+<title xml:lang="ja">暗黒の騎士達</title>
+<title xml:lang="en">Black Knights</title>
+<title xml:lang="x-jat">Ankoku no Kishi-tachi</title>
+</episode>
+<episode id="145356" update="2014-08-19">
+<epno type="1">10</epno>
+<length>25</length>
+<airdate>2012-12-08</airdate>
+<rating votes="7">8.67</rating>
+<title xml:lang="ja">ニューヨークのジョジョ</title>
+<title xml:lang="en">New York JoJo</title>
+<title xml:lang="x-jat">New York no JoJo</title>
+</episode>
+<episode id="145357" update="2013-01-01">
+<epno type="1">9</epno>
+<length>25</length>
+<airdate>2012-12-01</airdate>
+<rating votes="10">8.26</rating>
+<title xml:lang="ja">最後の波紋!</title>
+<title xml:lang="en">Final Ripple!</title>
+<title xml:lang="x-jat">Saigo no Hamon!</title>
+</episode>
+<episode id="145358" update="2013-01-01">
+<epno type="1">8</epno>
+<length>25</length>
+<airdate>2012-11-24</airdate>
+<rating votes="9">7.72</rating>
+<title xml:lang="ja">血戦! JOJO&amp;DIO</title>
+<title xml:lang="en">Bloodmatch! JoJo &amp; Dio</title>
+<title xml:lang="x-jat">Kessen! JoJo &amp; Dio</title>
+</episode>
+<episode id="145359" update="2013-01-01">
+<epno type="1">7</epno>
+<length>25</length>
+<airdate>2012-11-17</airdate>
+<rating votes="10">7.34</rating>
+<title xml:lang="ja">うけ継ぐ者</title>
+<title xml:lang="en">Successor</title>
+<title xml:lang="x-jat">Uketsugu Mono</title>
+</episode>
+<episode id="145403" update="2013-04-17">
+<epno type="3">C2</epno>
+<length>2</length>
+<airdate>2012-12-15</airdate>
+<rating votes="1">4.20</rating>
+<title xml:lang="en">Opening 2</title>
+</episode>
+<episode id="145837" update="2013-01-01">
+<epno type="1">12</epno>
+<length>25</length>
+<airdate>2012-12-22</airdate>
+<rating votes="6">8.39</rating>
+<title xml:lang="ja">柱の男</title>
+<title xml:lang="en">Pillar Man</title>
+<title xml:lang="x-jat">Hashira no Otoko</title>
+</episode>
+<episode id="145838" update="2014-08-19">
+<epno type="1">11</epno>
+<length>25</length>
+<airdate>2012-12-15</airdate>
+<rating votes="8">8.79</rating>
+<title xml:lang="ja">ゲームの達人</title>
+<title xml:lang="en">Game Master</title>
+<title xml:lang="x-jat">Game no Tatsujin</title>
+</episode>
+<episode id="146112" update="2016-11-21">
+<epno type="1">13</epno>
+<length>25</length>
+<airdate>2013-01-05</airdate>
+<rating votes="7">8.63</rating>
+<title xml:lang="ja">JOJO vs. 究極生物</title>
+<title xml:lang="en">JoJo vs. The Omnipotent Organism</title>
+<title xml:lang="x-jat">JoJo vs. Kyuukyoku Seibutsu</title>
+</episode>
+<episode id="146567" update="2016-11-21">
+<epno type="1">17</epno>
+<length>25</length>
+<airdate>2013-02-02</airdate>
+<rating votes="6">7.33</rating>
+<title xml:lang="ja">深く罠をはれ!</title>
+<title xml:lang="en">Weave an Intricate Trap!</title>
+<title xml:lang="x-jat">Fukaku Wana o Hare!</title>
+</episode>
+<episode id="146568" update="2016-11-21">
+<epno type="1">16</epno>
+<length>25</length>
+<airdate>2013-01-26</airdate>
+<rating votes="6">6.54</rating>
+<title xml:lang="ja">波紋教師リサリサ</title>
+<title xml:lang="en">Lisa Lisa the Ripple Master</title>
+<title xml:lang="x-jat">Hamon Kyoushi Lisa Lisa</title>
+</episode>
+<episode id="146569" update="2016-11-21">
+<epno type="1">15</epno>
+<length>25</length>
+<airdate>2013-01-19</airdate>
+<rating votes="6">7.40</rating>
+<title xml:lang="ja">ヒーローの資格</title>
+<title xml:lang="en">Qualification of a Hero</title>
+<title xml:lang="x-jat">Hero no Shikaku</title>
+</episode>
+<episode id="146570" update="2016-11-21">
+<epno type="1">14</epno>
+<length>25</length>
+<airdate>2013-01-12</airdate>
+<rating votes="6">8.05</rating>
+<title xml:lang="ja">太古から来た究極戦士</title>
+<title xml:lang="en">Ultimate Warriors from Ancient Times</title>
+<title xml:lang="x-jat">Taiko kara Kita Kyuukyoku Senshi</title>
+</episode>
+<episode id="146891" update="2013-01-20">
+<epno type="3">C4</epno>
+<length>2</length>
+<airdate>2013-01-12</airdate>
+<title xml:lang="en">Ending 1b</title>
+</episode>
+<episode id="147192" update="2016-11-21">
+<epno type="1">18</epno>
+<length>25</length>
+<airdate>2013-02-09</airdate>
+<rating votes="6">6.77</rating>
+<title xml:lang="ja">シュトロハイム隊の逆襲</title>
+<title xml:lang="en">Stroheim`s Counterattack</title>
+<title xml:lang="x-jat">Stroheim-tai no Gyakushuu</title>
+</episode>
+<episode id="147208" update="2016-11-21">
+<epno type="1">22</epno>
+<length>25</length>
+<airdate>2013-03-09</airdate>
+<rating votes="5">8.20</rating>
+<title xml:lang="ja">真の格闘者</title>
+<title xml:lang="en">A True Warrior</title>
+<title xml:lang="x-jat">Shin no Kakutousha</title>
+</episode>
+<episode id="147209" update="2016-11-21">
+<epno type="1">21</epno>
+<length>25</length>
+<airdate>2013-03-02</airdate>
+<rating votes="5">6.24</rating>
+<title xml:lang="ja">100対2のかけひき</title>
+<title xml:lang="en">2 vs. 100 Tactics</title>
+<title xml:lang="x-jat">100 Tai 2 no Kakehiki</title>
+</episode>
+<episode id="147210" update="2016-11-21">
+<epno type="1">20</epno>
+<length>25</length>
+<airdate>2013-02-23</airdate>
+<rating votes="10">9.31</rating>
+<title xml:lang="ja">シーザー孤独の青春</title>
+<title xml:lang="en">Caesar`s Lonely Youth</title>
+<title xml:lang="x-jat">Caesar Kodoku no Seishun</title>
+</episode>
+<episode id="147211" update="2016-11-21">
+<epno type="1">19</epno>
+<length>25</length>
+<airdate>2013-02-16</airdate>
+<rating votes="6">7.07</rating>
+<title xml:lang="ja">死の崖へつっ走れ</title>
+<title xml:lang="en">Race to the Cliffs of Death</title>
+<title xml:lang="x-jat">Shi no Gake e Tsuppashire</title>
+</episode>
+<episode id="148034" update="2016-11-21">
+<epno type="1">23</epno>
+<length>25</length>
+<airdate>2013-03-16</airdate>
+<rating votes="5">8.65</rating>
+<title xml:lang="ja">風にかえる戦士</title>
+<title xml:lang="en">The Warrior Returns to the Wind</title>
+<title xml:lang="x-jat">Kaze ni Kaeru Senshi</title>
+</episode>
+<episode id="148182" update="2016-11-21">
+<epno type="1">24</epno>
+<length>25</length>
+<airdate>2013-03-23</airdate>
+<rating votes="5">8.32</rating>
+<title xml:lang="ja">JOJOを結ぶ絆</title>
+<title xml:lang="en">JoJo`s Bonds</title>
+<title xml:lang="x-jat">JoJo o Musubu Kizuna</title>
+</episode>
+<episode id="148585" update="2016-11-21">
+<epno type="1">26</epno>
+<length>25</length>
+<airdate>2013-04-06</airdate>
+<rating votes="8">8.95</rating>
+<title xml:lang="ja">神となった男</title>
+<title xml:lang="en">The Man Who Became a God</title>
+<title xml:lang="x-jat">Kami to Natta Otoko</title>
+</episode>
+<episode id="148586" update="2016-11-21">
+<epno type="1">25</epno>
+<length>25</length>
+<airdate>2013-03-30</airdate>
+<rating votes="6">8.26</rating>
+<title xml:lang="ja">超生物の誕生!!</title>
+<title xml:lang="en">Birth of the Ultimate Being!</title>
+<title xml:lang="x-jat">Chou Seibutsu no Tanjou!</title>
+</episode>
+<episode id="154324" update="2013-09-22">
+<epno type="4">T2</epno>
+<length>1</length>
+<title xml:lang="en">Preview 2</title>
+</episode>
+<episode id="154843" update="2013-10-07">
+<epno type="4">T5</epno>
+<length>6</length>
+<title xml:lang="en">Preview 5</title>
+</episode>
+<episode id="154844" update="2013-10-07">
+<epno type="4">T4</epno>
+<length>3</length>
+<title xml:lang="en">Preview 4</title>
+</episode>
+<episode id="154845" update="2013-10-07">
+<epno type="4">T3</epno>
+<length>2</length>
+<title xml:lang="en">Preview 3</title>
+</episode>
+<episode id="154846" update="2013-10-07">
+<epno type="4">T6</epno>
+<length>2</length>
+<title xml:lang="en">Blu-ray &amp; DVD Release Promo Vol 2-4 Compilation</title>
+</episode>
+<episode id="155748" update="2013-11-02">
+<epno type="4">T8</epno>
+<length>3</length>
+<title xml:lang="en">Blu-ray &amp; DVD Release Promo Vol 1 Compilation 2</title>
+</episode>
+<episode id="155749" update="2013-11-02">
+<epno type="4">T7</epno>
+<length>2</length>
+<title xml:lang="en">Blu-ray &amp; DVD Release Promo Vol 1 Compilation 1</title>
+</episode>
+<episode id="162907" recap="true" update="2016-11-21">
+<epno type="2">S3</epno>
+<length>105</length>
+<airdate>2014-01-03</airdate>
+<title xml:lang="ja">総集編#3 戦闘潮流 後編</title>
+<title xml:lang="en">JoJo`s Bizarre Adventure Re-Edited: Battle Tendency (Second Half)</title>
+<title xml:lang="x-jat">Soushuuhen #3: Sentou Chouryuu (Kouhen)</title>
+</episode>
+<episode id="162908" recap="true" update="2016-11-21">
+<epno type="2">S2</epno>
+<length>105</length>
+<airdate>2014-01-02</airdate>
+<title xml:lang="ja">総集編#2 戦闘潮流 前編</title>
+<title xml:lang="en">JoJo`s Bizarre Adventure Re-Edited: Battle Tendency (First Half)</title>
+<title xml:lang="x-jat">Soushuuhen #2: Sentou Chouryuu (Zenpen)</title>
+</episode>
+<episode id="162909" recap="true" update="2016-11-21">
+<epno type="2">S1</epno>
+<length>105</length>
+<airdate>2014-01-01</airdate>
+<title xml:lang="ja">総集編#1 ファントムブラッド</title>
+<title xml:lang="en">JoJo`s Bizarre Adventure Re-Edited: Phantom Blood</title>
+<title xml:lang="x-jat">Soushuuhen #1: Phantom Blood</title>
+</episode>
+</episodes>
+</anime>

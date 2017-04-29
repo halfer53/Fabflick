@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><anime id="9515" restricted="false">
+<type>Movie</type>
+<episodecount>1</episodecount>
+<startdate>2013-11-23</startdate>
+<enddate>2013-11-23</enddate>
+<titles>
+<title xml:lang="x-jat" type="main">Kaguya-hime no Monogatari</title>
+<title xml:lang="en" type="synonym">The Tale of Princess Kaguya</title>
+<title xml:lang="ru" type="synonym">Сказание о принцессе Кагуя</title>
+<title xml:lang="bg" type="synonym">Приказката за принцеса Кагуя</title>
+<title xml:lang="ja" type="official">かぐや姫の物語</title>
+<title xml:lang="en" type="official">The Tale of the Princess Kaguya</title>
+<title xml:lang="de" type="official">Die Legende der Prinzessin Kaguya</title>
+<title xml:lang="fr" type="official">Le Conte de la princesse Kaguya</title>
+<title xml:lang="it" type="official">La Storia della Principessa Splendente</title>
+<title xml:lang="pt" type="official">O Conto da Princesa Kaguya</title>
+<title xml:lang="fi" type="official">Prinsessa Kaguyan taru</title>
+</titles>
+<similaranime>
+<anime id="7779" approval="4" total="5">Hello Kitty no Kaguya-hime</anime>
+<anime id="6821" approval="4" total="4">Kaguya-hime</anime>
+</similaranime>
+<recommendations total="4">
+<recommendation type="Must See" uid="536010">Beautifully composed in all areas: Art, Animation, Music, and Storytelling. 
+Art Style really evokes traditional Japanese paintings but also accompanied by very fluid animation in movement and human expression.
+
+Highly recommended and a must see for Ghibli fans.</recommendation>
+</recommendations>
+<url>http://kaguyahime-monogatari.jp/</url>
+<creators>
+<name id="49305" type="Original Work">Taketori Monogatari</name>
+<name id="11846" type="Work">Hoshino Kouji</name>
+<name id="43" type="Original Plan">Takahata Isao</name>
+<name id="1947" type="Music">Hisaishi Joe</name>
+<name id="43" type="Direction">Takahata Isao</name>
+<name id="729" type="Work">Studio Ghibli</name>
+</creators>
+<description>* Adaptation of the Japanese folk tale Taketori Monogatari (Tale of the Bamboo Cutter), also known as Kaguya Hime (Princess Kaguya).
+In an idyllic rural setting, http://anidb.net/ch59900 [an old bamboo cutter] and http://anidb.net/ch59901 [his wife] raise a tiny girl found nestled within a glowing bamboo stalk along with a fortune in gold. As she approaches adulthood, the bamboo cutter uses the fortune to purchase a villa in the capital, buy himself a title and employ tutors to transform the country girl, now given the name http://anidb.net/ch59898 [Kaguya], into a refined woman. News of her beauty brings powerful and wealthy suitors who compete for her hand in marriage, all the while Kaguya wishes that she and her family could return to their former life. Sooner or later, though, her true origins will make their own claim upon her.
+Source: ANN</description>
+<ratings>
+<permanent count="645">8.28</permanent>
+<temporary count="646">7.83</temporary>
+<review count="3">7.44</review>
+</ratings>
+<picture>165889.jpg</picture>
+<resources>
+<resource type="1">
+<externalentity>
+<identifier>14976</identifier>
+</externalentity>
+</resource>
+<resource type="2">
+<externalentity>
+<identifier>16664</identifier>
+</externalentity>
+</resource>
+<resource type="4">
+<externalentity>
+<url>http://kaguyahime-monogatari.jp/</url>
+</externalentity>
+</resource>
+<resource type="6">
+<externalentity>
+<identifier>Kaguya-hime_no_Monogatari_(film)</identifier>
+</externalentity>
+</resource>
+<resource type="7">
+<externalentity>
+<identifier>かぐや姫の物語</identifier>
+</externalentity>
+</resource>
+<resource type="9">
+<externalentity>
+<identifier>344585</identifier>
+</externalentity>
+</resource>
+<resource type="10">
+<externalentity>
+<identifier>16389</identifier>
+</externalentity>
+</resource>
+</resources>
+<tags>
+<tag id="2607" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-29">
+<name>themes</name>
+<description>Themes describe the very central elements important to the anime stories. They set the backdrop against which the protagonists must face their challenges. Be it School Life, present Daily Life, Military action, Cyberpunk, Law and Order detective work, Sports, or the Underworld. These are only but a few of the more typical backgrounds for anime plots. Add to that a Conspiracy setting with a possible tragic outcome, the Themes span most of the imaginable subject matter relevant to anime.</description>
+</tag>
+<tag id="2609" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-22">
+<name>original work</name>
+<description>What the anime is based on! Mostly of academic interest, but a useful bit of info, hinting at the possible depth of story.</description>
+</tag>
+<tag id="2799" parentid="2609" infobox="true" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2010-05-14">
+<name>novel</name>
+<description>Note that novel means book with words in paper, so no comics and no "visual novels", which should go under manga and dating-sim - visual Novel/erotic game respectively.
+Note that it can be applied to novels as we know them but also the typical light novels for teens and young adults, which are common in Japan and aside from being short include a number of illustrations.</description>
+</tag>
+<tag id="3597" parentid="2607" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2013-02-26">
+<name>mythology</name>
+<description>The anime gets inspirations from many forms of mythologies (either Greek, Egyptian, Nord, etc.) to form its story and setting.</description>
+</tag>
+<tag id="3876" parentid="3597" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-10-21">
+<name>folklore</name>
+<description>Folklore, or simply Lore, are the traditions of a culture, subculture, or group, in the form of legends, music, proverbs, jokes, popular beliefs, fairy tales, stories, tall tales and customs. In usage, there is a continuum between folklore and mythology.
+Folklore is generally divided into four areas of study: physical artifacts, transmissible entities and stories, culture and technologies, and behaviors and rituals.
+[From Wikipedia]</description>
+</tag>
+<tag id="4278" parentid="6151" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2012-07-04">
+<name>stand-alone movie</name>
+<description>You can watch this movie without having to watch something else first. This tag should not used for sequels, side stories, or summary movies, but may be used if the movie is either the first anime in a franchise or a remake.
+The movie must be feature-length. For shorts, use the `short movie` tag.</description>
+</tag>
+<tag id="6151" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-10">
+<name>technical aspects</name>
+<description>It may sometimes be useful to know about technical aspects of a show, such as information about its broadcasting or censorship. Such information can be found here.</description>
+</tag>
+<tag id="6352" parentid="6397" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2016-09-04">
+<name>Kaguya-hime</name>
+<description>The Tale of the Bamboo Cutter (Taketori Monogatari, 竹取物語), also known as Princess Kaguya (かぐや姫 Kaguya-hime, 赫映姫 or 輝夜姫), is a 10th-century Japanese folktale. It primarily details the life of a mysterious girl called Kaguya-hime, who was discovered as a baby inside the stalk of a glowing bamboo plant by a bamboo cutter, alongside riches in gold. The thumb-sized girl grew into a beautiful woman, and this was known all over the lands. Eventually 5 princes made their way to her to ask her foster father for her hand. Each of them got tasked with something seemingly impossible to fullfil to marry her. After all of them failed, the emporer came to see her, and fell for her beauty. His proposal was denied as well, telling him that she wasn`t of this country and thus couldn`t marry him. In the summer Kaguya-hime started to cry upon seeing the full moon. Her foster parents inquired on the matter and after a while she gave in, telling them that she was actually coming from the moon, and that she needs to return there. When the day came to return, the emperor sent many guards to her home to protect her from the moon people. They came and took her with them anyway, leaving the parents in sadness and tears. The heartbroken emperor wanted to send her a message, and went on to ask where he could find the closest place to heaven. This being the Great Mountain of Suruga Provice. The tale goes on saying that the name of the mountain, which we know today as Mount Fuji, came from the word immortality (fushi, or fuji), and the Kanji from the emperor`s army ascending its slopes, meaning literally "Mountain Abounding with Warriours" (富士山).
+The anime or episode either takes on the whole tale of Kaguya-hime or just parts of it.</description>
+<picurl>169473.jpg</picurl>
+</tag>
+<tag id="6397" parentid="2607" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2015-05-02">
+<name>tales</name>
+<description>Tales are stories told time and again and passed down from generation to generation, and some of those show up in anime not just once or twice, but several times.</description>
+</tag>
+</tags>
+<characters>
+<character id="59898" type="main character in" update="2013-09-17">
+<rating votes="7">8.46</rating>
+<name>Kaguya-hime</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>143255.jpg</picture>
+<seiyuu id="38535" picture="143259.jpg">Asakura Aki</seiyuu>
+</character>
+<character id="59899" type="secondary cast in" update="2013-09-17">
+<rating votes="1">3.38</rating>
+<name>Sutemaru</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>143256.jpg</picture>
+<seiyuu id="38534" picture="143260.jpg">Koura Kengo</seiyuu>
+</character>
+<character id="59900" type="secondary cast in" update="2013-09-17">
+<rating votes="1">6.55</rating>
+<name>Okina</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>143257.jpg</picture>
+<seiyuu id="38533" picture="143261.jpg">Chii Takeo</seiyuu>
+</character>
+<character id="59901" type="secondary cast in" update="2013-09-17">
+<rating votes="1">1.59</rating>
+<name>Ouna</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>143258.jpg</picture>
+<seiyuu id="38532" picture="143262.jpg">Miyamoto Nobuko</seiyuu>
+</character>
+<character id="62052" type="appears in" update="2013-12-04">
+<name>Kitanokata</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="14773" picture="44116.jpg">Asaoka Yukiji</seiyuu>
+</character>
+<character id="62053" type="appears in" update="2013-12-04">
+<name>Ootomo no Dainagon</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="7273" picture="32249.jpg">Uzaki Ryuudou</seiyuu>
+</character>
+<character id="62054" type="secondary cast in" update="2013-12-04">
+<rating votes="1">1.59</rating>
+<name>Menowarawa</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="38911" picture="147110.jpg">Tabata Tomoko</seiyuu>
+</character>
+<character id="62055" type="appears in" update="2013-12-04">
+<name>Mikado</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="38910" picture="147111.jpg">Nakamura Shichinosuke</seiyuu>
+</character>
+<character id="62056" type="secondary cast in" update="2013-12-04">
+<rating votes="1">1.59</rating>
+<name>Inbe no Akita</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="38909" picture="147112.jpg">Tatekawa Shinosuke</seiyuu>
+</character>
+<character id="62057" type="secondary cast in" update="2013-12-04">
+<rating votes="1">3.38</rating>
+<name>Sagami</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="5154" picture="29073.jpg">Takahata Atsuko</seiyuu>
+</character>
+<character id="62058" type="appears in" update="2013-12-04">
+<name>Isonokami no Chuunagon</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="35558" picture="131522.jpg">Kojou Tamaki</seiyuu>
+</character>
+<character id="62059" type="appears in" update="2013-12-04">
+<name>Ishitsukuri no Miko</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="482" picture="17466.jpg">Kamikawa Takaya</seiyuu>
+</character>
+<character id="62060" type="appears in" update="2013-12-04">
+<name>Kuramochi no Miko</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="9429">Hashizume Isao</seiyuu>
+</character>
+<character id="62061" type="appears in" update="2013-12-04">
+<name>Abe no Udaijin</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="37806" picture="138731.jpg">Ijuuin Hikaru</seiyuu>
+</character>
+<character id="62062" type="appears in" update="2013-12-04">
+<name>Sumiyaki no Roujin</name>
+<gender>unknown</gender>
+<charactertype id="1">Character</charactertype>
+<seiyuu id="5231" picture="146320.jpg">Nakadai Tatsuya</seiyuu>
+</character>
+</characters>
+<episodes>
+<episode id="152599" update="2016-01-11">
+<epno type="1">1</epno>
+<length>140</length>
+<airdate>2013-11-23</airdate>
+<rating votes="4">7.34</rating>
+<title xml:lang="en">Complete Movie</title>
+</episode>
+<episode id="153921" update="2013-09-07">
+<epno type="4">T1</epno>
+<length>1</length>
+<title xml:lang="en">Trailer</title>
+</episode>
+<episode id="179108" update="2016-07-22">
+<epno type="2">S1</epno>
+<length>90</length>
+<airdate>2014-12-03</airdate>
+<title xml:lang="ja">高畑勲, 「かぐや姫の物語」をつくる.</title>
+<title xml:lang="en">Isao Takahata and His Tale of the Princess Kaguya</title>
+<title xml:lang="x-jat">Takahata Isao, "Kaguya-hime no Monogatari" o Tsukuru.</title>
+</episode>
+</episodes>
+</anime>

@@ -20,7 +20,7 @@ public class JDBCConnection {
 
     // public static void main(String[] args) {
     //     try{
-    //         new JDBCConnection("jdbc:mysql:///moviedb?autoReconnect=true&useSSL=false").read();
+    //         new JDBCConnection("jdbc:mysql:///animedb?autoReconnect=true&useSSL=false").read();
     //     }catch(Exception e){
     //         e.printStackTrace();
     //     }

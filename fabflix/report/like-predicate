@@ -1,0 +1,1 @@
+'%' is used in LIKE search query, where '%' is appended in the front and at the end of the user search query. For instance, with 'tem' search query, the sql query would look like 'select * from anime where title like '%tem%'. if empty string is given in the search query, '%' is replaced.

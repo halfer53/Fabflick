@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><anime id="12644" restricted="false">
+<type>TV Special</type>
+<episodecount>1</episodecount>
+<startdate>2016-12-09</startdate>
+<enddate>2016-12-09</enddate>
+<titles>
+<title xml:lang="x-jat" type="main">Meitantei Conan: Episode One - Chiisaku Natta Meitantei</title>
+<title xml:lang="ja" type="official">名探偵コナン エピソードONE 小さくなった名探偵</title>
+</titles>
+<relatedanime>
+<anime id="266" type="Alternative Setting">Meitantei Conan</anime>
+</relatedanime>
+<url>http://www.ytv.co.jp/conan/episodeone/</url>
+<description>Two-hour remake of the original 1st episode, in celebration of the anime celebrating 20 years in broadcast. The special retells what happened on the day Shinichi was transformed into the body of a child. The special includes new scenes that weren`t in the original manga or the first anime episode.</description>
+<ratings>
+<permanent count="23">8.27</permanent>
+<temporary count="23">7.54</temporary>
+</ratings>
+<picture>196179.jpg</picture>
+<resources>
+<resource type="2">
+<externalentity>
+<identifier>34036</identifier>
+</externalentity>
+</resource>
+<resource type="4">
+<externalentity>
+<url>http://www.ytv.co.jp/conan/episodeone/</url>
+</externalentity>
+</resource>
+<resource type="8">
+<externalentity>
+<identifier>4400</identifier>
+</externalentity>
+</resource>
+<resource type="9">
+<externalentity>
+<identifier>358174</identifier>
+</externalentity>
+</resource>
+</resources>
+<episodes>
+<episode id="182935" update="2016-12-20">
+<epno type="1">1</epno>
+<length>95</length>
+<airdate>2016-12-09</airdate>
+<title xml:lang="en">TV Special</title>
+</episode>
+</episodes>
+</anime>

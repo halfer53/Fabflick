@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><anime id="12675" restricted="false">
+<type>TV Series</type>
+<episodecount>8</episodecount>
+<startdate>2017-04-12</startdate>
+<enddate>1970-01-01</enddate>
+<titles>
+<title xml:lang="x-jat" type="main">Natsume Yuujinchou Roku</title>
+<title xml:lang="en" type="synonym">Natsume Yujin-cho 6</title>
+<title xml:lang="en" type="synonym">Natsume`s Book of Friends Season 6</title>
+<title xml:lang="en" type="short">natsume6</title>
+<title xml:lang="ja" type="official">夏目友人帳 陸</title>
+<title xml:lang="en" type="official">Natsume Yujin-cho Roku</title>
+<title xml:lang="ko" type="official">나츠메 우인장 6</title>
+</titles>
+<relatedanime>
+<anime id="12009" type="Prequel">Natsume Yuujinchou Go</anime>
+</relatedanime>
+<url>http://www.natsume-anime.jp/</url>
+<creators>
+<name id="6006" type="Music">Yoshimori Makoto</name>
+<name id="4359" type="Chief Direction">Oomori Takahiro</name>
+<name id="17699" type="Direction">Deai Kotomi</name>
+<name id="3542" type="Original Work">Midorikawa Yuki</name>
+<name id="783" type="Work">NAS</name>
+<name id="2315" type="Series Composition">Murai Sadayuki</name>
+<name id="15726" type="Character Design">Takada Akira</name>
+<name id="40621" type="Animation Work">Shuka</name>
+</creators>
+<description>Precious days with kinds friends. A beautiful yet fleeting story about people and spirits. Natsume Takashi had been able to see yokai ever since he was young and inherited his grandmother Reiko’s Book of Friends. He spends his days with his self-proclaimed bodyguard Nyanko-sensei and freeing the yokai that were bound to the book. Natsume continues to find ways to protect the precious days where he tries to find which path to follow through his connections with spirits and those involved with them and being helped out by friends who share the same feelings.
+Source: crunchyroll</description>
+<ratings>
+<permanent count="32">8.49</permanent>
+<temporary count="33">8.16</temporary>
+</ratings>
+<picture>198770.jpg</picture>
+<resources>
+<resource type="1">
+<externalentity>
+<identifier>18942</identifier>
+</externalentity>
+</resource>
+<resource type="2">
+<externalentity>
+<identifier>34591</identifier>
+</externalentity>
+</resource>
+<resource type="4">
+<externalentity>
+<url>http://www.natsume-anime.jp/</url>
+</externalentity>
+</resource>
+<resource type="7">
+<externalentity>
+<identifier>夏目友人帳</identifier>
+</externalentity>
+</resource>
+<resource type="8">
+<externalentity>
+<identifier>4517</identifier>
+</externalentity>
+</resource>
+<resource type="9">
+<externalentity>
+<identifier>359218</identifier>
+</externalentity>
+</resource>
+<resource type="10">
+<externalentity>
+<identifier>20130</identifier>
+</externalentity>
+</resource>
+<resource type="23">
+<externalentity>
+<identifier>NatsumeYujincho</identifier>
+</externalentity>
+</resource>
+<resource type="28">
+<externalentity>
+<identifier>natsume-yujin-cho-6</identifier>
+</externalentity>
+</resource>
+</resources>
+<tags>
+<tag id="2609" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2009-04-22">
+<name>original work</name>
+<description>What the anime is based on! Mostly of academic interest, but a useful bit of info, hinting at the possible depth of story.</description>
+</tag>
+<tag id="2798" parentid="2609" infobox="true" weight="0" localspoiler="false" globalspoiler="false" verified="true" update="2014-09-07">
+<name>manga</name>
+<description>Manga is the lifeblood that drives the anime industry. Everything and its mother is based on manga. However! There are exceptions where the manga was not the basis for the anime.
+It`s common practice to make manga adaptations of many popular anime, there`s a manga based on Evangelion, and two (one shounen and one shoujo) based on each of Escaflowne and Mahou Tsukai Tai. Also it`s quite common to release manga and anime versions of a story in parallel, for instance Nadesico and Shoujo Kakumei Utena. There are also cases where an anime continues in a manga, as in the case of Angel Beats! and Angel Beats: Heaven`s Door, or reverse.</description>
+</tag>
+</tags>
+<characters>
+<character id="1806" type="main character in" update="2016-11-23">
+<rating votes="401">7.94</rating>
+<name>Natsume Takashi</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>The main character of the story. Like his grandmother, http://anidb.net/ch1808 [Natsume Reiko], Takashi has the ability to see spirits. He has inherited the Book of Friends, a book of names that no one but Reiko, Takashi, and other spirits can read. Because of Takashi`s strong resemblance to Reiko, he is often mistaken for her, causing spirits who hate Reiko to chase him constantly. He decided to dissolve the Book by giving all the names back to their owners. He is accompanied by the spirit http://anidb.net/ch10380 [Madara], nicknamed "Cat" because of the spirit`s appearance, and has promised that to pass the book on to Cat when he dies.</description>
+<picture>31015.jpg</picture>
+<seiyuu id="224" picture="79056.jpg">Kamiya Hiroshi</seiyuu>
+</character>
+<character id="1807" type="main character in" update="2016-11-23">
+<rating votes="528">8.97</rating>
+<name>Nyanko-sensei</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>A mysterious feline spirit. Madara was sealed in to a shrine, before accidentally getting released by Natsume. Because he was trapped for so long, Madara has shaped in to a "fortune cat" or manekineko, leading Natsume to nickname him Cat. In this form, other people could see him, leading for Natsume having to ask his guardians if he could keep him. He is a powerful spirit, who protects Natsume from others, and teaches him spells on occasion. They often fight each other, which leads to Natsume punching Madara on the face and knocking him out. Despite his protests of not being a cat, he likes to play with cat toys. Natsume is more respectful to Madara in the anime, calling him "nyanko-sensei" (master cat). Natsume has promised the Book of Friends to him when he dies.</description>
+<picture>16394.jpg</picture>
+<seiyuu id="189" picture="23873.jpg">Inoue Kazuhiko</seiyuu>
+</character>
+<character id="1808" type="secondary cast in" update="2009-07-13">
+<rating votes="95">8.06</rating>
+<name>Natsume Reiko</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>Natsume`s grandmother, from whom he inherited the ability to see spirits. When Reiko was young, she was considered a freak by everyone else because of her ability. Since she believed no human could ever understand her, she turned to the spirits for companionship. Reiko`s power was extraordinarily powerful, and so she bullied spirits in to obeying her by playing games with them. If they lost, she would make them give her their names. Reiko gathered the names in to the Book of Friends, and commanded most spirits, except for Madara, who beat her in a game. Reiko died when she was young, so no one remembered her.</description>
+<picture>31023.jpg</picture>
+<seiyuu id="333" picture="18379.jpg">Kobayashi Sanae</seiyuu>
+</character>
+<character id="1809" type="secondary cast in" update="2011-06-22">
+<rating votes="94">7.19</rating>
+<name>Tanuma Kaname</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Another student that had recently moved into the area. He is sickly and quite susceptible to illnesses. Like Natsume Takashi, he is able to detect spirits, but to a lesser degree limited to seeing merely shadows and sensing slight presence of spirits.</description>
+<picture>31017.jpg</picture>
+<seiyuu id="403" picture="74821.jpg">Horie Kazuma</seiyuu>
+</character>
+<character id="1810" type="secondary cast in" update="2009-07-13">
+<rating votes="106">6.19</rating>
+<name>Sasada Jun</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>The class president of Takashi`s class. Sasada believes that Takashi can see spirits, and constantly asks him questions about it, to which he replies that he doesn`t have such an ability. Much to Takashi`s chagrin, she wants to come along with him when he`s visiting spirits.</description>
+<picture>31018.jpg</picture>
+<seiyuu id="38" picture="171532.jpg">Sawashiro Miyuki</seiyuu>
+</character>
+<character id="1811" type="secondary cast in" update="2011-06-22">
+<rating votes="74">5.80</rating>
+<name>Natori Shuuichi</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>A man who is also able to see spirits. He is a famous actor and exorcist and has a lizard tattoo that moves around on his body.</description>
+<picture>31016.jpg</picture>
+<seiyuu id="194" picture="130580.jpg">Ishida Akira</seiyuu>
+</character>
+<character id="3700" type="secondary cast in" update="2014-01-20">
+<rating votes="98">7.69</rating>
+<name>Taki Tooru</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<description>A new girl at school who doesn`t talk much because of a curse a Youkai has placed on her, which Natsume later helps her to break. She`s an omniyojist. She can`t actually see youkai but she is able to once she uses a stick to draw a magic circle. One of Natsume`s friends, Nishimura, has a crush on her, but thinks that she and Natsume are going out.</description>
+<picture>19560.jpg</picture>
+<seiyuu id="97" picture="151675.jpg">Satou Rina</seiyuu>
+</character>
+<character id="3788" type="secondary cast in" update="2016-11-23">
+<rating votes="33">3.86</rating>
+<name>Kitamoto Atsushi</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Kitamoto Atsushi is a classmate of Natsume, and best friend to Nishimura Satoru. He is a sensible and rational person. Although Natsume initially rejects Atsushi`s overtures of friendship because of his fears of his ability being found out, he eventually becomes friends with Atsushi and Satoru, although they still hang around more with each other than Natsume.</description>
+<picture>31020.jpg</picture>
+<seiyuu id="2226" picture="23215.jpg">Suganuma Hisayoshi</seiyuu>
+</character>
+<character id="3789" type="secondary cast in" update="2016-11-23">
+<rating votes="33">3.26</rating>
+<name>Nishimura Satoru</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<description>Nishimura Satoru is a classmate of Natsume, and best friend to Kitamoto Atsushi. He is funny and easy-going, with a slightly perverted side. Although Natsume initially rejects Satoru`s overtures of friendship because of his fears of his ability being found out, he eventually becomes friends with Satoru and Atsushi, although they still hang around more with each other than Natsume.</description>
+<picture>31019.jpg</picture>
+<seiyuu id="2225" picture="192115.jpg">Kimura Ryouhei</seiyuu>
+</character>
+<character id="3790" type="secondary cast in" update="2009-02-24">
+<rating votes="81">8.50</rating>
+<name>Fujiwara Touko</name>
+<gender>female</gender>
+<charactertype id="1">Character</charactertype>
+<picture>19666.jpg</picture>
+<seiyuu id="229" picture="152363.jpg">Itou Miki</seiyuu>
+</character>
+<character id="3791" type="secondary cast in" update="2009-02-24">
+<rating votes="59">8.04</rating>
+<name>Fujiwara Shigeru</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>19667.jpg</picture>
+<seiyuu id="2224" picture="21768.jpg">Itou Eiji</seiyuu>
+</character>
+<character id="10380" type="secondary cast in" update="2009-07-13">
+<rating votes="156">9.19</rating>
+<name>Madara</name>
+<gender>male</gender>
+<charactertype id="1">Character</charactertype>
+<picture>31024.jpg</picture>
+<seiyuu id="189" picture="23873.jpg">Inoue Kazuhiko</seiyuu>
+</character>
+</characters>
+<episodes>
+<episode id="186515" update="2017-03-29">
+<epno type="2">S1</epno>
+<length>25</length>
+<airdate>2017-04-05</airdate>
+<title xml:lang="ja">放送記念スペシャル</title>
+<title xml:lang="en">Episode S1</title>
+<title xml:lang="x-jat">Housou Kinen Special</title>
+</episode>
+<episode id="186516" update="2017-03-29">
+<epno type="1">4</epno>
+<length>25</length>
+<airdate>2017-05-03</airdate>
+<title xml:lang="ja">違える瞳</title>
+<title xml:lang="en">Episode 4</title>
+<title xml:lang="x-jat">Chigaeru Hitomi</title>
+</episode>
+<episode id="186517" update="2017-03-29">
+<epno type="1">3</epno>
+<length>25</length>
+<airdate>2017-04-26</airdate>
+<rating votes="3">5.34</rating>
+<title xml:lang="ja">二体さま</title>
+<title xml:lang="en">Nitai-sama</title>
+<title xml:lang="x-jat">Nitai-sama</title>
+</episode>
+<episode id="186518" update="2017-03-29">
+<epno type="1">2</epno>
+<length>25</length>
+<airdate>2017-04-19</airdate>
+<rating votes="4">6.93</rating>
+<title xml:lang="ja">明日咲く</title>
+<title xml:lang="en">It Blooms Tomorrow</title>
+<title xml:lang="x-jat">Ashita Saku</title>
+</episode>
+<episode id="186519" update="2017-04-12">
+<epno type="1">1</epno>
+<length>25</length>
+<airdate>2017-04-12</airdate>
+<rating votes="6">6.65</rating>
+<title xml:lang="ja">つきひぐい</title>
+<title xml:lang="en">The Days Eater</title>
+<title xml:lang="x-jat">Tsukihi Gui</title>
+</episode>
+<episode id="186963" update="2017-04-12">
+<epno type="3">C2</epno>
+<length>2</length>
+<airdate>2017-04-12</airdate>
+<title xml:lang="en">Ending</title>
+</episode>
+<episode id="186964" update="2017-04-12">
+<epno type="3">C1</epno>
+<length>2</length>
+<airdate>2017-04-12</airdate>
+<title xml:lang="en">Opening</title>
+</episode>
+<episode id="187337" update="2017-04-25">
+<epno type="1">8</epno>
+<length>25</length>
+<airdate>2017-05-31</airdate>
+<title xml:lang="en">Episode 8</title>
+</episode>
+<episode id="187338" update="2017-04-25">
+<epno type="1">7</epno>
+<length>25</length>
+<airdate>2017-05-24</airdate>
+<title xml:lang="en">Episode 7</title>
+</episode>
+<episode id="187339" update="2017-04-25">
+<epno type="1">6</epno>
+<length>25</length>
+<airdate>2017-05-17</airdate>
+<title xml:lang="en">Episode 6</title>
+</episode>
+<episode id="187340" update="2017-04-25">
+<epno type="1">5</epno>
+<length>25</length>
+<airdate>2017-05-10</airdate>
+<title xml:lang="en">Episode 5</title>
+</episode>
+</episodes>
+</anime>
