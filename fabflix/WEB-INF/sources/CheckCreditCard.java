@@ -28,8 +28,6 @@ public class CheckCreditCard extends HttpServlet{
     public void doGet(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
          PrintWriter out = response.getWriter();
         try{
-                
-
             response.setContentType("text/plain");
 
             Class.forName("com.mysql.jdbc.Driver").newInstance();
@@ -48,8 +46,8 @@ public class CheckCreditCard extends HttpServlet{
             HttpSession session = request.getSession(true);
             Integer uid = (Integer)session.getAttribute("uid");
 
-            if(firstname.isEmpty() ||firstname==null || lastname.isEmpty() || lastname == null || expiration.isEmpty() || expiration==null){
-                response.sendError(407,"Plz Provide proper parameters");
+            if(id.isEmpty() || id==null || firstname.isEmpty() ||firstname==null || lastname.isEmpty() || lastname == null || expiration.isEmpty() || expiration==null){
+                response.sendError(417,"Please provide proper parameter");
             }
             if(uid==null){
                 response.sendError(403,"Plz login first");
@@ -60,13 +58,14 @@ public class CheckCreditCard extends HttpServlet{
                     session.setAttribute("cart-id",UUID.randomUUID().toString());
 
                 }else{
-                    response.sendError(400,"Credit Card does not match");
+                    response.sendError(417,"Credit Card does not match");
                 }
             }
             
         }catch(Exception e){
-            response.sendError(403,e.getMessage());
+            out.println(e.getMessage());
         }
+        out.close();
         
     }
 
@@ -96,7 +95,6 @@ public class CheckCreditCard extends HttpServlet{
         ResultSet rs = stmt.executeQuery();
         if(rs.next()){
             return true;
-            
         }
         return false;
     }

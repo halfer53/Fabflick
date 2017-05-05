@@ -1,0 +1,40 @@
+How to init the database
+
+mysql -u root -p
+create database animedb;
+source createtable_98.sql
+source data_98.sql
+exit
+
+How to compile
+
+Before starting, you should set the classpath for servlet and jdbc driver
+e.g. 
+
+/home/ubuntu/mysql_lib/mysql-connector-java-5.1.41-bin.jar:/usr/share/java/mysql.jar:/home/ubuntu/mysql_lib/servlet-api.jar
+
+go to /fabflix/WEB-INF/sources/
+
+./cpc
+
+or alternatively
+
+javac *.java
+cp *.class ../sources/
+
+How to Deploy
+
+Go to host manager app, localhost:8080/fabflix , rename project2_98.war as fabflix.war, then deploy fabflix.war.
+
+Then go to http://localhost:8080/fabflix/
+
+For your information, you can login with
+Email: mcosley@gmail.com
+password: peiod3
+
+And you can pay with :
+
+490001
+James
+Brown
+2007/09/20

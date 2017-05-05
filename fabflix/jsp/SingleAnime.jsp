@@ -76,6 +76,8 @@
                     Float rating = rs.getFloat("rating");
                     String picture_url = rs.getString("picture_url");
                     String description  = rs.getString("description");
+                    description = description.replaceAll("(http[^ ]+) \\[([^\\]]+)\\]","<a href='$1'>$2</a>");
+                    description = description.replaceAll("\\\\n","<br>");
                     sb.append("<span class='h3 single-anime-title'>"+title+"</span>");
                     sb.append("<button class='btn btn-default pull-right' onclick=\"addToCartByAttr("+aid.toString()+",1,'"+title+"')\">Add to Chart</button>");
                     sb.append("</div><div class='single-image'><img src='"+picture_url+"'></div>");

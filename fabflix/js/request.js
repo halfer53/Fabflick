@@ -23,8 +23,22 @@ function loginRequest(){
     }
 }
 
+$('#search-anime').submit(function () {
+    var x = document.getElementById("year-input").value;
+    if(!parseInt(x)&&x!==''){
+        alert("Plz enter a valid number for year input");
+        return false;
+    }
+    $(this)
+        .find('input[name]')
+        .filter(function () {
+            return !this.value;
+        })
+        .prop('name', '');
+});
+
 function ErrorMsg(id,mesg){
-    $(id).html("<div class='alert alert-warning' role='alert'>"+mesg+"</div>");
+    document.getElementById("message").innerHTML = "<div class='alert alert-warning' role='alert'>"+mesg+"</div>";
 }
 
 function success(id){
@@ -173,15 +187,13 @@ function checkCreditCard(uid){
             lastname:lastname,
             expiration: expiration,
             animesid:animesid
-        },
-        success: function(data){
-            success("#message");
-            window.location.href = "/fabflix/jsp/PaymentSuccess.jsp";
-        },
-        error: function(xhr, ajaxOptions, thrownError){
-            ErrorMsg("#message","Credit Card Not Found");
-        }
-    })
+        } 
+    }).done(function(data){
+        success("#message");
+        window.location.href = "/fabflix/jsp/PaymentSuccess.jsp";
+    }).fail(function(jqXHR, textStatus, errorThrown){
+        document.getElementById("message").innerHTML = "<div class='alert alert-warning' role='alert'>Credit Card Not Found</div>";
+    });
 }
 $.fn.clicktoggle = function(a, b) {
     return this.each(function() {

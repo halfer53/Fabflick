@@ -9,8 +9,6 @@
 <body>
     
     <%  
-
-        
         Integer LIMIT = parseParaInt(request.getParameter("limit"));
         LIMIT = LIMIT==null? 20 : LIMIT;
         String spage = request.getParameter("page");
@@ -41,11 +39,16 @@
 
     <%! 
         public String setEmptyIfNull(String input){
-            return input==null ? "%" : input;
+            input = input==null ? "" : input;
+            if(!input.contains("%")){
+                return "%"+input+"%";
+            }
+            return input;
         }
 
         public Integer parseParaInt(String input){
-            return (input==null || input.isEmpty()) ? null : Integer.valueOf(input);
+
+                return (input==null || input.isEmpty()) ? null : Integer.valueOf(input);
         }
 
         public String sortQuery(String input_query, String sortby, String sorttype){
@@ -83,7 +86,7 @@
         }
 
         private String getanimeQuery(String title,Integer year,String director,String voice_actor_firstname,String voice_actor_lastname){
-            String query = "SELECT DISTINCT m.* FROM voice_actors_in_animes as sm, voice_actors as s, animes as m WHERE sm.voice_actor_id = s.id AND sm.anime_id = m.id AND s.first_name LIKE '%"+voice_actor_firstname+"%' AND s.last_name LIKE '%" +voice_actor_lastname+"%' AND m.title LIKE '%"+title+"%' AND m.director LIKE '%"+director+"%' ";
+            String query = "SELECT DISTINCT m.* FROM voice_actors_in_animes as sm, voice_actors as s, animes as m WHERE sm.voice_actor_id = s.id AND sm.anime_id = m.id AND s.first_name LIKE '"+voice_actor_firstname+"' AND s.last_name LIKE '" +voice_actor_lastname+"' AND m.title LIKE '"+title+"' AND m.director LIKE '"+director+"' ";
             String yquery = "AND m.year = ";
             String lquery = " LIMIT ?,?";
             if(year != null){

@@ -15,7 +15,7 @@
     <%!
         String getAnimesGivenVA(Connection conn,Integer voice_actors_id) throws Exception{
             StringBuffer sb = new StringBuffer();
-            String query = "SELECT DISTINCT a.* from animes as a,voice_actors_in_animes as va WHERE va.voice_actor_id = ?";
+            String query = "SELECT DISTINCT a.* from animes as a,voice_actors_in_animes as va WHERE va.anime_id = a.id AND va.voice_actor_id = ?";
             PreparedStatement pst = conn.prepareStatement(query);
             pst.setInt(1,voice_actors_id);
             ResultSet rs = pst.executeQuery();

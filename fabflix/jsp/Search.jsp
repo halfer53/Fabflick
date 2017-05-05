@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-6 center-block">
-                <form action="/fabflix/jsp/Anime.jsp">
+                <form action="/fabflix/jsp/Anime.jsp" id="search-anime">
                     <div class="form-group label-floating is-empty">
                         <label for="title-input" class="control-label">Title:</label>
                         <input type="text" class="form-control" id="title-input" name="title">

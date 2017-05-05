@@ -1,15 +1,4 @@
-		drop schema if exists animedb;
-        create schema animedb;
-		use animedb;
-		drop table if exists sales;
-	    drop table if exists customers;
-	    drop table if exists creditcards;
-		drop table if exists genres_in_animes;
-		drop table if exists voice_actors_in_animes;
-		drop table if exists animes;
-		drop table if exists voice_actors;
-		drop table if exists genres;
-	
+
 	
 		create table animes(
 		id integer auto_increment,
@@ -19,39 +8,39 @@
 		year integer not null,
 		rating float(4),
 		picture_url varchar(200),
-		description varchar(2000),
-		primary key(id));
+		description varchar(20000),
+		primary key(id))DEFAULT CHARACTER SET=utf8;
 	
 		create table voice_actors(
 		id integer auto_increment,
-		first_name varchar(50) not null,
-		last_name varchar(50) not null,
+		first_name varchar(50),
+		last_name varchar(50),
 		picture_url varchar(200),
-		primary key(id));
+		primary key(id))DEFAULT CHARACTER SET=utf8;
 	
 		create table voice_actors_in_animes(
-		voice_actor_id integer not null,
 		anime_id integer not null,
-		foreign key(star_id) references stars(id),
-		foreign key(anime_id) references animes(id));
+		voice_actor_id integer not null,
+		foreign key(voice_actor_id) references voice_actors(id),
+		foreign key(anime_id) references animes(id))DEFAULT CHARACTER SET=utf8;
 	
 		create table genres(
 		id integer auto_increment,
 		name varchar(60) not null,
-		primary key (id));
+		primary key (id))DEFAULT CHARACTER SET=utf8;
 	
 		create table genres_in_animes(
-		genre_id integer not null,
 		anime_id integer not null,
+		genre_id integer not null,
 		foreign key(genre_id) references genres(id),
-		foreign key(anime_id) references animes(id));
+		foreign key(anime_id) references animes(id))DEFAULT CHARACTER SET=utf8;
 	
 		create table creditcards(
 		id varchar(20),
 		first_name varchar(50) not null,
 		last_name varchar(50) not null,
 		expiration date not null,
-		primary key(id));
+		primary key(id))DEFAULT CHARACTER SET=utf8;
 	
 		create table customers(
 		id integer auto_increment,
@@ -62,7 +51,7 @@
 		email varchar(50) not null,
 		password varchar(20) not null,
 		primary key(id),
-		foreign key (cc_id) references creditcards(id));
+		foreign key (cc_id) references creditcards(id))DEFAULT CHARACTER SET=utf8;
 
 
 		create table sales(
@@ -72,4 +61,4 @@
 		sale_date date not null,
 		primary key(id),
 		foreign key(customer_id) references customers(id),
-		foreign key(anime_id) references animes(id));
+		foreign key(anime_id) references animes(id))DEFAULT CHARACTER SET=utf8;
