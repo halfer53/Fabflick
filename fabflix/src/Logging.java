@@ -1,16 +1,22 @@
+import java.io.IOException;
+import java.io.PrintWriter;
 
-import java.io.*;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import javax.servlet.*;
 import javax.servlet.http.*;
-import java.net.*;
-import java.util.*;
 import java.sql.Connection;
-import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
 
+/**
+ * Servlet implementation class Logging
+ */
 public class Logging extends HttpServlet{
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
     throws ServletException

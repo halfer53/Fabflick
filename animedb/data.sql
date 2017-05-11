@@ -21755,6 +21755,7 @@ INSERT INTO customers VALUES(658017, 'Lindsey', 'Hunter', '8899 8877 6655 4433',
 INSERT INTO customers VALUES(658018, 'Amanda', 'Smith', '7788 9988 7766 5544', '12 Neighbors Lake Forest, Ca 92630', 'Aman@yahoo.com', 'pw18');
 INSERT INTO customers VALUES(658019, 'Jim', 'Ruiz', '6677 8899 8877 6655', '1234 Abcd Irvine, Ca 92612', 'jimjim@yahoo.com', 'pw19');
 INSERT INTO customers VALUES(658020, 'Jeff', 'Hunter', '5566 7788 9988 7766', '56 Street2 Huntington Beach, Ca 98764', 'jhunter@yahoo.com', 'pw20');
+INSERT INTO customers VALUES(658021, 'Bruce', 'Tan', '5566 7788 9988 7766', '56 Street2 Huntington Beach, Ca 98764', 'a@a.com', 'cs122b');
 INSERT INTO sales VALUES(6000, 490007, 60, '2005/01/05');
 INSERT INTO sales VALUES(6001, 490010, 41, '2005/01/12');
 INSERT INTO sales VALUES(6002, 490011, 183, '2005/01/09');

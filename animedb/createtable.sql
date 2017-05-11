@@ -1,15 +1,3 @@
-		drop schema if exists animedb;
-        create schema animedb;
-		use animedb;
-		drop table if exists sales;
-	    drop table if exists customers;
-	    drop table if exists creditcards;
-		drop table if exists genres_in_animes;
-		drop table if exists voice_actors_in_animes;
-		drop table if exists animes;
-		drop table if exists voice_actors;
-		drop table if exists genres;
-	
 	
 		create table animes(
 		id integer auto_increment,
@@ -19,7 +7,7 @@
 		year integer not null,
 		rating float(4),
 		picture_url varchar(200),
-		description varchar(2000),
+		description varchar(6000),
 		primary key(id))DEFAULT CHARACTER SET=utf8;
 	
 		create table voice_actors(
