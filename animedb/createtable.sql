@@ -1,8 +1,10 @@
-	
+		drop schema if exists animedb;
+        create schema animedb;
+		use animedb;
 		create table animes(
 		id integer auto_increment,
 		title varchar(100) not null,
-		ja_title varchar(100) not null,
+		ja_title varchar(100),
 		director varchar(100) not null,
 		year integer not null,
 		rating float(4),

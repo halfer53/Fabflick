@@ -1,3 +1,4 @@
+use animedb;
 INSERT INTO movies VALUES(135001, '12 Monkeys', 1995, 'Terry Gilliam', 'https://images-na.ssl-images-amazon.com/images/M/MV5BN2Y2OWU4MWMtNmIyMy00YzMyLWI0Y2ItMTcyZDc3MTdmZDU4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,671,1000_AL_.jpg', 'https://www.youtube.com/watch?v=15s4Y9ffW_o');
 INSERT INTO movies VALUES(907003, '2001: A Space Odyssey', 1968, 'Stanley Kubrick', 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTZkZTBhYmUtMTIzNy00YTViLTg1OWItNGUwMmVlN2FjZTVkXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SY1000_SX675_AL_.jpg', 'https://www.youtube.com/watch?v=Z2UWOeBcsJI');
 INSERT INTO movies VALUES(907002, '24 Hour Party People', 2002, 'Michael Winterbottom', 'https://images-na.ssl-images-amazon.com/images/M/MV5BM2YxZDgyNzMtODVmNi00NDE2LWI0MTQtNDIzMWQ0MmEzMmZjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_CR0,0,666,1000_AL_.jpg', 'https://www.youtube.com/watch?v=MyinarfzXUE&t=16s');

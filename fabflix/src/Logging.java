@@ -31,6 +31,17 @@ public class Logging extends HttpServlet{
     public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
          PrintWriter out = response.getWriter();
         try{
+        	String gRecaptchaResponse = request.getParameter("g-recaptcha-response");
+          	System.out.println("gRecaptchaResponse=" + gRecaptchaResponse);
+          	// Verify CAPTCHA.
+          	boolean valid = VerifyUtils.verify(gRecaptchaResponse);
+          	if (!valid) {
+          	    //errorString = "Captcha invalid!";
+          		response.sendError(407);
+          		out.print("Wrong Captcha");
+          		out.flush();
+          	    return;
+          	}
             response.setContentType("text/plain");
             String username = request.getParameter("user_name");
             String password = request.getParameter("password");

@@ -23,6 +23,96 @@ function loginRequest(){
     }
 }
 
+
+function employeeLoginRequest(){
+    var username = $("#username-input").val();
+    var password = $("#password-input").val();
+    if(username && password){
+        $.ajax({
+            type: "POST",
+            url: "servlet/EmployeeLogging",
+            data: {
+                user_name: username,
+                password: password
+            },
+            success: function(data){
+                success("#message");
+                window.location.href = "/fabflix/admin/Main.jsp";
+            },
+            error: function(xhr, ajaxOptions, thrownError){
+                ErrorMsg("#message","Incorrect User name or Password");
+            }
+        })
+    }else{
+        ErrorMsg("#message", "Plz provide User name or Password");
+    }
+}
+
+function addNewStar(){
+    var name = $("#name-input").val();
+    var dob = $("#dob-input").val();
+    var photo = $("#photo_url-input").val();
+    var firstname = '',lastname = '';
+    if(name){
+    	if(name.split(" ").length >= 2){
+    		firstname = name.substr(0,name.indexOf(' '));
+        	lastname = name.substr(name.indexOf(' ')+1);
+    	}else{
+    		lastname = name;
+    	}
+        $.ajax({
+            type: "POST",
+            url: "/fabflix/servlet/AddNewStar",
+            data: {
+                firs_name:firstname,
+                last_name:lastname,
+                dob:dob,
+                photo_url:photo
+            },
+            success: function(data){
+                success("#message");
+            },
+            error: function(xhr, ajaxOptions, thrownError){
+                ErrorMsg("#message",xhr.responseText);
+            }
+        })
+    }else{
+        ErrorMsg("#message", "Plz provide at least last name");
+    }
+}
+
+function addNewAnime(){
+    var title = document.getElementById("title").value;
+    var year = document.getElementById("year").value;
+    var director = document.getElementById("director").value;
+    var vafirstname = document.getElementById("vafirstname").value;
+    var valastname = document.getElementById("valastname").value;
+    var genre = document.getElementById("genre").value;
+    if(title && year && director && vafirstname && valastname && genre){
+        $.ajax({
+            type: "POST",
+            url: "/fabflix/servlet/AddNewAnime",
+            data: {
+                title:title,
+                year:year,
+                director:director,
+                vafirstname:vafirstname,
+                valastname,valastname,
+                genre:genre
+            },
+            success: function(data){
+                success1("#message",data);
+            },
+            error: function(xhr, ajaxOptions, thrownError){
+                ErrorMsg("#message","Plz provide a number");
+            }
+        })
+    }else{
+        ErrorMsg("#message", "Plz provide proper data");
+        $("#message").fadeOut();
+    }
+}
+
 $('#search-anime').submit(function () {
     var x = document.getElementById("year-input").value;
     if(!parseInt(x)&&x!==''){
@@ -46,6 +136,11 @@ function success(id){
     $(id).html("<div class='text-center h3 mb-30' role='alert'>Success</div>");
     $(id).fadeIn();
     $(id).fadeOut();
+}
+function success1(id,data){
+    $(id).hide();
+    $(id).html("<div class='text-center h3 mb-30' role='alert'>"+data+"</div>");
+    $(id).fadeIn();
 }
 
 function requestSort(className,data){

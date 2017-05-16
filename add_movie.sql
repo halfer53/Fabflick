@@ -1,6 +1,6 @@
-DROP  PROCEDURE IF EXISTs add_movie;
+DROP  PROCEDURE IF EXISTs add_anime;
 DELIMITER $$
-CREATE PROCEDURE add_movie(in fname varchar(100),in lname varchar(100), in gname varchar(100), in atitle varchar(100),in ayear INT, in adirector varchar(100), out answer varchar(100)) 
+CREATE PROCEDURE add_anime(in fname varchar(100),in lname varchar(100), in gname varchar(100), in atitle varchar(100),in ayear INT, in adirector varchar(100), out answer varchar(100)) 
 
 BEGIN
 	DECLARE voiceid Integer;

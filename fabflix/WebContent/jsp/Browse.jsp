@@ -3,7 +3,7 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <html>
     <head>
-        <%@ include file="head.jsp"%>
+        <%@ include file="../base/head.jsp"%>
         <title>Browse</title>
     </head>
 <body>
@@ -31,7 +31,7 @@
         }
     %>
     
-    <%@ include file="header.jsp"%>
+    <%@ include file="../base/header.jsp"%>
     <div class="container">
     <h3 id="b_genre">Browse by genre</h3>
     <ul class="list-inline">
@@ -69,6 +69,6 @@
         <li class=''><a href='/fabflix/jsp/Anime.jsp?title_start_with=z'>Z</a></li>
     </ul>
     </div>
-    <%@ include file="footer.jsp"%>
+    <%@ include file="../base/footer.jsp"%>
 </body>
 </html>

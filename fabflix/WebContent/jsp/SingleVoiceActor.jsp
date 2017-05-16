@@ -3,7 +3,7 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <html>
     <head>
-        <%@ include file="head.jsp"%>
+        <%@ include file="../base/head.jsp"%>
         <title>Single Anime</title>
     </head>
 <body>
@@ -61,13 +61,13 @@
         }
     %>
 
-    <%@ include file="header.jsp"%>
+    <%@ include file="../base/header.jsp"%>
 
     <div class="container">
     <%=formatResult(voice_actor_id)%>
     </div>
 
     
-    <%@ include file="footer.jsp"%>
+    <%@ include file="../base/footer.jsp"%>
 </body>
 </html>

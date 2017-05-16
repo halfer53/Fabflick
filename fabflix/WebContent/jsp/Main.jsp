@@ -3,7 +3,7 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <html>
     <head>
-        <%@ include file="head.jsp"%>
+        <%@ include file="../base/head.jsp"%>
         <title>Main</title>
     </head>
 <body>
@@ -12,7 +12,7 @@
         
           
     %>
-    <%@ include file="header.jsp"%>
+    <%@ include file="../base/header.jsp"%>
     
 
     <div class="container">
@@ -20,6 +20,6 @@
     <h3><a href="/fabflix/jsp/Browse.jsp#b_firstchar">Browse By First Character</a></h3> 
     <h3><a href="/fabflix/jsp/Search.jsp">Search</a></h3> 
     </div>
-    <%@ include file="footer.jsp"%>
+    <%@ include file="../base/footer.jsp"%>
 </body>
 </html>

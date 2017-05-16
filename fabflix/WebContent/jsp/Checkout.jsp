@@ -3,14 +3,14 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <html>
     <head>
-        <%@ include file="head.jsp"%>
+        <%@ include file="../base/head.jsp"%>
         <title>Checkout</title>
     </head>
 <body>
     <%
     %>
 
-    <%@ include file="header.jsp"%>
+    <%@ include file="../base/header.jsp"%>
         <div class="container-fluid">
         <div class="table-responsive">
             <h4 class="text-center">Your Cart Detail</h4>
@@ -50,7 +50,7 @@
     </div>
 
     
-    <%@ include file="footer.jsp"%>
+    <%@ include file="../base/footer.jsp"%>
 
     <script>
         $("#Cart-data").html(getCart());
