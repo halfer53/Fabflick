@@ -12,12 +12,87 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
+import java.sql.Connection;
+import java.sql.DatabaseMetaData;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.*;
+import java.util.*;
+import java.text.*;
+
 
 public class ParseAll{
 
     public static void main(String[] args) {
-        new ParseMain(args[0]).startParsing();
+        ParseMain pm = new ParseMain(args[0]);
+        pm.startParsing();
+
+        ParseActor pa = new ParseActor(args[1]);
+        pa.startParsing();
+
+        LinkedHashMap<String,Movie> movieMap = pm.movieMap;
+        LinkedHashMap<String,Genre> genreMap = pm.genreMap;
+        ArrayList<Genres_in_movies> gm_relation = pm.gm_relation;
+        LinkedHashMap<String,Star> starMap = pa.starMap;
+
+        ParseCast pc = new ParseCast(args[2], starMap, movieMap);
+        pc.startParsing();
+
+        ArrayList<Stars_in_movies> sm_relation = pc.sm_relation;1
+
     }
+
+    public ParseAll(){
+
+    }
+
+    public void addToDB(){
+        try {
+            Connection conn = null;
+            Class.forName("com.mysql.jdbc.Driver").newInstance();
+            String jdbcURL="jdbc:mysql://localhost:3306/moviedb";
+            conn = DriverManager.getConnection(jdbcURL,"root", "cs122b");
+            
+
+
+            if(conn!=null) conn.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void addMovies(Connection conn, LinkedHashMap<String,Movie> movieMap) throws Exception{
+        PreparedStatement psInsertRecord=null;
+        String sqlInsertRecord=null;
+        int[] iNoRows=null;
+        sqlInsertRecord="insert into movies (title, year, director) values(?,?,?)";
+        conn.setAutoCommit(false);
+
+        psInsertRecord=conn.prepareStatement(sqlInsertRecord);
+
+
+        for (Map.Entry<String, Movie> entry : movieMap.entrySet()) {
+            Movie movie = entry.getValue();
+            psInsertRecord.setString(1,movie.getTitle());
+            psInsertRecord.setInt(2,movie);
+
+            psInsertRecord.addBatch();
+        }
+
+        for(int i=1;i<=50;i++)
+        {
+            
+            
+        }
+
+        iNoRows=psInsertRecord.executeBatch();
+        conn.commit();
+        if(psInsertRecord!=null) psInsertRecord.close();
+    }
+
 }
 
 
@@ -57,7 +132,7 @@ class ParseCast extends DefaultHandler{
             SAXParser sp = spf.newSAXParser();
             sp.parse(filename,this);
 
-            printAll();
+            //printAll();
         }catch(SAXException se) {
             se.printStackTrace();
         }catch(ParserConfigurationException pce) {
@@ -137,7 +212,7 @@ class ParseActor extends DefaultHandler{
             SAXParser sp = spf.newSAXParser();
             sp.parse(filename,this);
 
-            printAll();
+            //printAll();
         }catch(SAXException se) {
             se.printStackTrace();
         }catch(ParserConfigurationException pce) {
@@ -273,8 +348,6 @@ class ParseMain extends DefaultHandler{
             if (movieMap.get(currMovie.getID()) == null) {
                 currMovie.setQID();
                 movieMap.put(currMovie.getID(),currMovie);
-            }else{
-                System.out.println("ignore "+currMovie.getID());
             }
             currMovie = null;
         }else if(qName.equalsIgnoreCase("cat")){
