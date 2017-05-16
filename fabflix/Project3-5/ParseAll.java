@@ -77,17 +77,86 @@ public class ParseAll{
         for (Map.Entry<String, Movie> entry : movieMap.entrySet()) {
             Movie movie = entry.getValue();
             psInsertRecord.setString(1,movie.getTitle());
-            psInsertRecord.setInt(2,movie);
-
+            psInsertRecord.setInt(2,movie.getyear());
+	    psInsertRecord.setString(3,movie.getDirector());
             psInsertRecord.addBatch();
         }
+        iNoRows=psInsertRecord.executeBatch();
+        conn.commit();
+        if(psInsertRecord!=null) psInsertRecord.close();
+    }
+	
+    private void addStars(Connection conn, LinkedHashMap<String,Star> starMap) throws Exception{
+        PreparedStatement psInsertRecord=null;
+        String sqlInsertRecord=null;
+        int[] iNoRows=null;
+        sqlInsertRecord="insert into stars (first_name, last_name, dob) values(?,?,?)";
+        conn.setAutoCommit(false);
+        psInsertRecord=conn.prepareStatement(sqlInsertRecord);
 
-        for(int i=1;i<=50;i++)
-        {
-            
-            
+        for (Map.Entry<String, Star> entry : starMap.entrySet()) {
+            Star star = entry.getValue();
+            psInsertRecord.setString(1,star.getFirst_name());
+            psInsertRecord.setString(2,star.getLast_name());
+	    psInsertRecord.setString(3,star.getDob());
+            psInsertRecord.addBatch();
         }
+        iNoRows=psInsertRecord.executeBatch();
+        conn.commit();
+        if(psInsertRecord!=null) psInsertRecord.close();
+    }
+	
+    private void addGenres(Connection conn, LinkedHashMap<String,Genre> genreMap) throws Exception{
+        PreparedStatement psInsertRecord=null;
+        String sqlInsertRecord=null;
+        int[] iNoRows=null;
+        sqlInsertRecord="insert into genres (name) values(?)";
+        conn.setAutoCommit(false);
+        psInsertRecord=conn.prepareStatement(sqlInsertRecord);
 
+        for (Map.Entry<String, Genre> entry : genreMap.entrySet()) {
+            Genre genre = entry.getValue();
+            psInsertRecord.setString(1,genre.getName());
+            psInsertRecord.addBatch();
+        }
+        iNoRows=psInsertRecord.executeBatch();
+        conn.commit();
+        if(psInsertRecord!=null) psInsertRecord.close();
+    }
+	
+    private void addGM_Relation(Connection conn, ArrayList<Genres_in_movies> gm_relation) throws Exception{
+        PreparedStatement psInsertRecord=null;
+        String sqlInsertRecord=null;
+        int[] iNoRows=null;
+        sqlInsertRecord="insert into genres_in_movies (genre_id, movie_id) values(?,?)";
+        conn.setAutoCommit(false);
+        psInsertRecord=conn.prepareStatement(sqlInsertRecord);
+
+        for(ListIterator it = gm_relation.listIterator();it.hasNext();){
+		Genres_in_movies gm = (Genres_in_movies)it.next();
+		psInsertRecord.setInt(1,gm.getGenre_id());
+		psInsertRecord.setInt(2,gm.getMovie_id());
+            	psInsertRecord.addBatch();
+	}
+        iNoRows=psInsertRecord.executeBatch();
+        conn.commit();
+        if(psInsertRecord!=null) psInsertRecord.close();
+    }
+	
+    private void addGM_Relation(Connection conn, ArrayList<Stars_in_movies> sm_relation) throws Exception{
+        PreparedStatement psInsertRecord=null;
+        String sqlInsertRecord=null;
+        int[] iNoRows=null;
+        sqlInsertRecord="insert into stars_in_movies (star_id, movie_id) values(?,?)";
+        conn.setAutoCommit(false);
+        psInsertRecord=conn.prepareStatement(sqlInsertRecord);
+
+        for(ListIterator it = sm_relation.listIterator();it.hasNext();){
+		Stars_in_movies sm = (Stars_in_movies)it.next();
+		psInsertRecord.setInt(1,sm.getStar_id());
+		psInsertRecord.setInt(2,sm.getMovie_id());
+            	psInsertRecord.addBatch();
+	}
         iNoRows=psInsertRecord.executeBatch();
         conn.commit();
         if(psInsertRecord!=null) psInsertRecord.close();
