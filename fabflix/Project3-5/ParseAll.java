@@ -20,6 +20,174 @@ public class ParseAll{
     }
 }
 
+
+class ParseCast extends DefaultHandler{
+
+    public ArrayList<Stars_in_movies> sm_relation = null;
+    private LinkedHashMap<String,Star> starMap = null;
+    private LinkedHashMap<String,Movie> movieMap = null;
+
+    private Movie currMovie = null;
+    private Star currStar = null;
+    private Stars_in_movies currRelation = null;
+
+    private String filename;
+    private String tempVal;
+
+    public ParseCast(String mainxml, LinkedHashMap<String,Star> starMap, LinkedHashMap<String,Movie> movieMap )
+    {
+        this.starMap = starMap;
+        this.movieMap = movieMap;
+        filename = mainxml;
+        sm_relation = new ArrayList<>();
+    }
+
+    private void printAll(){
+        int counter = 0;
+        for (Stars_in_movies sm : sm_relation) {
+            System.out.println(sm);
+            counter++;
+        }
+        System.out.println(counter);
+    }
+
+    public void startParsing(){
+        SAXParserFactory spf = SAXParserFactory.newInstance();
+        try{
+            SAXParser sp = spf.newSAXParser();
+            sp.parse(filename,this);
+
+            printAll();
+        }catch(SAXException se) {
+            se.printStackTrace();
+        }catch(ParserConfigurationException pce) {
+            pce.printStackTrace();
+        }catch (IOException ie) {
+            ie.printStackTrace();
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+        //reset
+        tempVal = "";
+        if(qName.equalsIgnoreCase("m")){
+            currRelation = new Stars_in_movies(); 
+        }
+    }
+
+    public void characters(char[] ch, int start, int length) throws SAXException {
+        tempVal = new String(ch,start,length);
+    }
+
+    public void endElement(String uri, String localName, String qName) throws SAXException {
+        if(qName.equalsIgnoreCase("f")) {
+            if (movieMap.get(tempVal)  != null) {
+                currMovie = movieMap.get(tempVal);
+            }
+        }else if(qName.equalsIgnoreCase("a")){
+            if (starMap.get(tempVal)  != null) {
+                currStar = starMap.get(tempVal);
+            }
+        }else if(qName.equalsIgnoreCase("m")){
+            if (currStar != null && currMovie != null) {
+                currRelation.setStarID(currStar.qid);
+                currRelation.setMovieID(currMovie.qid);
+                sm_relation.add(currRelation);
+            }
+            currStar = null;
+            currMovie = null;
+        }
+    }
+}
+
+class ParseActor extends DefaultHandler{
+
+    public LinkedHashMap<String,Star> starMap = null;
+
+    private String filename = null;
+
+    private String tempVal = null;
+
+    private String currStageName = null;
+
+    private Star currStar = null;
+
+
+    public ParseActor(String mainxml){
+        filename = mainxml;
+        starMap = new LinkedHashMap<>();
+    }
+
+    private void printAll(){
+        int counter = 0;
+        for (Map.Entry<String, Star> entry : starMap.entrySet()) {
+            String key = entry.getKey();
+            Star value = entry.getValue();
+            System.out.println(key + " "+value);
+            counter++;
+        }
+        System.out.println(counter);
+    }
+
+    public void startParsing(){
+        SAXParserFactory spf = SAXParserFactory.newInstance();
+        try{
+            SAXParser sp = spf.newSAXParser();
+            sp.parse(filename,this);
+
+            printAll();
+        }catch(SAXException se) {
+            se.printStackTrace();
+        }catch(ParserConfigurationException pce) {
+            pce.printStackTrace();
+        }catch (IOException ie) {
+            ie.printStackTrace();
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+        //reset
+        tempVal = "";
+        if(qName.equalsIgnoreCase("actor")){
+            currStar = new Star(); 
+        }
+    }
+
+    public void characters(char[] ch, int start, int length) throws SAXException {
+        tempVal = new String(ch,start,length);
+    }
+
+    public void endElement(String uri, String localName, String qName) throws SAXException {
+        if(qName.equalsIgnoreCase("actor")) {
+            if (currStar.getFirst_name().isEmpty() && currStar.getLast_name().isEmpty()){
+                currStar = null;
+                return;
+            }
+            if (starMap.get(tempVal) == null) {
+                currStar.setQID();
+                starMap.put(currStageName,currStar);
+            }
+
+        }else if(qName.equalsIgnoreCase("stagename")){
+            currStageName = tempVal;
+            String[] names = tempVal.trim().split(" ",2);
+            if (names.length < 2) {
+                currStar.setLast_name(names[0]);
+            }else{
+                currStar.setFirst_name(names[0]);
+                currStar.setLast_name(names[1]);
+            }
+            
+        }else if(qName.equalsIgnoreCase("dob")){
+            currStar.setDob(tempVal+"/01/01");
+        }
+    }
+}
+
 class ParseMain extends DefaultHandler{
 
 	public LinkedHashMap<String,Movie> movieMap = null;
@@ -46,19 +214,22 @@ class ParseMain extends DefaultHandler{
     }
 
     private void printAll(){
-        for (Map.Entry<String, Movie> entry : movieMap.entrySet()) {
-            String key = entry.getKey();
-            Movie value = entry.getValue();
-            System.out.println(key + " "+value);
-        }
         int counter = 0;
-        for (Map.Entry<String, Genre> entry : genreMap.entrySet()) {
-            String key = entry.getKey();
-            Genre value = entry.getValue();
-            System.out.println(key + " "+value);
-            counter++;
-        }
-        System.out.println(counter);
+        // for (Map.Entry<String, Movie> entry : movieMap.entrySet()) {
+        //     String key = entry.getKey();
+        //     Movie value = entry.getValue();
+        //     System.out.println(key + " "+value);
+        //     counter++;
+        // }
+        // System.out.println(counter);
+        
+        // for (Map.Entry<String, Genre> entry : genreMap.entrySet()) {
+        //     String key = entry.getKey();
+        //     Genre value = entry.getValue();
+        //     System.out.println(key + " "+value);
+        //     counter++;
+        // }
+        // System.out.println(counter);
 
         // for(ListIterator it = gm_relation.listIterator();it.hasNext();){
         //     System.out.println((Genres_in_movies)it.next());
@@ -70,10 +241,7 @@ class ParseMain extends DefaultHandler{
         try{
             SAXParser sp = spf.newSAXParser();
             sp.parse(filename,this);
-
             printAll();
-            
-
         }catch(SAXException se) {
 			se.printStackTrace();
 		}catch(ParserConfigurationException pce) {
@@ -93,8 +261,6 @@ class ParseMain extends DefaultHandler{
             currMovie.setDirector(currDirectorName);
         }else if(qName.equalsIgnoreCase("cat")){
             currGenre = new Genre();
-        }else if(qName.equalsIgnoreCase("")){
-
         }
     }
 
@@ -103,18 +269,14 @@ class ParseMain extends DefaultHandler{
     }
 
     public void endElement(String uri, String localName, String qName) throws SAXException {
-        if (tempVal.trim().equals("")) {
-            return;
-        }
         if(qName.equalsIgnoreCase("film")) {
             if (movieMap.get(currMovie.getID()) == null) {
                 currMovie.setQID();
                 movieMap.put(currMovie.getID(),currMovie);
             }else{
-                currMovie = movieMap.get(currMovie.getID());
+                System.out.println("ignore "+currMovie.getID());
             }
             currMovie = null;
-
         }else if(qName.equalsIgnoreCase("cat")){
 
             if(genreMap.get(tempVal) == null){
@@ -128,7 +290,7 @@ class ParseMain extends DefaultHandler{
                 gm_relation.add(new Genres_in_movies(currGenre.qid, currMovie.qid));
             }
 
-        }if(qName.equalsIgnoreCase("dirname")){
+        }else if(qName.equalsIgnoreCase("dirid")){
             currDirectorName = tempVal;
         }else if(qName.equalsIgnoreCase("fid")){
             currMovie.setID(tempVal);
@@ -149,8 +311,8 @@ class Movie{
     private String title;
     private String director;
     private String year;
-    private String banner_url;
-    private String trailer_url;
+    private String banner_url ="";
+    private String trailer_url = "";
 
     public Movie(){
 
@@ -217,11 +379,10 @@ class Star{
     private static final AtomicInteger count = new AtomicInteger(0);
     private String id;
     public int qid = -1;
-    private String first_name;
-    private String last_name;
-    private java.util.Date dob;
-    private String photo_url;
-    private String name;
+    private String first_name = "";
+    private String last_name = "";
+    private String dob = "";
+    private String photo_url = "";
 
     public Star(){
 
@@ -255,11 +416,11 @@ class Star{
         this.last_name=last_name;
     }
 
-    public java.util.Date getDob(){
+    public String getDob(){
         return dob;
     }
 
-    public void setDob(java.util.Date dob){
+    public void setDob(String dob){
         this.dob=dob;
     }
 
@@ -270,43 +431,44 @@ class Star{
     public void setPhoto_url(String photo_url){
         this.photo_url=photo_url;
     }
-
-    public String getName(){
-        return name;
-    }
-
-    public void setName(String name){
-        this.name=name;
-    }
     @Override
     public String toString(){
-        return "Star ID: " + qid + " Name: " + first_name + " " + last_name + " DOB: "+ dob.toString();
+        return "Star ID: " + qid + " Name: " + first_name + " " + last_name + " DOB: "+ dob;
+    }
+    @Override
+    public int hashCode() {
+        return Objects.hash(first_name,last_name);
     }
 }
 
 
 class Stars_in_movies{
-    private String star_id;
-    private String movie_id;
+    private int star_id;
+    private int movie_id;
 
     public Stars_in_movies(){
 
     }
 
-    public String getStarID(){
+    public int getStarID(){
         return star_id;
     }
 
-    public void setStarID(String id){
+    public void setStarID(int id){
         this.star_id = id;
     }
 
-    public String getMovieID(){
+    public int getMovieID(){
         return movie_id;
     }
 
-    public void setMovieID(String id){
+    public void setMovieID(int id){
         this.movie_id=id;
+    }
+
+    @Override
+    public String toString(){
+        return "Starid " + star_id + " MovieID " + movie_id;
     }
 }
 
