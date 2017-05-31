@@ -42,18 +42,18 @@
     
     <div class="container">
         <div class="row">
-        <div class="col-xs-6 center-block">
+        <form class="col-xs-6 center-block" method="post" action="/fabflix/servlet/EmployeeLogging">
             <div class="form-group label-floating is-empty">
                 <label for="username-input" class="control-label">User Name:</label>
-                <input type="text" class="form-control" id="username-input">
+                <input type="text" class="form-control" id="username-input" name="user_name">
             </div>
             <div class="form-group label-floating is-empty">
                     <label for="password-input" class="control-label">Password :</label>
-                    <input type="password" class="form-control" id="password-input">
+                    <input type="password" class="form-control" id="password-input" name="password">
             </div>
-            <div class="g-recaptcha" data-sitekey="6LcfkCEUAAAAANzc86JRof4H_YX7VCWgYLSt3Bhk"></div>
-             <button class="btn btn-primary" type="button" onclick="JavaScript:employeeLoginRequest()">Log In</button>
-        </div>
+            <div class="g-recaptcha" data-sitekey="6LfClCEUAAAAAKx9Ryd_qg2A-bpkP6mhulPgwwnV"></div>
+             <input class="btn btn-primary" type="submit"></input>
+        </form>
         </div>
     </div>
 

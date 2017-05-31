@@ -5,8 +5,8 @@ CREATE PROCEDURE animedb.add_anime(in atitle varchar(100),in ayear INT, in adire
 
 BEGIN
 	DECLARE voiceid Integer;
-    DECLARE anime_id Integer;
-    DECLARE genre_id Integer;
+    DECLARE animeid Integer;
+    DECLARE genreid Integer;
     DECLARE part1 varchar(100);
     DECLARE part2 varchar(100);
     DECLARE part3 varchar(100);
@@ -21,26 +21,26 @@ IF (select count(*) from voice_actors where first_name = fname and last_name = l
  END IF;
 IF (select count(*) from genres where name = gname) = 0 THEN
     insert into genres(name) values(gname);
-    set genre_id = (select id from genres where name = gname limit 1);
+    set genreid = (select id from genres where name = gname limit 1);
     set part2 = ' genre inserted |';
  ELSE
-    set genre_id = (select id from genres where name = gname limit 1);
+    set genreid = (select id from genres where name = gname limit 1);
     set part2 = ' this genre has alreay existed |';
  END IF;
  
  IF (select count(*) from animes where title = atitle and director = adirector and year = ayear) = 0 THEN
     insert into animes(title, year, director) values(atitle, ayear, adirector);
-    set anime_id = (select id from animes where title = atitle and director = adirector and year = ayear limit 1);
+    set animeid = (select id from animes where title = atitle and director = adirector and year = ayear limit 1);
     set part3 = ' anime inserted |';
  ELSE
-    set anime_id = (select id from animes where title = atitle and director = adirector and year = ayear limit 1);
+    set animeid = (select id from animes where title = atitle and director = adirector and year = ayear limit 1);
     set part3 = ' this anime has already existed |';
  END IF;
- IF (select count(*) from genres_in_animes where anime_id = anime_id and genre_id = genre_id) = 0 THEN
- insert into genres_in_animes(anime_id, genre_id) values (anime_id, genre_id);
+ IF (select count(*) from genres_in_animes where anime_id = animeid and genre_id = genreid) = 0 THEN
+ insert into genres_in_animes(anime_id, genre_id) values (animeid, genreid);
  END IF;
- IF (select count(*) from voice_actors_in_animes where voice_actor_id = voiceid and anime_id = anime_id) = 0 THEN
- insert into voice_actors_in_animes(anime_id, voice_actor_id) values (anime_id, voiceid);
+ IF (select count(*) from voice_actors_in_animes where voice_actor_id = voiceid and anime_id = animeid) = 0 THEN
+ insert into voice_actors_in_animes(anime_id, voice_actor_id) values (animeid, voiceid);
  END IF;
  set answer = concat(concat(part1, part2), part3);
  END;

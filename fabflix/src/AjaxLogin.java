@@ -1,18 +1,38 @@
 
-import java.io.*;
-import javax.servlet.*;
-import javax.servlet.http.*;
-import java.net.*;
-import java.util.*;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.DriverManager;
+
+import javax.servlet.FilterChain;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
 import java.sql.Connection;
-import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
 
-public class Logging extends HttpServlet{
-    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
+/**
+ * Servlet implementation class AjaxLogin
+ */
+@WebServlet("/AjaxLogin")
+public class AjaxLogin extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public AjaxLogin() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+    public void doFilter(HttpServletRequest request, HttpServletResponse response, FilterChain chain)
     throws ServletException
     {
        try{
@@ -22,46 +42,29 @@ public class Logging extends HttpServlet{
             e.printStackTrace();
         }
     }
+    
+    public void doGet(HttpServletRequest request,HttpServletResponse response)throws ServletException, IOException{
+    	doPost(request,response);
+    }
     public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
          PrintWriter out = response.getWriter();
         try{
-            response.setContentType("text/html");
-            out.println("<!DOCTYPE html><html lang='en'><body>");
             
             String username = request.getParameter("user_name");
             String password = request.getParameter("password");
             
-            String gRecaptchaResponse = request.getParameter("g-recaptcha-response");
-            boolean valid = false;
-            if(gRecaptchaResponse != null && !gRecaptchaResponse.isEmpty()){
-            	System.out.println("gRecaptchaResponse=" + gRecaptchaResponse);
-              	// Verify CAPTCHA.
-            	try{
-            		valid = VerifyUtils.verify(gRecaptchaResponse);
-            	}catch(Exception e){
-            		out.println(e.getMessage()+"ddd");
-            	}
-              	
-            }else{
-            	out.print("No Recaptcha\n");
-            	
-            }
-            String referer = request.getHeader("Referer");
-            if(username.isEmpty() ||username==null || password.isEmpty() || password == null){
-                out.println("Plz Provide username and password");
-            }else if(valid){
+            if(username==null || username.isEmpty() || password == null || password.isEmpty()){
+                response.sendError(407,"Plz Provide username and password");
+            }else {
                 int uid = -1;
                 if((uid = login(username,password)) >= 0){
                     HttpSession session = request.getSession(true);
                     session.setAttribute("uid",uid);
-                    response.sendRedirect(request.getContextPath() + "/jsp/Main.jsp");
+                    
                 }else{
-                	out.print("Incorrect user name or password\n");
+                	response.sendError(401,"Incorrect User Name or Password");
                 }
             }
-            
-            out.println("<script>window.setTimeout(function(){window.location.href = '"+referer+"';}, 2000);</script>");
-            
         }catch(Exception e){
         	e.printStackTrace();
         	out.print(e.getMessage()+" abc");
@@ -86,4 +89,9 @@ public class Logging extends HttpServlet{
         }
         return -1;
     }
+
 }
+
+
+
+

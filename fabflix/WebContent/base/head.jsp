@@ -11,3 +11,4 @@
     <link rel="stylesheet" href="/fabflix/css/bootstrap-material-design.min.css">
     <link rel="stylesheet" type="text/css" href="/fabflix/css/ripples.min.css">
     <link rel="stylesheet" href="/fabflix/css/main.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">

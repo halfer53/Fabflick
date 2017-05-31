@@ -40,6 +40,13 @@
 .complete{
     display:none;
 }
+.ui-autocomplete{
+	padding-top:15px !important;
+	max-height: 200px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
 .list-group-item{
     margin-bottom: 15px;
 }

@@ -46,7 +46,7 @@ public class AddNewAnime extends HttpServlet {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" );
 			CallableStatement st = (CallableStatement)conn.prepareCall("{call add_anime(?, ?,?,?,?,?,?)}");
-			String title = parse(request.getParameter("photo_url"));
+			String title = parse(request.getParameter("title"));
 			Integer year = Integer.parseInt(parse(request.getParameter("year")));
 			String director = parse(request.getParameter("director"));
 			String vafirstname = parse(request.getParameter("vafirstname"));

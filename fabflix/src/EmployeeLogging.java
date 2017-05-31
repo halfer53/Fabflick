@@ -34,39 +34,51 @@ public class EmployeeLogging extends HttpServlet {
 		            e.printStackTrace();
 		        }
 		    }
-		    public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
+			public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
 		         PrintWriter out = response.getWriter();
 		        try{
-		        	String gRecaptchaResponse = request.getParameter("g-recaptcha-response");
-		          	System.out.println("gRecaptchaResponse=" + gRecaptchaResponse);
-		          	// Verify CAPTCHA.
-		          	boolean valid = VerifyUtils.verify(gRecaptchaResponse);
-		          	if (!valid) {
-		          	    //errorString = "Captcha invalid!";
-		          		response.sendError(407);
-		          		out.print("Wrong Captcha");
-		          		out.flush();
-		          	    return;
-		          	}
-		            response.setContentType("text/plain");
+		            response.setContentType("text/html");
+		            out.println("<!DOCTYPE html><html lang='en'><body>");
+		            
 		            String username = request.getParameter("user_name");
 		            String password = request.getParameter("password");
+		            
+		            String gRecaptchaResponse = request.getParameter("g-recaptcha-response");
+		            boolean valid = false;
+		            if(gRecaptchaResponse != null && !gRecaptchaResponse.isEmpty()){
+		            	System.out.println("gRecaptchaResponse=" + gRecaptchaResponse);
+		              	// Verify CAPTCHA.
+		            	try{
+		            		valid = VerifyUtils.verify(gRecaptchaResponse);
+		            	}catch(Exception e){
+		            		out.println(e.getMessage()+"ddd");
+		            	}
+		              	
+		            }else{
+		            	out.print("No Recaptcha\n");
+		            	
+		            }
+		            String referer = request.getHeader("Referer");
 		            if(username.isEmpty() ||username==null || password.isEmpty() || password == null){
 		                out.println("Plz Provide username and password");
-		            }else{
+		            }else if(valid){
 		                String eid = null;
-		                if((eid = login(username,password)) != null){
+		                if((eid = login(username,password)) !=null){
 		                    HttpSession session = request.getSession(true);
 		                    session.setAttribute("eid",eid);
-		                    out.println(eid);
+		                    response.sendRedirect(request.getContextPath() + "/admin/Main.jsp");
 		                }else{
-		                    response.sendError(403,"Incorrect Username or Password");
+		                	out.print("Incorrect user name or password\n");
 		                }
 		            }
 		            
+		            out.println("<script>window.setTimeout(function(){window.location.href = '"+referer+"';}, 2000);</script>");
+		            
 		        }catch(Exception e){
-		            out.println(e);
+		        	e.printStackTrace();
+		        	out.print(e.getMessage()+" abc");
 		        }
+		        out.close();
 		        
 		    }
 

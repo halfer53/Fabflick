@@ -1,4 +1,6 @@
-
+$( function() {
+    $( "" ).tooltip();
+  } );
 function loginRequest(){
     var username = $("#username-input").val();
     var password = $("#password-input").val();
@@ -15,13 +17,103 @@ function loginRequest(){
                 window.location.href = "/fabflix/jsp/Main.jsp";
             },
             error: function(xhr, ajaxOptions, thrownError){
-                ErrorMsg("#message","Incorrect User name or Password");
+            	if(xhr.status == 405){
+            		ErrorMsg("#message","plz ensure u r human");
+            	}else if(xhr.status == 407){
+            		ErrorMsg("#message","Incorrect username or password");
+            	}else{
+            		ErrorMsg("#message","Something goes wrong");
+            	}
+                
             }
         })
     }else{
         ErrorMsg("#message", "Plz provide User name or Password");
     }
 }
+function ProcessAutoComplete(animelist){
+	
+}
+
+var ttpos = $.ui.tooltip.prototype.options.position;
+
+$( "#search-box" ).autocomplete({
+    source: function( request, response ) {
+      $.ajax( {
+    	type: "GET",
+        url: "/fabflix/AjaxAnime",
+        dataType: "json",
+        data: {
+          title: request.term
+        },
+        success: function( data ) {
+          response(data.Animes);
+        }
+      });
+    },
+    create: function () {
+    	
+        $(this).data('ui-autocomplete')._renderItem = function (ul, item) {
+            return $('<li>').addClass("list-group-item").append('<a class="search-box-result" ">' +item.value + '</a>').appendTo(ul);
+        };
+    },
+    minLength: 2,
+    select: function( event, ui ) {
+      console.log( "Selected: " + ui.item.value + " aka " + ui.item.id );
+      
+    },
+    focus: function( event, ui ) {
+        console.log(ui.item.id);
+        return false;
+    }
+});
+
+$(document).tooltip({
+	  items:'.anime-row',
+	  tooltipClass:'preview-tip',
+	  position: { my: "left+15 top", at: "right center" },
+	  content:function(callback) { //callback
+	    $.getJSON('/fabflix/AjaxSingleAnime',{id:this.id}, function(data) {
+	    	console.log(data);
+	    	ul = '';
+	    	ul += "Title: "+data.title;
+	    	ul += "<br>Director: "+data.director;
+	    	ul += "<br>Year: "+data.year;
+	    	ul += "<br> Description: "+data.description;
+	    	ul += "<br><button class='btn btn-default' onclick='addToCartByInput("+data.id+")'>Add to Chart</button>";
+	    	callback(ul); //call the callback function to return the value
+	    });
+	  },
+	  show: null, // show immediately
+	    open: function(event, ui)
+	    {
+	        if (typeof(event.originalEvent) === 'undefined')
+	        {
+	            return false;
+	        }
+
+	        var $id = $(ui.tooltip).attr('id');
+
+	        // close any lingering tooltips
+	        $('div.ui-tooltip').not('#' + $id).remove();
+
+	        // ajax function to pull in data and add it to the tooltip goes here
+	    },
+	    close: function(event, ui)
+	    {
+	        ui.tooltip.hover(function()
+	        {
+	            $(this).stop(true).fadeTo(400, 1); 
+	        },
+	        function()
+	        {
+	            $(this).fadeOut('400', function()
+	            {
+	                $(this).remove();
+	            });
+	        });
+	    }
+	});
 
 
 function employeeLoginRequest(){
@@ -40,7 +132,13 @@ function employeeLoginRequest(){
                 window.location.href = "/fabflix/admin/Main.jsp";
             },
             error: function(xhr, ajaxOptions, thrownError){
-                ErrorMsg("#message","Incorrect User name or Password");
+            	if(xhr.status == 405){
+            		ErrorMsg("#message","plz ensure u r human");
+            	}else if(xhr.status == 407){
+            		ErrorMsg("#message","Incorrect username or password");
+            	}else{
+            		ErrorMsg("#message","Something goes wrong");
+            	}
             }
         })
     }else{
@@ -109,7 +207,6 @@ function addNewAnime(){
         })
     }else{
         ErrorMsg("#message", "Plz provide proper data");
-        $("#message").fadeOut();
     }
 }
 

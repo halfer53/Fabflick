@@ -237,9 +237,6 @@
   <!--                       attribute values, should the rules in JSP.1.6  -->
   <!--                       for the escaping of quote characters be        -->
   <!--                       strictly applied? [true]                       -->
-  <!--                       The default can be changed with the            -->
-  <!--                       org.apache.jasper.compiler.Parser.             -->
-  <!--                       STRICT_QUOTE_ESCAPING system property.         -->
   <!--                                                                      -->
   <!--   quoteAttributeEL    When EL is used in an attribute value on a     -->
   <!--                       JSP page should the rules for quoting of       -->
@@ -4306,6 +4303,10 @@
     <mime-mapping>
         <extension>woff</extension>
         <mime-type>application/x-font-woff</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+        <extension>woff2</extension>
+        <mime-type>font/woff2</mime-type>
     </mime-mapping>
     <mime-mapping>
         <extension>wpd</extension>

@@ -272,7 +272,7 @@
             Integer m_year = rs.getInt("year");
             Float m_rating = rs.getFloat("rating");
             sb.append(  "<tr>" + "<td>" + m_id + "</td>" + 
-                        "<td><a href='/fabflix/jsp/SingleAnime.jsp?id="+m_id + "'>" + m_title + "</a></td>" + 
+                        "<td><a class='anime-row' id='"+m_id +"' href='/fabflix/jsp/SingleAnime.jsp?id="+m_id + "'>" + m_title + "</a></td>" + 
                         "<td>" + m_director + "</td>" +
                         "<td>" + m_rating.toString() + "</td>" +
                         "<td>" + m_year.toString() + "</td>" +

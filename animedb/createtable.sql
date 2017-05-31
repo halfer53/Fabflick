@@ -11,6 +11,8 @@
 		picture_url varchar(200),
 		description varchar(6000),
 		primary key(id))DEFAULT CHARACTER SET=utf8;
+
+		alter table animes add fulltext(title);
 	
 		create table voice_actors(
 		id integer auto_increment,
