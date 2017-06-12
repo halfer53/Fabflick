@@ -26,7 +26,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-
+import javax.naming.InitialContext;
+import javax.naming.Context;
+import javax.sql.DataSource;
 /**
  * Servlet implementation class CheckCreditCard
  */
@@ -59,7 +61,11 @@ public class CheckCreditCard extends HttpServlet {
     	            response.setContentType("text/plain");
 
     	            Class.forName("com.mysql.jdbc.Driver").newInstance();
-    	            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" );
+    	            Context initCtx = new InitialContext();
+                 Context envCtx = (Context) initCtx.lookup("java:comp/env");
+                 DataSource ds = (DataSource) envCtx.lookup("jdbc/AnimeDB");
+                 Connection conn = ds.getConnection();
+;
     	            String id = request.getParameter("id");
     	            String firstname = request.getParameter("firstname");
     	            String lastname = request.getParameter("lastname");
@@ -84,16 +90,17 @@ public class CheckCreditCard extends HttpServlet {
     	                    newSale(conn,uid,animesid);
     	                    out.print("Success");
     	                    session.setAttribute("cart-id",UUID.randomUUID().toString());
-
+    	                    
     	                }else{
     	                    response.sendError(417,"Credit Card does not match");
     	                }
     	            }
+    	            out.close();
+        	        conn.close();
     	            
     	        }catch(Exception e){
     	            out.println(e.getMessage());
     	        }
-    	        out.close();
     	        
     	    }
 

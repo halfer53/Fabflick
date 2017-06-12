@@ -1,5 +1,5 @@
 <%@ page import="java.io.*,java.util.*,java.sql.*"%>
-<%@ page import="javax.servlet.http.*,javax.servlet.*" %>
+<%@ page import="javax.servlet.http.*,javax.servlet.*,javax.naming.InitialContext, javax.naming.Context, javax.sql.DataSource"%>
 <%@ page contentType="text/html; charset=UTF-8" %>
 <html>
     <head>
@@ -60,7 +60,11 @@
         String formatResult(Integer animeid){
             StringBuffer sb = new StringBuffer();
             try{
-                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" );
+                Context initCtx = new InitialContext();
+                 Context envCtx = (Context) initCtx.lookup("java:comp/env");
+                 DataSource ds = (DataSource) envCtx.lookup("jdbc/AnimeDB");
+                 Connection conn = ds.getConnection();
+;
                 
                 String query = "SELECT * from animes where id = ?";
                 PreparedStatement pst = conn.prepareStatement(query);

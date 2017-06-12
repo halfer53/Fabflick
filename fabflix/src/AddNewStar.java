@@ -20,6 +20,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import javax.naming.InitialContext;
+import javax.naming.Context;
+import javax.sql.DataSource;
+
 /**
  * Servlet implementation class AddNewStar
  */
@@ -44,7 +48,11 @@ public class AddNewStar extends HttpServlet {
 		try{
 
             Class.forName("com.mysql.jdbc.Driver").newInstance();
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" );
+            Context initCtx = new InitialContext();
+                 Context envCtx = (Context) initCtx.lookup("java:comp/env");
+                 DataSource ds = (DataSource) envCtx.lookup("jdbc/AnimeDB");
+                 Connection conn = ds.getConnection();
+;
             String firstname = parse(request.getParameter("first_name"));
             String lastname = parse(request.getParameter("last_name"));
             String photo = parse(request.getParameter("photo_url"));

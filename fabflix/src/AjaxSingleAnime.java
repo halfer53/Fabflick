@@ -16,7 +16,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.json.JSONObject;
-
+import javax.naming.InitialContext;
+import javax.naming.Context;
+import javax.sql.DataSource;
 /**
  * Servlet implementation class AjaxSingleAnime
  */
@@ -57,7 +59,11 @@ public class AjaxSingleAnime extends HttpServlet {
                 response.sendError(407,"Plz Anime ID");
             }else {
             	Class.forName("com.mysql.jdbc.Driver").newInstance();
-                try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" )) {
+                try {Context initCtx = new InitialContext();
+                 Context envCtx = (Context) initCtx.lookup("java:comp/env");
+                 DataSource ds = (DataSource) envCtx.lookup("jdbc/AnimeDB");
+                 Connection conn = ds.getConnection();
+
                     String query = "SELECT * FROM animes WHERE id = ?";
                     try(PreparedStatement stmt = conn.prepareStatement(query)) {
                         stmt.setString(1,id);
@@ -72,7 +78,10 @@ public class AjaxSingleAnime extends HttpServlet {
                             	json.put("description", description);
                             }
                         }
-                    }  
+                    }
+                    conn.close();
+                }catch(Exception e){
+                	e.printStackTrace();
                 }
             }
             out.print(json.toString());

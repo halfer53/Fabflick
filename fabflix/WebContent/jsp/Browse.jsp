@@ -1,5 +1,5 @@
 <%@ page import="java.io.*,java.util.*,java.sql.*"%>
-<%@ page import="javax.servlet.http.*,javax.servlet.*" %>
+<%@ page import="javax.servlet.http.*,javax.servlet.*,javax.naming.InitialContext, javax.naming.Context, javax.sql.DataSource"%>
 <%@ page contentType="text/html; charset=UTF-8" %>
 <html>
     <head>
@@ -11,11 +11,18 @@
          String getAllGenre(){
             StringBuffer sb = new StringBuffer();
             try{
-                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" );
-                
+            	
+                //Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" );
+                Context initCtx = new InitialContext();
+                 Context envCtx = (Context) initCtx.lookup("java:comp/env");
+                 DataSource ds = (DataSource) envCtx.lookup("jdbc/AnimeDB");
+                 Connection conn = ds.getConnection();
+                 
                 String query = "SELECT * from genres";
-                Statement stmt = conn.createStatement();
-                ResultSet rs = stmt.executeQuery(query);
+                PreparedStatement stmt = conn.prepareStatement(query);
+                
+
+                ResultSet rs = stmt.executeQuery();
                 while(rs.next()){
                     String name = rs.getString("name");
                     sb.append("<li class=\"\"><a href=\"/fabflix/jsp/Anime.jsp?genre="+name+"\">"+name+"</a></li>\n");

@@ -11,6 +11,10 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 
+import javax.naming.InitialContext;
+import javax.naming.Context;
+import javax.sql.DataSource;
+
 public class Logging extends HttpServlet{
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
     throws ServletException
@@ -72,17 +76,25 @@ public class Logging extends HttpServlet{
 
     public int login(String username,String password) throws Exception{
         Class.forName("com.mysql.jdbc.Driver").newInstance();
-        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" )) {
+        try {
+        		Context initCtx = new InitialContext();
+                 Context envCtx = (Context) initCtx.lookup("java:comp/env");
+                 DataSource ds = (DataSource) envCtx.lookup("jdbc/AnimeDB");
+                 Connection conn = ds.getConnection();
+
             String query = "SELECT * FROM customers WHERE email = ? AND password = ?";
             try(PreparedStatement stmt = conn.prepareStatement(query)) {
                 stmt.setString(1,username);
                 stmt.setString(2,password);
                 try(ResultSet rs = stmt.executeQuery()){
                     if(rs.first()){
+                    	conn.close();
                         return rs.getInt(1);
                     }
                 }
             }  
+        }catch(Exception e){
+        	e.printStackTrace();
         }
         return -1;
     }

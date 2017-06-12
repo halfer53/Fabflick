@@ -12,7 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.mysql.jdbc.CallableStatement;
-
+import javax.naming.InitialContext;
+import javax.naming.Context;
+import javax.sql.DataSource;
 /**
  * Servlet implementation class AddNewAnime
  */
@@ -44,7 +46,11 @@ public class AddNewAnime extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		try{
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" );
+            Context initCtx = new InitialContext();
+                 Context envCtx = (Context) initCtx.lookup("java:comp/env");
+                 DataSource ds = (DataSource) envCtx.lookup("jdbc/AnimeDB");
+                 Connection conn = ds.getConnection();
+;
 			CallableStatement st = (CallableStatement)conn.prepareCall("{call add_anime(?, ?,?,?,?,?,?)}");
 			String title = parse(request.getParameter("title"));
 			Integer year = Integer.parseInt(parse(request.getParameter("year")));
@@ -68,6 +74,7 @@ public class AddNewAnime extends HttpServlet {
 		    response.setCharacterEncoding("UTF-8"); // You want world domination, huh?
 			System.out.println(output);
 			out.write(output);
+			conn.close();
 			
 		}catch(Exception e){
         	response.setStatus(407);

@@ -17,6 +17,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import javax.naming.InitialContext;
+import javax.naming.Context;
+import javax.sql.DataSource;
+
 /**
  * Servlet implementation class EmployeeLogging
  */
@@ -84,7 +88,12 @@ public class EmployeeLogging extends HttpServlet {
 
 		    public String login(String username,String password) throws Exception{
 		        Class.forName("com.mysql.jdbc.Driver").newInstance();
-		        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" )) {
+		        try {
+		        Context initCtx = new InitialContext();
+                 Context envCtx = (Context) initCtx.lookup("java:comp/env");
+                 DataSource ds = (DataSource) envCtx.lookup("jdbc/AnimeDB");
+                 Connection conn = ds.getConnection();
+
 		            String query = "SELECT * FROM employees WHERE email = ? AND password = ?";
 		            try(PreparedStatement stmt = conn.prepareStatement(query)) {
 		                stmt.setString(1,username);
@@ -95,6 +104,8 @@ public class EmployeeLogging extends HttpServlet {
 		                    }
 		                }
 		            }  
+		        }catch(Exception e){
+		        	e.printStackTrace();
 		        }
 		        return null;
 		    }

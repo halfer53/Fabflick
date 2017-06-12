@@ -1,5 +1,5 @@
 <%@ page import="java.io.*,java.util.*,java.sql.*"%>
-<%@ page import="javax.servlet.http.*,javax.servlet.*" %>
+<%@ page import="javax.servlet.http.*,javax.servlet.*,javax.naming.InitialContext, javax.naming.Context, javax.sql.DataSource"%>
 <%@ page contentType="text/html; charset=UTF-8" %>
 <html>
     <head>
@@ -99,18 +99,24 @@
         private String getanimeListByTitleStart(String title_start,Integer start, Integer LIMIT,String sortby,String sorttype){
             String query="";
             try{
+            	String result = "";
                 Class.forName("com.mysql.jdbc.Driver").newInstance();
-                try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" )) {
+                 Context initCtx = new InitialContext();
+                 Context envCtx = (Context) initCtx.lookup("java:comp/env");
+                 DataSource ds = (DataSource) envCtx.lookup("jdbc/AnimeDB");
+                 Connection conn = ds.getConnection();
+
                         query = sortQuery(getanimeTitleStartWithQuery(title_start),sortby,sorttype);
                         try(PreparedStatement stmt = conn.prepareStatement(query)) {
                             stmt.setInt(1,start);
                             stmt.setInt(2,LIMIT);
                             try(ResultSet rs = stmt.executeQuery()){
-                                return formatResult(conn,rs);
+                            	result = formatResult(conn,rs);
                             }
-                        }  
-                  }
-               
+                        }
+                  
+                  conn.close();
+               return result;
             }catch(Exception e){
                 return query + " "+e.getMessage();
             }
@@ -120,22 +126,52 @@
         private String getanimeListByGenre(String genre,Integer start, Integer LIMIT,String sortby, String sorttype){
             String query="";
             try{
-
+            	
+				String result = "";
                 Class.forName("com.mysql.jdbc.Driver").newInstance();
-                try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" )) {
+                try {
+                	long TJstartTime = System.nanoTime();
+                 Context initCtx = new InitialContext();
+                 Context envCtx = (Context) initCtx.lookup("java:comp/env");
+                 Random rand = new Random();
+                 DataSource ds = rand.nextInt(1) == 0 ? 
+                		 	(DataSource) envCtx.lookup("jdbc/AnimeDB") : 
+                		 		(DataSource) envCtx.lookup("jdbc/AnimeDBMaster"); 
+                 Connection conn = ds.getConnection();
+ 					
                         query = sortQuery(getGenreQuery(genre),sortby,sorttype);
                         try(PreparedStatement stmt = conn.prepareStatement(query)) {
                             stmt.setInt(1,start);
                             stmt.setInt(2,LIMIT);
                             try(ResultSet rs = stmt.executeQuery()){
-                                return formatResult(conn,rs);
+                            	
+                                result = formatResult(conn,rs);
                             }
-                        }  
-                  }
+                        }
+                  long TJendTime = System.nanoTime();
+                  long TSendTime = System.nanoTime();
+                  long TSelapsedTime = TSendTime - TJstartTime; // elapsed time in nano seconds. Note: print the values in nano seconds 
+                  long TJelapsedTime = TJendTime - TJstartTime;
+                  String string = TSelapsedTime + "," + TJelapsedTime;
+                  try(FileWriter fw = new FileWriter("../log.txt", true);
+                  	    BufferedWriter bw = new BufferedWriter(fw);
+                  	    PrintWriter out = new PrintWriter(bw))
+                  	{
+                  	    out.println(string);
+                  	    out.close();
+                  	} catch (IOException e) {
+                  	}
+                  conn.close();
+                  return result;
+                   
+                 }catch(Exception e){
+                	 e.printStackTrace();
+                 }
                
             }catch(Exception e){
                 return query + " "+e.getMessage();
             }
+            return "";
 
         }
 
@@ -238,7 +274,11 @@
             
             try{
                 Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" );
+                Context initCtx = new InitialContext();
+                 Context envCtx = (Context) initCtx.lookup("java:comp/env");
+                 DataSource ds = (DataSource) envCtx.lookup("jdbc/AnimeDB");
+                 Connection conn = ds.getConnection();
+;
 
                 String anime_query = getanimeQuery(title,year,director,voice_actor_firstname,voice_actor_lastname);
                 query = sortQuery(anime_query,sortby,sorttype);
@@ -333,17 +373,26 @@
       private boolean hasPage(String query,Integer start, Integer LIMIT) throws SQLException{
         try{
             Class.forName("com.mysql.jdbc.Driver").newInstance();
-            try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" )) {
+            try {
+            	Context initCtx = new InitialContext();
+                 Context envCtx = (Context) initCtx.lookup("java:comp/env");
+                 DataSource ds = (DataSource) envCtx.lookup("jdbc/AnimeDB");
+                 Connection conn = ds.getConnection();
                     try(PreparedStatement stmt = conn.prepareStatement(query)) {
                         stmt.setInt(1,start+LIMIT);
                         stmt.setInt(2,LIMIT);
                         try(ResultSet rs = stmt.executeQuery()){
                             if(rs.next()){
+                            	conn.close();
                                 return true;
                             }
                         }
-                    }  
+                    }
+                    conn.close();
+              }catch(Exception e){
+            	  e.printStackTrace();
               }
+            
            
         }catch(Exception e){
             e.printStackTrace();

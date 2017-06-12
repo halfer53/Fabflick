@@ -15,7 +15,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+import javax.naming.InitialContext;
+import javax.naming.Context;
+import javax.sql.DataSource;
 public class TomcatFormReCaptcha extends HttpServlet
 {
     public String getServletInfo()
@@ -60,7 +62,10 @@ public class TomcatFormReCaptcha extends HttpServlet
               //Class.forName("org.gjt.mm.mysql.Driver");
               Class.forName("com.mysql.jdbc.Driver").newInstance();
 
-              Connection dbcon = DriverManager.getConnection(loginUrl, loginUser, loginPasswd);
+              Context initCtx = new InitialContext();
+              Context envCtx = (Context) initCtx.lookup("java:comp/env");
+              DataSource ds = (DataSource) envCtx.lookup("jdbc/AnimeDB");
+              Connection dbcon = ds.getConnection();
               // Declare our statement
               Statement statement = dbcon.createStatement();
 

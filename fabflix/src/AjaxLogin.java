@@ -16,7 +16,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-
+import javax.naming.InitialContext;
+import javax.naming.Context;
+import javax.sql.DataSource;
 /**
  * Servlet implementation class AjaxLogin
  */
@@ -75,17 +77,26 @@ public class AjaxLogin extends HttpServlet {
 
     public int login(String username,String password) throws Exception{
         Class.forName("com.mysql.jdbc.Driver").newInstance();
-        try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/animedb","root","cs122b" )) {
+        try {Context initCtx = new InitialContext();
+                 Context envCtx = (Context) initCtx.lookup("java:comp/env");
+                 DataSource ds = (DataSource) envCtx.lookup("jdbc/AnimeDB");
+                 Connection conn = ds.getConnection();
+ 
             String query = "SELECT * FROM customers WHERE email = ? AND password = ?";
             try(PreparedStatement stmt = conn.prepareStatement(query)) {
                 stmt.setString(1,username);
                 stmt.setString(2,password);
                 try(ResultSet rs = stmt.executeQuery()){
                     if(rs.first()){
-                        return rs.getInt(1);
+                    	int result = rs.getInt(1);
+                    	conn.close();
+                        return result;
                     }
                 }
-            }  
+            }
+            conn.close();
+        }catch(Exception e){
+        	e.printStackTrace();
         }
         return -1;
     }
