@@ -130,7 +130,8 @@
 				String result = "";
                 Class.forName("com.mysql.jdbc.Driver").newInstance();
                 try {
-                	long TJstartTime = System.nanoTime();
+                	
+                
                  Context initCtx = new InitialContext();
                  Context envCtx = (Context) initCtx.lookup("java:comp/env");
                  Random rand = new Random();
@@ -138,7 +139,7 @@
                 		 	(DataSource) envCtx.lookup("jdbc/AnimeDB") : 
                 		 		(DataSource) envCtx.lookup("jdbc/AnimeDBMaster"); 
                  Connection conn = ds.getConnection();
- 					
+                 
                         query = sortQuery(getGenreQuery(genre),sortby,sorttype);
                         try(PreparedStatement stmt = conn.prepareStatement(query)) {
                             stmt.setInt(1,start);
@@ -148,19 +149,8 @@
                                 result = formatResult(conn,rs);
                             }
                         }
-                  long TJendTime = System.nanoTime();
-                  long TSendTime = System.nanoTime();
-                  long TSelapsedTime = TSendTime - TJstartTime; // elapsed time in nano seconds. Note: print the values in nano seconds 
-                  long TJelapsedTime = TJendTime - TJstartTime;
-                  String string = TSelapsedTime + "," + TJelapsedTime;
-                  try(FileWriter fw = new FileWriter("../log.txt", true);
-                  	    BufferedWriter bw = new BufferedWriter(fw);
-                  	    PrintWriter out = new PrintWriter(bw))
-                  	{
-                  	    out.println(string);
-                  	    out.close();
-                  	} catch (IOException e) {
-                  	}
+                  
+                  
                   conn.close();
                   return result;
                    
@@ -273,12 +263,14 @@
             String query = "";
             
             try{
+            	long TJstartTime = System.nanoTime();
                 Class.forName("com.mysql.jdbc.Driver").newInstance();
                 Context initCtx = new InitialContext();
                  Context envCtx = (Context) initCtx.lookup("java:comp/env");
                  DataSource ds = (DataSource) envCtx.lookup("jdbc/AnimeDB");
                  Connection conn = ds.getConnection();
-;
+
+				long TJendTime = System.nanoTime();
 
                 String anime_query = getanimeQuery(title,year,director,voice_actor_firstname,voice_actor_lastname);
                 query = sortQuery(anime_query,sortby,sorttype);
@@ -290,6 +282,23 @@
                 ResultSet mrs = pst.executeQuery();
 
                 String result = formatResult(conn,mrs);
+                
+                long TSendTime = System.nanoTime();
+                long TSelapsedTime = TSendTime - TJstartTime; // elapsed time in nano seconds. Note: print the values in nano seconds 
+                long TJelapsedTime = TJendTime - TJstartTime;
+                System.out.println(TSelapsedTime +" "+TJelapsedTime);
+                String string = TSelapsedTime + "," + TJelapsedTime;
+                String filename = getServletContext().getRealPath("log.txt");
+                try(FileWriter fw = new FileWriter(filename, true);
+                	    BufferedWriter bw = new BufferedWriter(fw);
+                	    PrintWriter out = new PrintWriter(bw))
+                	{
+                	    out.println(string);
+                	    out.close();
+                	} catch (IOException e) {
+                		result += e.getMessage();
+                	}
+                
 
                 mrs.close();
                 pst.close();
