@@ -1,6 +1,5 @@
-# CS122B
 
-## how to run
+## how to run from terminal
 * type ```login``` to enter into login phase, or ```exit``` to leave the program
 * Once the login panel is prompted, type in the username and password
 * searchStar: search movie feature given star, options
@@ -23,5 +22,3 @@
 * logout:
     - ```logout```
 
-##Team
-number: 98
